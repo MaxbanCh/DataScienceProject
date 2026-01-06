@@ -47,3 +47,4 @@ class INACrypto:
             return json.loads(result)
         except:
             return result
+        

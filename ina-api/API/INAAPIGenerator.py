@@ -1,4 +1,4 @@
-import INACrypto
+import API.INACrypto as INACrypto
 import json
 
 class INAAPIGenerator:
@@ -8,7 +8,7 @@ class INAAPIGenerator:
     
     def getURLPersonforInfoChannel(self, debut_date, end_date):
         chartKey = "7d430f860c8f96f8ccecf84740815614"
-        filters = {
+        filtres = {
             'channel': ['BFT', 'C+N', 'CIP', 'LCI', 'ITL'],
             'minDate': debut_date,
             'maxDate': end_date,
@@ -17,14 +17,14 @@ class INAAPIGenerator:
             'libpref': [],
             'gender': ['Tous les genres', 'Hommes', 'Femmes']
         }
-        encrypted_filters = self.crypto.encrypt(filters)
-        url = f"{self.base_url}{chartKey}?filters={encrypted_filters}"
+        encrypted_filtres = self.crypto.encrypt(filtres)
+        url = f"{self.base_url}{chartKey}?filtres={encrypted_filtres}"
 
         return url
 
     def getURLPersonforChannelJT(self, debut_date, end_date):
         chartKey = "af8dc595ac348f998be5fad12d829e98"
-        filters = {
+        filtres = {
             'channel': ['ART', 'FR2', 'FR3', 'M6_', 'TF1'],
             'minDate': debut_date,
             'maxDate': end_date,
@@ -33,75 +33,75 @@ class INAAPIGenerator:
             'libpref': [],
             'gender': ['Tous les genres', 'Hommes', 'Femmes']
         }
-        encrypted_filters = self.crypto.encrypt(filters)
-        url = f"{self.base_url}{chartKey}?filters={encrypted_filters}"
+        encrypted_filtres = self.crypto.encrypt(filtres)
+        url = f"{self.base_url}{chartKey}?filtres={encrypted_filtres}"
 
         return url
     
     def getURLIterationWordforJT(self, debut_date, end_date, word):
         chartKey = "7d430f860c8f96f8ccecf84740815614"
-        filters = {
+        filtres = {
             'minDate': debut_date,
             'maxDate': end_date,
             'interval': 'day',
             'libpref': [word],
         }
-        encrypted_filters = self.crypto.encrypt(filters)
-        url = f"{self.base_url}{chartKey}?filters={encrypted_filters}"
+        encrypted_filtres = self.crypto.encrypt(filtres)
+        url = f"{self.base_url}{chartKey}?filtres={encrypted_filtres}"
 
         return url
         
     def getURLIterationWordforContinue(self, debut_date, end_date, word):
         chartKey = "ea04b41e9da25fbb9090f7eea772d2b9"
-        filters = {
+        filtres = {
             'minDate': debut_date,
             'maxDate': end_date,
             'interval': 'day',
             'libpref': [word],
         }
-        encrypted_filters = self.crypto.encrypt(filters)
-        url = f"{self.base_url}{chartKey}?filters={encrypted_filters}"
+        encrypted_filtres = self.crypto.encrypt(filtres)
+        url = f"{self.base_url}{chartKey}?filtres={encrypted_filtres}"
 
         return url
 
     def getURLProportionMenWomenChannelContinu(self, debut_date, end_date, channel):
         chartKey = "d8a4d8db9bef32cf105433de95fbf7e2"
-        filters = {
+        filtres = {
             'channel': [channel], 
             'minDate': debut_date, 
             'maxDate': end_date, 
             'interval': 'day', 
             'media': 'chaines-information-continu'
         }
-        encrypted_filters = self.crypto.encrypt(filters)
-        url = f"{self.base_url}{chartKey}?filters={encrypted_filters}"
+        encrypted_filtres = self.crypto.encrypt(filtres)
+        url = f"{self.base_url}{chartKey}?filtres={encrypted_filtres}"
 
         return url
     
     def getURLProportionMenWomenChannelJT(self, debut_date, end_date, channel):
         chartKey = "d8a4d8db9bef32cf105433de95fbf7e2"
-        filters = {
+        filtres = {
             'channel': [channel], 
             'minDate': debut_date, 
             'maxDate': end_date, 
             'interval': 'day', 
             'media': 'journaux-televises'
         }
-        encrypted_filters = self.crypto.encrypt(filters)
-        url = f"{self.base_url}{chartKey}?filters={encrypted_filters}"
+        encrypted_filtres = self.crypto.encrypt(filtres)
+        url = f"{self.base_url}{chartKey}?filtres={encrypted_filtres}"
 
         return url
     
     def getURLProportionMenWomenChannelRadio(self, debut_date, end_date, channel):
         chartKey = "d8a4d8db9bef32cf105433de95fbf7e2"
-        filters = {
+        filtres = {
             'channel': [channel], 
             'minDate': debut_date, 
             'maxDate': end_date, 
             'interval': 'day', 
             'media': 'radios'
         }
-        encrypted_filters = self.crypto.encrypt(filters)
-        url = f"{self.base_url}{chartKey}?filters={encrypted_filters}"
+        encrypted_filtres = self.crypto.encrypt(filtres)
+        url = f"{self.base_url}{chartKey}?filtres={encrypted_filtres}"
 
         return url
