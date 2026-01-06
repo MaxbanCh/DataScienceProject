@@ -1,0 +1,11 @@
+{
+    "PAGE_STATUS": 200,
+    "APP_BASE_HREF": "https://data.ina.fr",
+    "CANONICAL_URL": "https://data.ina.fr/",
+    "BACKEND_URL": "http://backend-service:8080/",
+    "CDN_URL": "https://data-api.ina.fr/",
+    "ENCRYPTED_KEY": "0265604995556761",
+    "keycaptcha": "FCMLJ91SLDLNCTGN",
+    "UPDATED_DATE": "1765377137",
+    "ENV": "prod"
+}

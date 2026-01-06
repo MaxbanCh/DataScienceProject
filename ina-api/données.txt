@@ -1,0 +1,12 @@
+test données JT : https://data-api.ina.fr/api/chart/7e6d5549fb110969e26c7a0e3efcc48f?filtres=d3311596414ff35e4ea801dc0a643fa5d99e87ec37cda1865304e476286aa1d643219e6c8f96dc8a819a240792249fe94205772ced5a92848e12f8945f08ce4aab737f4352fb1001ce73cce56cfac458e2730ec419ac7c72fb07e660e25235c01b6c8ff1d1a07c4a41a679b1f648c798a2aed136bb42b7f0e0891beae208eebb
+chartTag : 7e6d5549fb110969e26c7a0e3efcc48f
+filtres decrypté : {'channel': ['ART', 'FR2', 'FR3', 'M6_', 'TF1'], 'minDate': '2020-12-02', 'maxDate': '2020-12-31', 'interval': 'day', 'field': 'number'}
+
+test personnes JT : https://data-api.ina.fr/api/chart/af8dc595ac348f998be5fad12d829e98?filtres=d3311596414ff35e4ea801dc0a643fa5d99e87ec37cda1865304e476286aa1d643219e6c8f96dc8a819a240792249fe9d9f49eaab767734aeab5682daf4bebbaab737f4352fb1001ce73cce56cfac458cc69c627553f1e33a19769987479762fa91cb5161b6cf5c851a686539e52403def3e81bb6398e9dc437761fcbaa15c1d14558ca1e9ceeb97d0bb744211b30a64620b6f44ad82c7f089a855b2f0dc36de9bb36a0ebbd263570275f4fca66a3b0d
+chartTag : af8dc595ac348f998be5fad12d829e98
+filtres decrypté : {'channel': ['ART', 'FR2', 'FR3', 'M6_', 'TF1'], 'minDate': '2025-11-01', 'maxDate': '2025-11-29', 'interval': 'day', 'top': 20, 'gender': ['Tous les genres', 'Hommes', 'Femmes']}
+
+test personnes chaines info : https://data-api.ina.fr/api/chart/7d430f860c8f96f8ccecf84740815614?filtres=2e4748bc81b59c7227c83050bcce95d864a2882b076110b9fa5404896dd6c278faa833ae5347259fab34d888bd57e2834b6b7e0a05427141239751c12a015cc4ab737f4352fb1001ce73cce56cfac458e636c489aa307fff34cdf8216654fe22a91cb5161b6cf5c851a686539e52403d11705fc2084bbb870aa4b88784e53d16aae57e5724e619b9e56ef866bace81a21dc809b7f85f664a07129d240f51ee834b3a05b041db1d41d13f85d31f1189f3
+chartTag : 7d430f860c8f96f8ccecf84740815614
+filtres decrypté : {'channel': ['BFT', 'C+N', 'CIP', 'LCI', 'ITL'], 'minDate': '2024-06-01', 'maxDate': '2024-07-31', 'interval': 'day', 'top': 20, 'libpref': [], 'gender': ['Tous les genres', 'Hommes', 'Femmes']}
+
