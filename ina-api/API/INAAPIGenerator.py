@@ -37,9 +37,57 @@ class INAAPIGenerator:
         url = f"{self.base_url}{chartKey}?filtres={encrypted_filtres}"
 
         return url
+
+    def getURLPersonforSpecificChannelJT(self, debut_date, end_date, channel):
+        chartKey = "af8dc595ac348f998be5fad12d829e98"
+        filtres = {
+            'channel': [channel],
+            'minDate': debut_date,
+            'maxDate': end_date,
+            'interval': 'day',
+            'top': 50,
+            'libpref': [],
+            'gender': ['Tous les genres', 'Hommes', 'Femmes']
+        }
+        encrypted_filtres = self.crypto.encrypt(filtres)
+        url = f"{self.base_url}{chartKey}?filtres={encrypted_filtres}"
+
+        return url
+    
+    def getURLPersonforSpecificChannelContinue(self, debut_date, end_date, channel):
+        chartKey = "7d430f860c8f96f8ccecf84740815614"
+        filtres = {
+            'channel': [channel],
+            'minDate': debut_date,
+            'maxDate': end_date,
+            'interval': 'day',
+            'top': 50,
+            'libpref': [],
+            'gender': ['Tous les genres', 'Hommes', 'Femmes']
+        }
+        encrypted_filtres = self.crypto.encrypt(filtres)
+        url = f"{self.base_url}{chartKey}?filtres={encrypted_filtres}"
+
+        return url
+    
+    def getURLPersonforSpecificChannelContinue(self, debut_date, end_date, channel):
+        chartKey = "af8dc595ac348f998be5fad12d829e98"
+        filtres = {
+            'channel': [channel],
+            'minDate': debut_date,
+            'maxDate': end_date,
+            'interval': 'day',
+            'top': 50,
+            'libpref': [],
+            'gender': ['Tous les genres', 'Hommes', 'Femmes']
+        }
+        encrypted_filtres = self.crypto.encrypt(filtres)
+        url = f"{self.base_url}{chartKey}?filtres={encrypted_filtres}"
+
+        return url
     
     def getURLIterationWordforJT(self, debut_date, end_date, word):
-        chartKey = "7d430f860c8f96f8ccecf84740815614"
+        chartKey = "36285fc811c7fba5cf14854cc38e8188"
         filtres = {
             'minDate': debut_date,
             'maxDate': end_date,
@@ -65,7 +113,7 @@ class INAAPIGenerator:
         return url
 
     def getURLProportionMenWomenChannelContinu(self, debut_date, end_date, channel):
-        chartKey = "d8a4d8db9bef32cf105433de95fbf7e2"
+        chartKey = "f579cec8bf6bfa001ec09f04dbbb5907"
         filtres = {
             'channel': [channel], 
             'minDate': debut_date, 
@@ -79,7 +127,7 @@ class INAAPIGenerator:
         return url
     
     def getURLProportionMenWomenChannelJT(self, debut_date, end_date, channel):
-        chartKey = "d8a4d8db9bef32cf105433de95fbf7e2"
+        chartKey = "f579cec8bf6bfa001ec09f04dbbb5907"
         filtres = {
             'channel': [channel], 
             'minDate': debut_date, 

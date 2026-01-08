@@ -1,26 +1,27 @@
 import dataTreatment.INADataRecover as INADataRecover
+import API.INACrypto as INACrypto
 
-def getDataForMonth(debut_date, end_date):
+def getDataForMonth(debut_date, end_date, word):
     data_recover = INADataRecover.INADataRecover()
-    url = data_recover.getPersonforMonth(debut_date, end_date)
+    url = data_recover.getWomenMenProportionContinue(debut_date, end_date, word)
     return url
 
-# Example usage
+
 if __name__ == "__main__":
     # KEY = "0265604995556761"  # Replace with actual key
     
-    # crypto = INACrypto(KEY)
+    # crypto = INACrypto.INACrypto(KEY)
     
-    # # # Test encryption
-    # filtres = {'channel': ['BFT', 'C+N', 'CIP', 'LCI', 'ITL'], 'minDate': '2024-07-01', 'maxDate': '2024-07-31', 'interval': 'day', 'top': 50, 'libpref': [], 'gender': ['Tous les genres', 'Hommes', 'Femmes']}
+    # # # # Test encryption
+    # # filtres = {'channel': ['BFT', 'C+N', 'CIP', 'LCI', 'ITL'], 'minDate': '2024-07-01', 'maxDate': '2024-07-31', 'interval': 'day', 'top': 50, 'libpref': [], 'gender': ['Tous les genres', 'Hommes', 'Femmes']}
 
     
-    # # encrypted = crypto.encrypt(filtres)
-    # # print(f"Encrypted: {encrypted}")
+    # # # encrypted = crypto.encrypt(filtres)
+    # # # print(f"Encrypted: {encrypted}")
     
-    # # Test decryption
+    # # # Test decryption
 
-    # encrypted = "0329f4bb42ab291561391abfc6a4cf6ba359cea717444ef51824b7776e41fb0479b957c1fd4696c0bb1a5258d5b13bbf2667e23679013106ff1bc175aa8ee616ab737f4352fb1001ce73cce56cfac458a06f14470252f90728041825263befc59a77610dc7012c23378c14d41c7145af88c6df466e3a52597a584bab9497f0c7"
+    # encrypted = "2e4748bc81b59c7227c83050bcce95d879b0aec6d04dd8afffe67ad5d32c78ad92bd15c9627a067ce83df045136e4274d9f49eaab767734aeab5682daf4bebbaab737f4352fb1001ce73cce56cfac458a06f14470252f90728041825263befc5a91cb5161b6cf5c851a686539e52403dfd7f2b1ef4652a6cadee5d0f7e1886f875189095c34f2ab3046459c676c27395"
     
     # try:
     #     decrypted = crypto.decrypt(encrypted)
@@ -28,5 +29,5 @@ if __name__ == "__main__":
     # except Exception as e:
     #     print(f"Decryption error: {e}")
     
-    getDataForMonth('2024-06-01', '2024-07-31')
+    getDataForMonth('2024-06-01', '2024-07-31', 'C+N')
 
