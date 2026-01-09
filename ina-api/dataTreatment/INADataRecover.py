@@ -17,10 +17,20 @@ class INADataRecover:
     # Specific channel persons
     def getPersonforSpecificChannelJT(self, debut_date, end_date, channel):
         url = self.apiGenerator.getURLPersonforSpecificChannelJT(debut_date, end_date, channel)
-        # print(url)
+        print("Person", channel, url)
         rawData = requests.get(self.apiGenerator.getURLPersonforSpecificChannelJT(debut_date, end_date, channel))
+        if rawData.status_code != 200:
+            print(f"API returned status code {rawData.status_code} for {channel}")
+            return []
+        
+        if not rawData.text:
+            print(f"Empty response for {channel}")
+            return []
+
+
         try:
-            dataByGroup = rawData.json()["data"][list(rawData.json()["data"].keys())[1]]
+            dataByGroup = rawData.json()
+            dataByGroup = dataByGroup["data"][list(dataByGroup["data"].keys())[1]]
             dataByGroup = dataByGroup["data"]
             dataByGroup = dataByGroup["chartDatasRow"]
             newDataByGroup = []
@@ -33,15 +43,25 @@ class INADataRecover:
             return newDataByGroup
 
         except KeyError:
-            print("No data available for the specified parameters.")
+            print("No data available for the specified parameters.", channel)
             return []
     
+
     def getPersonforSpecificChannelContinue(self, debut_date, end_date, channel):
         url = self.apiGenerator.getURLPersonforSpecificChannelContinue(debut_date, end_date, channel)
-        # print(url)
+        print("Person", channel, url)
         rawData = requests.get(url)
+        if rawData.status_code != 200:
+            print(f"API returned status code {rawData.status_code} for {channel}")
+            return []
+        
+        if not rawData.text:
+            print(f"Empty response for {channel}")
+            return []
+
         try:
-            dataByGroup = rawData.json()["data"][list(rawData.json()["data"].keys())[1]]
+            dataByGroup = rawData.json()
+            dataByGroup = dataByGroup["data"][list(dataByGroup["data"].keys())[1]]
             dataByGroup = dataByGroup["data"]
             dataByGroup = dataByGroup["chartDatasRow"]
             newDataByGroup = []
@@ -54,32 +74,59 @@ class INADataRecover:
             return newDataByGroup
 
         except KeyError:
-            print("No data available for the specified parameters.")
+            print("No data available for the specified parameters.", channel)
             return []
 
     def getWomenMenProportionSpecificChannelJT(self, debut_date, end_date, channel):
         url = self.apiGenerator.getURLProportionMenWomenChannelJT(debut_date, end_date, channel)
-        # print(url)
+        print("Women Prop", channel, url)
         rawData = requests.get(url)
-        dataByGroup = rawData.json()["data"][list(rawData.json()["data"].keys())[1]]["data"]["chartDatasRow"]
-        newDataByGroup = []
-        for point in dataByGroup:
-            point['channel'] = channel
-            newDataByGroup.append(point)
+        if rawData.status_code != 200:
+            print(f"API returned status code {rawData.status_code} for {channel}")
+            return []
+        
+        if not rawData.text:
+            print(f"Empty response for {channel}")
+            return []
+        
+        try:
+            dataByGroup = rawData.json()
+            dataByGroup = dataByGroup["data"][list(dataByGroup["data"].keys())[1]]["data"]["chartDatasRow"]
+            newDataByGroup = []
+            for point in dataByGroup:
+                point['channel'] = channel
+                newDataByGroup.append(point)
 
-        return newDataByGroup
+            return newDataByGroup
+        except KeyError:
+            print("No data available for the specified parameters.", channel)
+            return []
     
     def getWomenMenProportionSpecificContinue(self, debut_date, end_date, channel):
         url = self.apiGenerator.getURLProportionMenWomenChannelContinu(debut_date, end_date, channel)
-        print(url)
+        print("Women Prop", channel, url)
         rawData = requests.get(url)
-        dataByGroup = rawData.json()["data"][list(rawData.json()["data"].keys())[1]]["data"]["chartDatasRow"]
-        newDataByGroup = []
-        for point in dataByGroup:
-            point['channel'] = channel
-            newDataByGroup.append(point)
 
-        return newDataByGroup
+        if rawData.status_code != 200:
+            print(f"API returned status code {rawData.status_code} for {channel}")
+            return []
+        
+        if not rawData.text:
+            print(f"Empty response for {channel}")
+            return []
+        
+        try:
+            dataByGroup = rawData.json()
+            dataByGroup = dataByGroup["data"][list(dataByGroup["data"].keys())[1]]["data"]["chartDatasRow"]
+            newDataByGroup = []
+            for point in dataByGroup:
+                point['channel'] = channel
+                newDataByGroup.append(point)
+
+            return newDataByGroup
+        except KeyError:
+            print("No data available for the specified parameters.", channel)
+            return []
 
     # Method for persons in group
     def getPersonforMonthJT(self, debut_date, end_date):
@@ -117,22 +164,48 @@ class INADataRecover:
     # Word Methods
     def getWordForMonthJT(self, debut_date, end_date, word):
         url = self.apiGenerator.getURLIterationWordforJT(debut_date, end_date, word)
-        print(url)
+        print("Word", word, url)
         rawData = requests.get(url)
-        dataByGroup = rawData.json()["data"][list(rawData.json()["data"].keys())[0]]["data"]["chartDatasRow"]
-        # print(dataByGroup)
+        if rawData.status_code != 200:
+            print(f"API returned status code {rawData.status_code} for {word}")
+            return []
+        
+        if not rawData.text:
+            print(f"Empty response for {word}")
+            return []
+        
+        try:
+            dataByGroup = rawData.json()
+            dataByGroup = dataByGroup["data"][list(dataByGroup["data"].keys())[0]]["data"]["chartDatasRow"]
+            # print(dataByGroup)
 
-        return dataByGroup
+            return dataByGroup
+        except KeyError:
+            print("No data available for the specified parameters.", word)
 
     def getWordForMonthContinue(self, debut_date, end_date, word):
         url = self.apiGenerator.getURLIterationWordforContinue(debut_date, end_date, word)
-        print(url)
+        print("Word", word, url)
         rawData = requests.get(url)
-        dataByGroup = rawData.json()["data"][list(rawData.json()["data"].keys())[0]]["data"]["chartDatasRow"]
-        print(dataByGroup)
+        if rawData.status_code != 200:
+            print(f"API returned status code {rawData.status_code} for {word}")
+            return []
+        
+        if not rawData.text:
+            print(f"Empty response for {word}")
+            return []
+        
+        try:
+            dataByGroup = rawData.json()
+            dataByGroup = dataByGroup["data"][list(dataByGroup["data"].keys())[0]]["data"]["chartDatasRow"]
+            # print(dataByGroup)
 
-        return dataByGroup
-    
+            return dataByGroup
+        except KeyError:
+            print("No data available for the specified parameters.", word)
+            return []
+        
+
     #### Fusion Methods for JT and continue
     def getPersonForMonth(self, debut_date, end_date):
         allData = []
