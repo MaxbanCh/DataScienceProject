@@ -17,7 +17,7 @@ class INADataRecover:
     # Specific channel persons
     def getPersonforSpecificChannelJT(self, debut_date, end_date, channel):
         url = self.apiGenerator.getURLPersonforSpecificChannelJT(debut_date, end_date, channel)
-        print(url)
+        # print(url)
         rawData = requests.get(self.apiGenerator.getURLPersonforSpecificChannelJT(debut_date, end_date, channel))
         try:
             dataByGroup = rawData.json()["data"][list(rawData.json()["data"].keys())[1]]
@@ -26,8 +26,9 @@ class INADataRecover:
             newDataByGroup = []
 
             for point in dataByGroup:
-                point['channel'] = channel
-                newDataByGroup.append(point)
+                if point['value'] != 0:
+                    point['channel'] = channel
+                    newDataByGroup.append(point)
         
             return newDataByGroup
 
@@ -37,7 +38,7 @@ class INADataRecover:
     
     def getPersonforSpecificChannelContinue(self, debut_date, end_date, channel):
         url = self.apiGenerator.getURLPersonforSpecificChannelContinue(debut_date, end_date, channel)
-        print(url)
+        # print(url)
         rawData = requests.get(url)
         try:
             dataByGroup = rawData.json()["data"][list(rawData.json()["data"].keys())[1]]
@@ -46,8 +47,9 @@ class INADataRecover:
             newDataByGroup = []
 
             for point in dataByGroup:
-                point['channel'] = channel
-                newDataByGroup.append(point)
+                if point['value'] != 0:
+                    point['channel'] = channel
+                    newDataByGroup.append(point)
         
             return newDataByGroup
 
@@ -57,7 +59,7 @@ class INADataRecover:
 
     def getWomenMenProportionSpecificChannelJT(self, debut_date, end_date, channel):
         url = self.apiGenerator.getURLProportionMenWomenChannelJT(debut_date, end_date, channel)
-        print(url)
+        # print(url)
         rawData = requests.get(url)
         dataByGroup = rawData.json()["data"][list(rawData.json()["data"].keys())[1]]["data"]["chartDatasRow"]
         newDataByGroup = []
@@ -85,7 +87,7 @@ class INADataRecover:
         for channel in self.channelJT:
             channelData = self.getPersonforSpecificChannelJT(debut_date, end_date, channel)
             allChannelData.extend(channelData)
-        print(allChannelData)
+        # print(allChannelData)
         return allChannelData
     
     def getPersonforMonthContinue(self, debut_date, end_date):
@@ -93,7 +95,7 @@ class INADataRecover:
         for channel in self.channelContinue:
             channelData = self.getPersonforSpecificChannelContinue(debut_date, end_date, channel)
             allChannelData.extend(channelData)
-        print(allChannelData)
+        # print(allChannelData)
         return allChannelData
     
     def getWomenMenProportionJT(self, debut_date, end_date):
@@ -101,7 +103,7 @@ class INADataRecover:
         for channel in self.channelJT:
             channelData = self.getWomenMenProportionSpecificChannelJT(debut_date, end_date, channel)
             allChannelData.extend(channelData)
-        print(allChannelData)
+        # print(allChannelData)
         return allChannelData
     
     def getWomenMenProportionContinue(self, debut_date, end_date):
@@ -109,7 +111,7 @@ class INADataRecover:
         for channel in self.channelContinue:
             channelData = self.getWomenMenProportionSpecificContinue(debut_date, end_date, channel)
             allChannelData.extend(channelData)
-        print(allChannelData)
+        # print(allChannelData)
         return allChannelData
     
     # Word Methods
@@ -118,9 +120,7 @@ class INADataRecover:
         print(url)
         rawData = requests.get(url)
         dataByGroup = rawData.json()["data"][list(rawData.json()["data"].keys())[0]]["data"]["chartDatasRow"]
-        print(dataByGroup)
-        for point in dataByGroup:
-            print(point)
+        # print(dataByGroup)
 
         return dataByGroup
 
@@ -130,8 +130,6 @@ class INADataRecover:
         rawData = requests.get(url)
         dataByGroup = rawData.json()["data"][list(rawData.json()["data"].keys())[0]]["data"]["chartDatasRow"]
         print(dataByGroup)
-        for point in dataByGroup:
-            print(point)
 
         return dataByGroup
     

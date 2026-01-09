@@ -12,7 +12,7 @@ class DataSave:
     
     def convertJSONtoCSV(self, data):
         df = pd.DataFrame(data)
-        print(df.head())
+        # print(df.head())
         return df
 
     def saveDataPersonChannels(self, debut_date, end_date):
