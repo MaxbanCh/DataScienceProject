@@ -55,6 +55,29 @@ class INADataRecover:
             print("No data available for the specified parameters.")
             return []
 
+    def getWomenMenProportionSpecificChannelJT(self, debut_date, end_date, channel):
+        url = self.apiGenerator.getURLProportionMenWomenChannelJT(debut_date, end_date, channel)
+        print(url)
+        rawData = requests.get(url)
+        dataByGroup = rawData.json()["data"][list(rawData.json()["data"].keys())[1]]["data"]["chartDatasRow"]
+        newDataByGroup = []
+        for point in dataByGroup:
+            point['channel'] = channel
+            newDataByGroup.append(point)
+
+        return newDataByGroup
+    
+    def getWomenMenProportionSpecificContinue(self, debut_date, end_date, channel):
+        url = self.apiGenerator.getURLProportionMenWomenChannelContinu(debut_date, end_date, channel)
+        print(url)
+        rawData = requests.get(url)
+        dataByGroup = rawData.json()["data"][list(rawData.json()["data"].keys())[1]]["data"]["chartDatasRow"]
+        newDataByGroup = []
+        for point in dataByGroup:
+            point['channel'] = channel
+            newDataByGroup.append(point)
+
+        return newDataByGroup
 
     # Method for persons in group
     def getPersonforMonthJT(self, debut_date, end_date):
@@ -64,12 +87,6 @@ class INADataRecover:
             allChannelData.extend(channelData)
         print(allChannelData)
         return allChannelData
-        # rawData = requests.get(self.apiGenerator.getURLPersonforChannelJT(debut_date, end_date))
-        # dataByGroup = rawData.json()["data"][list(rawData.json()["data"].keys())[1]]["data"]["chartDatasRow"]
-        # for point in dataByGroup:
-        #     print(point)
-        
-        # return dataByGroup
     
     def getPersonforMonthContinue(self, debut_date, end_date):
         allChannelData = []
@@ -79,12 +96,21 @@ class INADataRecover:
         print(allChannelData)
         return allChannelData
     
-        # rawData = requests.get(self.apiGenerator.getURLPersonforInfoChannel(debut_date, end_date))
-        # dataByGroup = rawData.json()["data"][list(rawData.json()["data"].keys())[1]]["data"]["chartDatasRow"]
-        # for point in dataByGroup:
-        #     print(point)
-        
-        # return dataByGroup
+    def getWomenMenProportionJT(self, debut_date, end_date):
+        allChannelData = []
+        for channel in self.channelJT:
+            channelData = self.getWomenMenProportionSpecificChannelJT(debut_date, end_date, channel)
+            allChannelData.extend(channelData)
+        print(allChannelData)
+        return allChannelData
+    
+    def getWomenMenProportionContinue(self, debut_date, end_date):
+        allChannelData = []
+        for channel in self.channelContinue:
+            channelData = self.getWomenMenProportionSpecificContinue(debut_date, end_date, channel)
+            allChannelData.extend(channelData)
+        print(allChannelData)
+        return allChannelData
     
     # Word Methods
     def getWordForMonthJT(self, debut_date, end_date, word):
@@ -109,29 +135,6 @@ class INADataRecover:
 
         return dataByGroup
     
-    def getWomenMenProportionJT(self, debut_date, end_date, channel):
-        url = self.apiGenerator.getURLProportionMenWomenChannelJT(debut_date, end_date, channel)
-        print(url)
-        rawData = requests.get(url)
-        dataByGroup = rawData.json()["data"][list(rawData.json()["data"].keys())[1]]["data"]["chartDatasRow"]
-        print(dataByGroup)
-        for point in dataByGroup:
-            print(point)
-
-        return dataByGroup
-    
-    def getWomenMenProportionContinue(self, debut_date, end_date, channel):
-        url = self.apiGenerator.getURLProportionMenWomenChannelContinu(debut_date, end_date, channel)
-        print(url)
-        rawData = requests.get(url)
-        print(rawData.text)
-        dataByGroup = rawData.json()["data"][list(rawData.json()["data"].keys())[1]]["data"]["chartDatasRow"]
-        print(dataByGroup)
-        for point in dataByGroup:
-            print(point)
-
-        return dataByGroup
-
     #### Fusion Methods for JT and continue
     def getPersonForMonth(self, debut_date, end_date):
         allData = []
@@ -146,6 +149,15 @@ class INADataRecover:
         allData = []
         dataContinue = self.apiGenerator.getURLIterationWordforContinue(debut_date, end_date, word)
         dataJT = self.apiGenerator.getURLIterationWordforJT(debut_date, end_date, word)
+        
+        allData.extend(dataContinue)
+        allData.extend(dataJT)
+        return allData
+
+    def getWomenMenProportion(self, debut_date, end_date):
+        allData = []
+        dataContinue = self.apiGenerator.getURLProportionMenWomenChannelContinu(debut_date, end_date)
+        dataJT = self.apiGenerator.getURLProportionMenWomenChannelJT(debut_date, end_date)
         
         allData.extend(dataContinue)
         allData.extend(dataJT)
