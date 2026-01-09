@@ -5,7 +5,7 @@
 *.bak
 
 # --- Python / Environment ---
-.venv/
+.venv
 env/
 venv/
 ENV/
