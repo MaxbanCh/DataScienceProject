@@ -1,3 +1,5 @@
+from multiprocessing import Pool
+
 import dataTreatment.DataSave as DataSave
 
 class AutoWork:
@@ -16,22 +18,32 @@ class AutoWork:
         }
 
         self.dataSave = DataSave.DataSave()
+    
+    def process_person_month(self, args):
+        year, month = args
+        debut_date = f"{year}-{month}-01"
+        end_day = self.days_in_month[month]
+        end_date = f"{year}-{month}-{end_day}"
+        self.dataSave.saveDataPersonChannels(debut_date, end_date)    
+
+    def process_proportion_month(self, args):
+        year, month = args
+        debut_date = f"{year}-{month}-01"
+        end_day = self.days_in_month[month]
+        end_date = f"{year}-{month}-{end_day}"
+        self.dataSave.saveWomenMenProportion(debut_date, end_date)
 
     def savePersonChannelData(self):
-        for year in range(self.begin_year, self.end_year + 1):
-            for month in self.months:
-                debut_date = f"{year}-{month}-01"
-                end_day = self.days_in_month[month]
-                end_date = f"{year}-{month}-{end_day}"
-                self.dataSave.saveDataPersonChannels(debut_date, end_date)
-    
+        tasks = [(year, month) for year in range(self.begin_year, self.end_year + 1) for month in self.months]
+        
+        with Pool() as pool:
+            pool.map(self.process_person_month, tasks)
+
     def saveWomenMenProportionData(self):
-        for year in range(self.begin_year, self.end_year + 1):
-            for month in self.months:
-                debut_date = f"{year}-{month}-01"
-                end_day = self.days_in_month[month]
-                end_date = f"{year}-{month}-{end_day}"
-                self.dataSave.saveWomenMenProportion(debut_date, end_date)
+        tasks = [(year, month) for year in range(self.begin_year, self.end_year + 1) for month in self.months]
+        
+        with Pool() as pool:
+            pool.map(self.process_proportion_month, tasks)
 
     def getWordChannelData(self, word):
         for year in range(self.begin_year, self.end_year + 1):
