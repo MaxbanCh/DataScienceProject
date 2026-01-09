@@ -3,13 +3,14 @@ from multiprocessing import Pool
 import dataTreatment.DataSave as DataSave
 
 class AutoWork:
-    def __init__(self, begin_year, end_year):
+    def __init__(self, begin_year, end_year, begin_month=1, end_month=12):
         self.begin_year = begin_year
         self.end_year = end_year
+        self.begin_month = begin_month
+        self.end_month = end_month
 
         self.months = [
-            "01", "02", "03", "04", "05", "06",
-            "07", "08", "09", "10", "11", "12"
+            f"{i:02d}" for i in range(self.begin_month, self.end_month + 1)
         ]
         self.days_in_month = {
             "01": 31, "02": 28, "03": 31, "04": 30,

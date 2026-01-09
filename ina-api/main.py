@@ -1,10 +1,10 @@
 from dataTreatment.AutoWork import AutoWork
 
 if __name__ == "__main__":
-    autoWork = AutoWork(begin_year=2024, end_year=2024)
+    autoWork = AutoWork(begin_year=2024, end_year=2024, begin_month=5, end_month=12)
     autoWork.savePersonChannelData()
-    autoWork.saveWomenMenProportionData()
-    autoWork.getWordChannelData('Election')
+    # autoWork.saveWomenMenProportionData()
+    # autoWork.getWordChannelData('Election')
 
 
 # import dataTreatment.INADataRecover as INADataRecover
