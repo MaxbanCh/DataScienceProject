@@ -19,13 +19,13 @@ class DataSave:
         data = self.dataRecover.getPersonForMonth(debut_date, end_date)
         df = self.convertJSONtoCSV(data)
         self.createDirIfNotExists("data/INA/People")
-        df.to_csv(f"data/INA/PersonChannelJT/person_most_quoted_{debut_date}_to_{end_date}.csv", index=False)
+        df.to_csv(f"data/INA/People/person_most_quoted_{debut_date}_to_{end_date}.csv", index=False)
 
     def saveDataWordChannels(self, debut_date, end_date, word):
         data = self.dataRecover.getWordForMonth(debut_date, end_date, word)
         df = self.convertJSONtoCSV(data)
         self.createDirIfNotExists("data/INA/Words")
-        df.to_csv(f"data/INA/WordChannelJT/word_{word}_channel_JT_{debut_date}_to_{end_date}.csv", index=False)
+        df.to_csv(f"data/INA/Words/word_{word}_channel_JT_{debut_date}_to_{end_date}.csv", index=False)
 
     def saveWomenMenProportion(self, debut_date, end_date):
         data = self.dataRecover.getWomenMenProportion(debut_date, end_date)

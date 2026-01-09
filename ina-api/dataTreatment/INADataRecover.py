@@ -138,8 +138,8 @@ class INADataRecover:
     #### Fusion Methods for JT and continue
     def getPersonForMonth(self, debut_date, end_date):
         allData = []
-        dataContinue = self.apiGenerator.getURLPersonforInfoChannel(debut_date, end_date)
-        dataJT = self.apiGenerator.getURLPersonforChannelJT(debut_date, end_date)
+        dataContinue = self.getPersonforMonthContinue(debut_date, end_date)
+        dataJT = self.getPersonforMonthJT(debut_date, end_date)
         
         allData.extend(dataContinue)
         allData.extend(dataJT)
@@ -147,8 +147,8 @@ class INADataRecover:
     
     def getWordForMonth(self, debut_date, end_date, word):
         allData = []
-        dataContinue = self.apiGenerator.getURLIterationWordforContinue(debut_date, end_date, word)
-        dataJT = self.apiGenerator.getURLIterationWordforJT(debut_date, end_date, word)
+        dataContinue = self.getWordForMonthContinue(debut_date, end_date, word)
+        dataJT = self.getWordForMonthJT(debut_date, end_date, word)
         
         allData.extend(dataContinue)
         allData.extend(dataJT)
@@ -156,8 +156,8 @@ class INADataRecover:
 
     def getWomenMenProportion(self, debut_date, end_date):
         allData = []
-        dataContinue = self.apiGenerator.getURLProportionMenWomenChannelContinu(debut_date, end_date)
-        dataJT = self.apiGenerator.getURLProportionMenWomenChannelJT(debut_date, end_date)
+        dataContinue = self.getWomenMenProportionContinue(debut_date, end_date)
+        dataJT = self.getWomenMenProportionJT(debut_date, end_date)
         
         allData.extend(dataContinue)
         allData.extend(dataJT)

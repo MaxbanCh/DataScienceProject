@@ -69,23 +69,7 @@ class INAAPIGenerator:
         url = f"{self.base_url}{chartKey}?filtres={encrypted_filtres}"
 
         return url
-    
-    def getURLPersonforSpecificChannelContinue(self, debut_date, end_date, channel):
-        chartKey = "af8dc595ac348f998be5fad12d829e98"
-        filtres = {
-            'channel': [channel],
-            'minDate': debut_date,
-            'maxDate': end_date,
-            'interval': 'day',
-            'top': 50,
-            'libpref': [],
-            'gender': ['Tous les genres', 'Hommes', 'Femmes']
-        }
-        encrypted_filtres = self.crypto.encrypt(filtres)
-        url = f"{self.base_url}{chartKey}?filtres={encrypted_filtres}"
-
-        return url
-    
+        
     def getURLIterationWordforJT(self, debut_date, end_date, word):
         chartKey = "36285fc811c7fba5cf14854cc38e8188"
         filtres = {
