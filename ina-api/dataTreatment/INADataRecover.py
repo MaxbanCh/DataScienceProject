@@ -177,9 +177,13 @@ class INADataRecover:
         try:
             dataByGroup = rawData.json()
             dataByGroup = dataByGroup["data"][list(dataByGroup["data"].keys())[0]]["data"]["chartDatasRow"]
-            # print(dataByGroup)
+            newDataByGroup = []
+            for point in dataByGroup:
+                if point['value'] != 0:
+                    point['word'] = word
+                    newDataByGroup.append(point)
 
-            return dataByGroup
+            return newDataByGroup
         except KeyError:
             print("No data available for the specified parameters.", word)
 
@@ -198,9 +202,13 @@ class INADataRecover:
         try:
             dataByGroup = rawData.json()
             dataByGroup = dataByGroup["data"][list(dataByGroup["data"].keys())[0]]["data"]["chartDatasRow"]
-            # print(dataByGroup)
-
-            return dataByGroup
+            newDataByGroup = []
+            for point in dataByGroup:
+                if point['value'] != 0:
+                    point['word'] = word
+                    newDataByGroup.append(point)
+            
+            return newDataByGroup
         except KeyError:
             print("No data available for the specified parameters.", word)
             return []
