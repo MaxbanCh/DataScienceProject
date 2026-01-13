@@ -1,4 +1,6 @@
 import streamlit as st
+import word_charts.charts as word_charts
+
 
 st.title("Projet Data Science - Les Français.es et les médias")
 st.markdown(
@@ -11,5 +13,4 @@ st.markdown(
     """
 )
 
-if st.button("Send balloons!"):
-    st.balloons()
+word_charts.show_word_charts()
