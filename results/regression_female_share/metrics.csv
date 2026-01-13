@@ -1,0 +1,2 @@
+model_name,target,filter,n_train,n_test,r2_test,rmse_test,alpha
+female_share_ridge,female_share,total_speech>=60,854865,213717,0.17822306698747437,0.1732332122589158,3.0

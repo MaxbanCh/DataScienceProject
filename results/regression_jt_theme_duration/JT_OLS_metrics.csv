@@ -1,0 +1,2 @@
+model_name,target,n_train,n_test,r2_test,rmse_test
+JT_OLS,duree_sec,214739,53685,0.7774192487952492,93.4898299928295

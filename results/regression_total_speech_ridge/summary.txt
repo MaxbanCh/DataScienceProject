@@ -1,0 +1,6 @@
+Model: Ridge regression
+Target: total_speech
+alpha: 5.0
+
+R2_test: 0.772235
+RMSE_test: 535.930275

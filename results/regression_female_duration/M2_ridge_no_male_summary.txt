@@ -1,0 +1,6 @@
+Model: Ridge regression
+Target: female_duration
+alpha: 1.0
+
+R2_test: 0.439453
+RMSE_test: 400.724901

@@ -1,0 +1,7 @@
+Model: Ridge regression
+Target: female_share
+Filter: total_speech >= 60 seconds
+
+R2 (test): 0.178223
+RMSE (test): 0.173233
+Note: Ridge regression does not provide p-values.

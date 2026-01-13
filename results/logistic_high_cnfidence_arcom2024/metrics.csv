@@ -1,0 +1,2 @@
+model_name,target,n_train,n_test,auc_test,accuracy_test,pos_rate_test
+logit_high_confidence,high_conf,2211,738,0.661021150033047,0.6517615176151762,0.2764227642276423

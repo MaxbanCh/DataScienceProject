@@ -1,0 +1,2 @@
+model_name,target,n_train,n_test,r2_test,rmse_test,alpha
+M2_ridge_no_male,female_duration,863040,215761,0.4394528617479213,400.72490107558804,1.0

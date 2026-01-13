@@ -1,0 +1,2 @@
+model_name,target,n_train,n_test,r2_test,rmse_test,alpha
+JT_RIDGE,duree_sec,214739,53685,0.7774180448617634,93.49008283451526,2.0

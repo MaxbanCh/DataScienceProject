@@ -1,0 +1,2 @@
+model_name,target,alpha,n_train,n_test,r2_test,rmse_test
+total_speech_ridge,total_speech,5.0,863040,215761,0.7722345440948535,535.930274658841
