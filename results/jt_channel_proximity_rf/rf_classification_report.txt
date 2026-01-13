@@ -1,0 +1,14 @@
+Unit: chaine-year
+Accuracy: 0.6296
+
+              precision    recall  f1-score   support
+
+        Arte       0.86      1.00      0.92         6
+    France 2       0.50      0.60      0.55         5
+    France 3       0.50      0.60      0.55         5
+          M6       0.75      0.50      0.60         6
+         TF1       0.50      0.40      0.44         5
+
+    accuracy                           0.63        27
+   macro avg       0.62      0.62      0.61        27
+weighted avg       0.63      0.63      0.62        27
