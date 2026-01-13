@@ -1,0 +1,178 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from matplotlib.colors import TwoSlopeNorm
+from pathlib import Path
+
+
+# 1. GESTION DES CHEMINS ET DOSSIERS
+
+current_dir = Path(__file__).resolve().parent
+data_dir = current_dir / "ressources" / "WomenMenProportion"
+output_dir = current_dir / "graphes"
+output_dir.mkdir(exist_ok=True)
+
+files = sorted(data_dir.glob("women_men_proportion_*.csv"))
+if not files:
+    print(f"ERREUR : Aucun fichier trouvé dans {data_dir}")
+    raise SystemExit(1)
+
+
+# 2. CHARGEMENT ET PREPARATION
+
+df = pd.concat((pd.read_csv(f) for f in files), ignore_index=True)
+
+df["date"] = pd.to_datetime(df["date"], errors="coerce")
+df["percent"] = (
+    df["percent"]
+    .astype(str)
+    .str.replace("%", "", regex=False)
+    .str.replace(",", ".", regex=False)
+)
+df["percent"] = pd.to_numeric(df["percent"], errors="coerce") / 100.0
+
+df = df[df["type"].isin(["Femme", "Homme"])].copy()
+df = df.dropna(subset=["date", "percent"])
+
+df_pivot = (
+    df.pivot_table(
+        index=["date", "channel"],
+        columns="type",
+        values="percent",
+        aggfunc="mean",
+    )
+    .reset_index()
+)
+df_pivot = df_pivot.dropna(subset=["channel"])
+
+df_pivot["month"] = df_pivot["date"].dt.to_period("M").dt.to_timestamp()
+df_pivot["year"] = df_pivot["date"].dt.year
+df_pivot["month_num"] = df_pivot["date"].dt.month
+df_month = df_pivot.groupby("month")[["Femme", "Homme"]].mean().reset_index()
+
+df_year = (
+    df_pivot.groupby(df_pivot["date"].dt.year)[["Femme", "Homme"]]
+    .mean()
+    .reset_index()
+    .rename(columns={"date": "year"})
+)
+
+top_channels = df_pivot["channel"].value_counts().head(6).index
+df_top = df_pivot[df_pivot["channel"].isin(top_channels)]
+df_top_month = (
+    df_top.groupby(["month", "channel"])["Femme"]
+    .mean()
+    .reset_index()
+)
+
+sns.set_theme(style="whitegrid")
+
+
+# 3. EVOLUTION MENSUELLE GLOBALe (FEMME/HOMME)
+
+plt.figure(figsize=(12, 6))
+plt.plot(df_month["month"], df_month["Femme"], label="Femme", linewidth=2.5)
+plt.plot(df_month["month"], df_month["Homme"], label="Homme", linewidth=2.5)
+plt.axhline(0.5, color="red", linestyle="--", alpha=0.6, label="Parite (0.5)")
+plt.title("Evolution mensuelle du temps de parole (tous canaux)")
+plt.xlabel("Mois")
+plt.ylabel("Proportion")
+plt.ylim(0, 1)
+plt.legend()
+plt.tight_layout()
+plt.savefig(output_dir / "women_men_1_trend_monthly.png", dpi=300)
+print("✅ Graphe 1 enregistre : women_men_1_trend_monthly.png")
+plt.show()
+
+
+# 4. FEMMES PAR CHAINE (TOP 6) - MENSUEL
+
+plt.figure(figsize=(12, 6))
+sns.lineplot(
+    data=df_top_month,
+    x="month",
+    y="Femme",
+    hue="channel",
+    linewidth=2,
+)
+plt.axhline(0.5, color="red", linestyle="--", alpha=0.4, label="Parite (0.5)")
+plt.title("Evolution mensuelle du temps de parole feminin (Top 6 chaines)")
+plt.xlabel("Mois")
+plt.ylabel("Proportion Femme")
+plt.ylim(0, 1)
+plt.legend(bbox_to_anchor=(1.02, 1), loc="upper left")
+plt.tight_layout()
+plt.savefig(output_dir / "women_men_2_top_channels.png", dpi=300, bbox_inches="tight")
+print("✅ Graphe 2 enregistre : women_men_2_top_channels.png")
+plt.show()
+
+# ==========================================
+# 5. MOYENNE ANNUELLE (FEMMES)
+# ==========================================
+plt.figure(figsize=(10, 5))
+ax_year = sns.barplot(data=df_year, x="year", y="Femme", color="steelblue")
+plt.axhline(0.5, color="red", linestyle="--", alpha=0.6, label="Parite (0.5)")
+plt.title("Moyenne annuelle du temps de parole feminin")
+plt.xlabel("Annee")
+plt.ylabel("Proportion Femme")
+plt.ylim(0, 1)
+plt.legend()
+for p in ax_year.patches:
+    height = p.get_height()
+    if height > 0:
+        ax_year.annotate(
+            f"{height:.2f}",
+            (p.get_x() + p.get_width() / 2, height),
+            ha="center",
+            va="center",
+            xytext=(0, -10),
+            textcoords="offset points",
+            color="white",
+            fontsize=9,
+            fontweight="bold",
+        )
+plt.tight_layout()
+plt.savefig(output_dir / "women_men_3_yearly_female.png", dpi=300)
+print("✅ Graphe 3 enregistre : women_men_3_yearly_female.png")
+plt.show()
+
+# ==========================================
+# 6. HEATMAP ANNEE x MOIS (FEMMES)
+# ==========================================
+df_heat = (
+    df_pivot.groupby(["year", "month_num"])["Femme"]
+    .mean()
+    .reset_index()
+    .pivot(index="year", columns="month_num", values="Femme")
+)
+
+plt.figure(figsize=(12, 6))
+norm = TwoSlopeNorm(vmin=0, vcenter=0.5, vmax=1)
+sns.heatmap(
+    df_heat,
+    cmap="RdYlBu_r",
+    norm=norm,
+    linewidths=0.3,
+    linecolor="white",
+    cbar_kws={"label": "Proportion Femme"},
+)
+plt.title("Evolution mensuelle (toutes annees) - proportion Femme")
+plt.xlabel("Mois")
+plt.ylabel("Annee")
+plt.tight_layout()
+plt.savefig(output_dir / "women_men_4_heatmap_year_month.png", dpi=300)
+print("✅ Graphe 4 enregistre : women_men_4_heatmap_year_month.png")
+plt.show()
+
+# ==========================================
+# 6. RESUME CONSOLE
+# ==========================================
+last_month = df_month.iloc[-1]
+min_f = df_month.loc[df_month["Femme"].idxmin()]
+max_f = df_month.loc[df_month["Femme"].idxmax()]
+
+print("\n" + "=" * 65)
+print("RESUME GLOBAL (tous canaux)")
+print(f"Dernier mois : {last_month['month'].date()} | Femme: {last_month['Femme']:.2%}")
+print(f"Min Femme    : {min_f['month'].date()} | {min_f['Femme']:.2%}")
+print(f"Max Femme    : {max_f['month'].date()} | {max_f['Femme']:.2%}")

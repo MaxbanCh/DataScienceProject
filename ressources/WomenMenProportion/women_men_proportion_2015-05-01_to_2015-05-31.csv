@@ -1,0 +1,1241 @@
+entity,type,value,valueOnHours,unit,legend,percent,date,chartDatasRow,channel
+all,Bruit,0.2758333333333333,,H,16 minutes,2%,2015-05-01,[{'media': 'TVCI'}],BFT
+all,Silence,0.43194444444444446,,H,25 minutes,2%,2015-05-01,[{'media': 'TVCI'}],BFT
+all,Musique,0.9530555555555555,,H,57 minutes,5%,2015-05-01,[{'media': 'TVCI'}],BFT
+all,Femme,7.685,,H,7 heures 41 minutes,43%,2015-05-01,[{'media': 'TVCI'}],BFT
+all,Homme,8.653333333333334,,H,8 heures 39 minutes,48%,2015-05-01,[{'media': 'TVCI'}],BFT
+all,Bruit,0.18777777777777777,,H,11 minutes,1%,2015-05-02,[{'media': 'TVCI'}],BFT
+all,Silence,0.4388888888888889,,H,26 minutes,2%,2015-05-02,[{'media': 'TVCI'}],BFT
+all,Musique,1.0302777777777778,,H,1 heure 1 minute,6%,2015-05-02,[{'media': 'TVCI'}],BFT
+all,Femme,7.9525,,H,7 heures 57 minutes,44%,2015-05-02,[{'media': 'TVCI'}],BFT
+all,Homme,8.390277777777778,,H,8 heures 23 minutes,47%,2015-05-02,[{'media': 'TVCI'}],BFT
+all,Bruit,0.1475,,H,8 minutes,1%,2015-05-03,[{'media': 'TVCI'}],BFT
+all,Silence,0.5016666666666667,,H,30 minutes,3%,2015-05-03,[{'media': 'TVCI'}],BFT
+all,Musique,1.0897222222222223,,H,1 heure 5 minutes,6%,2015-05-03,[{'media': 'TVCI'}],BFT
+all,Femme,5.960277777777778,,H,5 heures 57 minutes,33%,2015-05-03,[{'media': 'TVCI'}],BFT
+all,Homme,10.300555555555556,,H,10 heures 18 minutes,57%,2015-05-03,[{'media': 'TVCI'}],BFT
+all,Bruit,0.17722222222222223,,H,10 minutes,1%,2015-05-04,[{'media': 'TVCI'}],BFT
+all,Silence,0.5394444444444444,,H,32 minutes,3%,2015-05-04,[{'media': 'TVCI'}],BFT
+all,Musique,1.0333333333333334,,H,1 heure 2 minutes,6%,2015-05-04,[{'media': 'TVCI'}],BFT
+all,Femme,6.663333333333333,,H,6 heures 39 minutes,37%,2015-05-04,[{'media': 'TVCI'}],BFT
+all,Homme,9.58611111111111,,H,9 heures 35 minutes,53%,2015-05-04,[{'media': 'TVCI'}],BFT
+all,Bruit,0.17777777777777778,,H,10 minutes,1%,2015-05-05,[{'media': 'TVCI'}],BFT
+all,Silence,0.5466666666666666,,H,32 minutes,3%,2015-05-05,[{'media': 'TVCI'}],BFT
+all,Musique,1.0641666666666667,,H,1 heure 3 minutes,6%,2015-05-05,[{'media': 'TVCI'}],BFT
+all,Femme,4.981944444444444,,H,4 heures 58 minutes,28%,2015-05-05,[{'media': 'TVCI'}],BFT
+all,Homme,11.22888888888889,,H,11 heures 13 minutes,62%,2015-05-05,[{'media': 'TVCI'}],BFT
+all,Bruit,0.17722222222222223,,H,10 minutes,1%,2015-05-06,[{'media': 'TVCI'}],BFT
+all,Silence,0.5061111111111111,,H,30 minutes,3%,2015-05-06,[{'media': 'TVCI'}],BFT
+all,Musique,1.1597222222222223,,H,1 heure 9 minutes,6%,2015-05-06,[{'media': 'TVCI'}],BFT
+all,Femme,5.874722222222222,,H,5 heures 52 minutes,33%,2015-05-06,[{'media': 'TVCI'}],BFT
+all,Homme,10.281666666666666,,H,10 heures 16 minutes,57%,2015-05-06,[{'media': 'TVCI'}],BFT
+all,Bruit,0.19166666666666668,,H,11 minutes,1%,2015-05-07,[{'media': 'TVCI'}],BFT
+all,Silence,0.4638888888888889,,H,27 minutes,3%,2015-05-07,[{'media': 'TVCI'}],BFT
+all,Musique,1.0627777777777778,,H,1 heure 3 minutes,6%,2015-05-07,[{'media': 'TVCI'}],BFT
+all,Femme,5.5616666666666665,,H,5 heures 33 minutes,31%,2015-05-07,[{'media': 'TVCI'}],BFT
+all,Homme,10.719166666666666,,H,10 heures 43 minutes,60%,2015-05-07,[{'media': 'TVCI'}],BFT
+all,Bruit,0.1638888888888889,,H,9 minutes,1%,2015-05-08,[{'media': 'TVCI'}],BFT
+all,Silence,0.5191666666666667,,H,31 minutes,3%,2015-05-08,[{'media': 'TVCI'}],BFT
+all,Musique,1.1041666666666667,,H,1 heure 6 minutes,6%,2015-05-08,[{'media': 'TVCI'}],BFT
+all,Femme,5.8325,,H,5 heures 49 minutes,32%,2015-05-08,[{'media': 'TVCI'}],BFT
+all,Homme,10.379722222222222,,H,10 heures 22 minutes,58%,2015-05-08,[{'media': 'TVCI'}],BFT
+all,Bruit,0.18833333333333332,,H,11 minutes,1%,2015-05-09,[{'media': 'TVCI'}],BFT
+all,Silence,0.5777777777777777,,H,34 minutes,3%,2015-05-09,[{'media': 'TVCI'}],BFT
+all,Musique,1.3055555555555556,,H,1 heure 18 minutes,7%,2015-05-09,[{'media': 'TVCI'}],BFT
+all,Femme,6.185833333333333,,H,6 heures 11 minutes,34%,2015-05-09,[{'media': 'TVCI'}],BFT
+all,Homme,9.742222222222223,,H,9 heures 44 minutes,54%,2015-05-09,[{'media': 'TVCI'}],BFT
+all,Bruit,0.18472222222222223,,H,11 minutes,1%,2015-05-10,[{'media': 'TVCI'}],BFT
+all,Silence,0.5511111111111111,,H,33 minutes,3%,2015-05-10,[{'media': 'TVCI'}],BFT
+all,Musique,1.3708333333333333,,H,1 heure 22 minutes,8%,2015-05-10,[{'media': 'TVCI'}],BFT
+all,Femme,7.201944444444444,,H,7 heures 12 minutes,40%,2015-05-10,[{'media': 'TVCI'}],BFT
+all,Homme,8.690833333333334,,H,8 heures 41 minutes,48%,2015-05-10,[{'media': 'TVCI'}],BFT
+all,Bruit,0.24194444444444443,,H,14 minutes,1%,2015-05-11,[{'media': 'TVCI'}],BFT
+all,Silence,0.5105555555555555,,H,30 minutes,3%,2015-05-11,[{'media': 'TVCI'}],BFT
+all,Musique,1.2119444444444445,,H,1 heure 12 minutes,7%,2015-05-11,[{'media': 'TVCI'}],BFT
+all,Femme,5.126944444444445,,H,5 heures 7 minutes,28%,2015-05-11,[{'media': 'TVCI'}],BFT
+all,Homme,10.908055555555556,,H,10 heures 54 minutes,61%,2015-05-11,[{'media': 'TVCI'}],BFT
+all,Bruit,0.23055555555555557,,H,13 minutes,1%,2015-05-12,[{'media': 'TVCI'}],BFT
+all,Silence,0.5622222222222222,,H,33 minutes,3%,2015-05-12,[{'media': 'TVCI'}],BFT
+all,Musique,1.2313888888888889,,H,1 heure 13 minutes,7%,2015-05-12,[{'media': 'TVCI'}],BFT
+all,Femme,4.873333333333333,,H,4 heures 52 minutes,27%,2015-05-12,[{'media': 'TVCI'}],BFT
+all,Homme,11.101944444444445,,H,11 heures 6 minutes,62%,2015-05-12,[{'media': 'TVCI'}],BFT
+all,Bruit,0.20972222222222223,,H,12 minutes,1%,2015-05-13,[{'media': 'TVCI'}],BFT
+all,Silence,0.49972222222222223,,H,29 minutes,3%,2015-05-13,[{'media': 'TVCI'}],BFT
+all,Musique,1.3097222222222222,,H,1 heure 18 minutes,7%,2015-05-13,[{'media': 'TVCI'}],BFT
+all,Femme,5.295555555555556,,H,5 heures 17 minutes,29%,2015-05-13,[{'media': 'TVCI'}],BFT
+all,Homme,10.684722222222222,,H,10 heures 41 minutes,59%,2015-05-13,[{'media': 'TVCI'}],BFT
+all,Bruit,0.2511111111111111,,H,15 minutes,1%,2015-05-14,[{'media': 'TVCI'}],BFT
+all,Silence,0.49416666666666664,,H,29 minutes,3%,2015-05-14,[{'media': 'TVCI'}],BFT
+all,Musique,1.19,,H,1 heure 11 minutes,7%,2015-05-14,[{'media': 'TVCI'}],BFT
+all,Femme,6.180555555555555,,H,6 heures 10 minutes,34%,2015-05-14,[{'media': 'TVCI'}],BFT
+all,Homme,9.883611111111112,,H,9 heures 53 minutes,55%,2015-05-14,[{'media': 'TVCI'}],BFT
+all,Bruit,0.24055555555555555,,H,14 minutes,1%,2015-05-15,[{'media': 'TVCI'}],BFT
+all,Silence,0.4519444444444444,,H,27 minutes,3%,2015-05-15,[{'media': 'TVCI'}],BFT
+all,Musique,1.3025,,H,1 heure 18 minutes,7%,2015-05-15,[{'media': 'TVCI'}],BFT
+all,Femme,6.960277777777778,,H,6 heures 57 minutes,39%,2015-05-15,[{'media': 'TVCI'}],BFT
+all,Homme,9.044444444444444,,H,9 heures 2 minutes,50%,2015-05-15,[{'media': 'TVCI'}],BFT
+all,Bruit,0.23972222222222223,,H,14 minutes,1%,2015-05-16,[{'media': 'TVCI'}],BFT
+all,Silence,0.5661111111111111,,H,33 minutes,3%,2015-05-16,[{'media': 'TVCI'}],BFT
+all,Musique,1.4125,,H,1 heure 24 minutes,8%,2015-05-16,[{'media': 'TVCI'}],BFT
+all,Femme,5.291111111111111,,H,5 heures 17 minutes,29%,2015-05-16,[{'media': 'TVCI'}],BFT
+all,Homme,10.489722222222222,,H,10 heures 29 minutes,58%,2015-05-16,[{'media': 'TVCI'}],BFT
+all,Bruit,0.2836111111111111,,H,17 minutes,2%,2015-05-17,[{'media': 'TVCI'}],BFT
+all,Silence,0.5647222222222222,,H,33 minutes,3%,2015-05-17,[{'media': 'TVCI'}],BFT
+all,Musique,1.613888888888889,,H,1 heure 36 minutes,9%,2015-05-17,[{'media': 'TVCI'}],BFT
+all,Femme,5.058611111111111,,H,5 heures 3 minutes,28%,2015-05-17,[{'media': 'TVCI'}],BFT
+all,Homme,10.47861111111111,,H,10 heures 28 minutes,58%,2015-05-17,[{'media': 'TVCI'}],BFT
+all,Bruit,0.2633333333333333,,H,15 minutes,1%,2015-05-18,[{'media': 'TVCI'}],BFT
+all,Silence,0.5527777777777778,,H,33 minutes,3%,2015-05-18,[{'media': 'TVCI'}],BFT
+all,Musique,1.5002777777777778,,H,1 heure 30 minutes,8%,2015-05-18,[{'media': 'TVCI'}],BFT
+all,Femme,5.061111111111111,,H,5 heures 3 minutes,28%,2015-05-18,[{'media': 'TVCI'}],BFT
+all,Homme,10.621944444444445,,H,10 heures 37 minutes,59%,2015-05-18,[{'media': 'TVCI'}],BFT
+all,Bruit,0.3219444444444444,,H,19 minutes,2%,2015-05-19,[{'media': 'TVCI'}],BFT
+all,Silence,0.5686111111111111,,H,34 minutes,3%,2015-05-19,[{'media': 'TVCI'}],BFT
+all,Musique,1.4641666666666666,,H,1 heure 27 minutes,8%,2015-05-19,[{'media': 'TVCI'}],BFT
+all,Femme,5.698611111111111,,H,5 heures 41 minutes,32%,2015-05-19,[{'media': 'TVCI'}],BFT
+all,Homme,9.946111111111112,,H,9 heures 56 minutes,55%,2015-05-19,[{'media': 'TVCI'}],BFT
+all,Bruit,0.30083333333333334,,H,18 minutes,2%,2015-05-20,[{'media': 'TVCI'}],BFT
+all,Silence,0.5363888888888889,,H,32 minutes,3%,2015-05-20,[{'media': 'TVCI'}],BFT
+all,Musique,1.4625,,H,1 heure 27 minutes,8%,2015-05-20,[{'media': 'TVCI'}],BFT
+all,Femme,4.999722222222222,,H,4 heures 59 minutes,28%,2015-05-20,[{'media': 'TVCI'}],BFT
+all,Homme,10.7,,H,10 heures 42 minutes,59%,2015-05-20,[{'media': 'TVCI'}],BFT
+all,Bruit,0.2675,,H,16 minutes,1%,2015-05-21,[{'media': 'TVCI'}],BFT
+all,Silence,0.4725,,H,28 minutes,3%,2015-05-21,[{'media': 'TVCI'}],BFT
+all,Musique,1.4544444444444444,,H,1 heure 27 minutes,8%,2015-05-21,[{'media': 'TVCI'}],BFT
+all,Femme,6.073333333333333,,H,6 heures 4 minutes,34%,2015-05-21,[{'media': 'TVCI'}],BFT
+all,Homme,9.731666666666667,,H,9 heures 43 minutes,54%,2015-05-21,[{'media': 'TVCI'}],BFT
+all,Bruit,0.22416666666666665,,H,13 minutes,1%,2015-05-22,[{'media': 'TVCI'}],BFT
+all,Silence,0.5752777777777778,,H,34 minutes,3%,2015-05-22,[{'media': 'TVCI'}],BFT
+all,Musique,1.4072222222222222,,H,1 heure 24 minutes,8%,2015-05-22,[{'media': 'TVCI'}],BFT
+all,Femme,6.171388888888889,,H,6 heures 10 minutes,34%,2015-05-22,[{'media': 'TVCI'}],BFT
+all,Homme,9.62138888888889,,H,9 heures 37 minutes,53%,2015-05-22,[{'media': 'TVCI'}],BFT
+all,Bruit,0.38805555555555554,,H,23 minutes,2%,2015-05-23,[{'media': 'TVCI'}],BFT
+all,Silence,0.5636111111111111,,H,33 minutes,3%,2015-05-23,[{'media': 'TVCI'}],BFT
+all,Musique,1.5177777777777777,,H,1 heure 31 minutes,8%,2015-05-23,[{'media': 'TVCI'}],BFT
+all,Femme,6.959444444444444,,H,6 heures 57 minutes,39%,2015-05-23,[{'media': 'TVCI'}],BFT
+all,Homme,8.570555555555556,,H,8 heures 34 minutes,48%,2015-05-23,[{'media': 'TVCI'}],BFT
+all,Bruit,0.31916666666666665,,H,19 minutes,2%,2015-05-24,[{'media': 'TVCI'}],BFT
+all,Silence,0.5916666666666667,,H,35 minutes,3%,2015-05-24,[{'media': 'TVCI'}],BFT
+all,Musique,1.56,,H,1 heure 33 minutes,9%,2015-05-24,[{'media': 'TVCI'}],BFT
+all,Femme,6.078333333333333,,H,6 heures 4 minutes,34%,2015-05-24,[{'media': 'TVCI'}],BFT
+all,Homme,9.45,,H,9 heures 27 minutes,53%,2015-05-24,[{'media': 'TVCI'}],BFT
+all,Bruit,0.2477777777777778,,H,14 minutes,1%,2015-05-25,[{'media': 'TVCI'}],BFT
+all,Silence,0.5619444444444445,,H,33 minutes,3%,2015-05-25,[{'media': 'TVCI'}],BFT
+all,Musique,1.4933333333333334,,H,1 heure 29 minutes,8%,2015-05-25,[{'media': 'TVCI'}],BFT
+all,Femme,6.027777777777778,,H,6 heures 1 minute,33%,2015-05-25,[{'media': 'TVCI'}],BFT
+all,Homme,9.668888888888889,,H,9 heures 40 minutes,54%,2015-05-25,[{'media': 'TVCI'}],BFT
+all,Bruit,0.24722222222222223,,H,14 minutes,1%,2015-05-26,[{'media': 'TVCI'}],BFT
+all,Silence,0.575,,H,34 minutes,3%,2015-05-26,[{'media': 'TVCI'}],BFT
+all,Musique,1.4544444444444444,,H,1 heure 27 minutes,8%,2015-05-26,[{'media': 'TVCI'}],BFT
+all,Femme,5.588888888888889,,H,5 heures 35 minutes,31%,2015-05-26,[{'media': 'TVCI'}],BFT
+all,Homme,10.133888888888889,,H,10 heures 8 minutes,56%,2015-05-26,[{'media': 'TVCI'}],BFT
+all,Bruit,0.27166666666666667,,H,16 minutes,2%,2015-05-27,[{'media': 'TVCI'}],BFT
+all,Silence,0.6994444444444444,,H,41 minutes,4%,2015-05-27,[{'media': 'TVCI'}],BFT
+all,Musique,1.4813888888888889,,H,1 heure 28 minutes,8%,2015-05-27,[{'media': 'TVCI'}],BFT
+all,Femme,5.032222222222222,,H,5 heures 1 minute,28%,2015-05-27,[{'media': 'TVCI'}],BFT
+all,Homme,10.514722222222222,,H,10 heures 30 minutes,58%,2015-05-27,[{'media': 'TVCI'}],BFT
+all,Bruit,0.26472222222222225,,H,15 minutes,1%,2015-05-28,[{'media': 'TVCI'}],BFT
+all,Silence,0.55,,H,33 minutes,3%,2015-05-28,[{'media': 'TVCI'}],BFT
+all,Musique,1.325,,H,1 heure 19 minutes,7%,2015-05-28,[{'media': 'TVCI'}],BFT
+all,Femme,4.514166666666667,,H,4 heures 30 minutes,25%,2015-05-28,[{'media': 'TVCI'}],BFT
+all,Homme,11.345555555555556,,H,11 heures 20 minutes,63%,2015-05-28,[{'media': 'TVCI'}],BFT
+all,Bruit,0.27194444444444443,,H,16 minutes,2%,2015-05-29,[{'media': 'TVCI'}],BFT
+all,Silence,0.5775,,H,34 minutes,3%,2015-05-29,[{'media': 'TVCI'}],BFT
+all,Musique,1.5630555555555556,,H,1 heure 33 minutes,9%,2015-05-29,[{'media': 'TVCI'}],BFT
+all,Femme,5.038333333333333,,H,5 heures 2 minutes,28%,2015-05-29,[{'media': 'TVCI'}],BFT
+all,Homme,10.548333333333334,,H,10 heures 32 minutes,59%,2015-05-29,[{'media': 'TVCI'}],BFT
+all,Bruit,0.4330555555555556,,H,25 minutes,2%,2015-05-30,[{'media': 'TVCI'}],BFT
+all,Silence,0.5752777777777778,,H,34 minutes,3%,2015-05-30,[{'media': 'TVCI'}],BFT
+all,Musique,1.4325,,H,1 heure 25 minutes,8%,2015-05-30,[{'media': 'TVCI'}],BFT
+all,Femme,4.552222222222222,,H,4 heures 33 minutes,25%,2015-05-30,[{'media': 'TVCI'}],BFT
+all,Homme,11.006666666666666,,H,11 heures 0 minute,61%,2015-05-30,[{'media': 'TVCI'}],BFT
+all,Bruit,0.3063888888888889,,H,18 minutes,2%,2015-05-31,[{'media': 'TVCI'}],BFT
+all,Silence,0.6052777777777778,,H,36 minutes,3%,2015-05-31,[{'media': 'TVCI'}],BFT
+all,Musique,1.6080555555555556,,H,1 heure 36 minutes,9%,2015-05-31,[{'media': 'TVCI'}],BFT
+all,Femme,4.0680555555555555,,H,4 heures 4 minutes,23%,2015-05-31,[{'media': 'TVCI'}],BFT
+all,Homme,11.411388888888888,,H,11 heures 24 minutes,63%,2015-05-31,[{'media': 'TVCI'}],BFT
+all,Bruit,0.25833333333333336,,H,15 minutes,1%,2015-05-01,[{'media': 'TVCI'}],LCI
+all,Silence,0.4930555555555556,,H,29 minutes,3%,2015-05-01,[{'media': 'TVCI'}],LCI
+all,Musique,1.0283333333333333,,H,1 heure 1 minute,6%,2015-05-01,[{'media': 'TVCI'}],LCI
+all,Femme,6.785555555555556,,H,6 heures 47 minutes,38%,2015-05-01,[{'media': 'TVCI'}],LCI
+all,Homme,9.434166666666666,,H,9 heures 26 minutes,52%,2015-05-01,[{'media': 'TVCI'}],LCI
+all,Bruit,0.10583333333333333,,H,6 minutes,1%,2015-05-02,[{'media': 'TVCI'}],LCI
+all,Silence,0.3436111111111111,,H,20 minutes,2%,2015-05-02,[{'media': 'TVCI'}],LCI
+all,Musique,1.1477777777777778,,H,1 heure 8 minutes,6%,2015-05-02,[{'media': 'TVCI'}],LCI
+all,Femme,5.554444444444444,,H,5 heures 33 minutes,31%,2015-05-02,[{'media': 'TVCI'}],LCI
+all,Homme,10.847777777777777,,H,10 heures 50 minutes,60%,2015-05-02,[{'media': 'TVCI'}],LCI
+all,Bruit,0.14555555555555555,,H,8 minutes,1%,2015-05-03,[{'media': 'TVCI'}],LCI
+all,Silence,0.5275,,H,31 minutes,3%,2015-05-03,[{'media': 'TVCI'}],LCI
+all,Musique,1.2433333333333334,,H,1 heure 14 minutes,7%,2015-05-03,[{'media': 'TVCI'}],LCI
+all,Femme,5.2444444444444445,,H,5 heures 14 minutes,29%,2015-05-03,[{'media': 'TVCI'}],LCI
+all,Homme,10.838888888888889,,H,10 heures 50 minutes,60%,2015-05-03,[{'media': 'TVCI'}],LCI
+all,Bruit,0.13194444444444445,,H,7 minutes,1%,2015-05-04,[{'media': 'TVCI'}],LCI
+all,Silence,0.4697222222222222,,H,28 minutes,3%,2015-05-04,[{'media': 'TVCI'}],LCI
+all,Musique,1.0533333333333332,,H,1 heure 3 minutes,6%,2015-05-04,[{'media': 'TVCI'}],LCI
+all,Femme,5.478055555555556,,H,5 heures 28 minutes,30%,2015-05-04,[{'media': 'TVCI'}],LCI
+all,Homme,10.866111111111111,,H,10 heures 51 minutes,60%,2015-05-04,[{'media': 'TVCI'}],LCI
+all,Bruit,0.14916666666666667,,H,8 minutes,1%,2015-05-05,[{'media': 'TVCI'}],LCI
+all,Silence,0.5183333333333333,,H,31 minutes,3%,2015-05-05,[{'media': 'TVCI'}],LCI
+all,Musique,1.041111111111111,,H,1 heure 2 minutes,6%,2015-05-05,[{'media': 'TVCI'}],LCI
+all,Femme,5.135555555555555,,H,5 heures 8 minutes,29%,2015-05-05,[{'media': 'TVCI'}],LCI
+all,Homme,11.155555555555555,,H,11 heures 9 minutes,62%,2015-05-05,[{'media': 'TVCI'}],LCI
+all,Bruit,0.16666666666666666,,H,10 minutes,1%,2015-05-06,[{'media': 'TVCI'}],LCI
+all,Silence,0.43833333333333335,,H,26 minutes,2%,2015-05-06,[{'media': 'TVCI'}],LCI
+all,Musique,0.9358333333333333,,H,56 minutes,5%,2015-05-06,[{'media': 'TVCI'}],LCI
+all,Femme,6.415555555555556,,H,6 heures 24 minutes,36%,2015-05-06,[{'media': 'TVCI'}],LCI
+all,Homme,10.043055555555556,,H,10 heures 2 minutes,56%,2015-05-06,[{'media': 'TVCI'}],LCI
+all,Bruit,0.18416666666666667,,H,11 minutes,1%,2015-05-07,[{'media': 'TVCI'}],LCI
+all,Silence,0.3902777777777778,,H,23 minutes,2%,2015-05-07,[{'media': 'TVCI'}],LCI
+all,Musique,1.0175,,H,1 heure 1 minute,6%,2015-05-07,[{'media': 'TVCI'}],LCI
+all,Femme,7.132777777777778,,H,7 heures 7 minutes,40%,2015-05-07,[{'media': 'TVCI'}],LCI
+all,Homme,9.274444444444445,,H,9 heures 16 minutes,52%,2015-05-07,[{'media': 'TVCI'}],LCI
+all,Bruit,0.2725,,H,16 minutes,2%,2015-05-08,[{'media': 'TVCI'}],LCI
+all,Silence,0.5102777777777778,,H,30 minutes,3%,2015-05-08,[{'media': 'TVCI'}],LCI
+all,Musique,1.3386111111111112,,H,1 heure 20 minutes,7%,2015-05-08,[{'media': 'TVCI'}],LCI
+all,Femme,5.459722222222222,,H,5 heures 27 minutes,30%,2015-05-08,[{'media': 'TVCI'}],LCI
+all,Homme,10.418333333333333,,H,10 heures 25 minutes,58%,2015-05-08,[{'media': 'TVCI'}],LCI
+all,Bruit,0.12166666666666667,,H,7 minutes,1%,2015-05-09,[{'media': 'TVCI'}],LCI
+all,Silence,0.4272222222222222,,H,25 minutes,2%,2015-05-09,[{'media': 'TVCI'}],LCI
+all,Musique,1.2013888888888888,,H,1 heure 12 minutes,7%,2015-05-09,[{'media': 'TVCI'}],LCI
+all,Femme,5.013055555555556,,H,5 heures 0 minute,28%,2015-05-09,[{'media': 'TVCI'}],LCI
+all,Homme,11.23611111111111,,H,11 heures 14 minutes,62%,2015-05-09,[{'media': 'TVCI'}],LCI
+all,Bruit,0.12555555555555556,,H,7 minutes,1%,2015-05-10,[{'media': 'TVCI'}],LCI
+all,Silence,0.5366666666666666,,H,32 minutes,3%,2015-05-10,[{'media': 'TVCI'}],LCI
+all,Musique,1.0491666666666666,,H,1 heure 2 minutes,6%,2015-05-10,[{'media': 'TVCI'}],LCI
+all,Femme,5.413333333333333,,H,5 heures 24 minutes,30%,2015-05-10,[{'media': 'TVCI'}],LCI
+all,Homme,10.874444444444444,,H,10 heures 52 minutes,60%,2015-05-10,[{'media': 'TVCI'}],LCI
+all,Bruit,0.1225,,H,7 minutes,1%,2015-05-11,[{'media': 'TVCI'}],LCI
+all,Silence,0.42333333333333334,,H,25 minutes,2%,2015-05-11,[{'media': 'TVCI'}],LCI
+all,Musique,1.053611111111111,,H,1 heure 3 minutes,6%,2015-05-11,[{'media': 'TVCI'}],LCI
+all,Femme,6.010555555555555,,H,6 heures 0 minute,33%,2015-05-11,[{'media': 'TVCI'}],LCI
+all,Homme,10.389166666666666,,H,10 heures 23 minutes,58%,2015-05-11,[{'media': 'TVCI'}],LCI
+all,Bruit,0.155,,H,9 minutes,1%,2015-05-12,[{'media': 'TVCI'}],LCI
+all,Silence,0.4661111111111111,,H,27 minutes,3%,2015-05-12,[{'media': 'TVCI'}],LCI
+all,Musique,1.0233333333333334,,H,1 heure 1 minute,6%,2015-05-12,[{'media': 'TVCI'}],LCI
+all,Femme,5.991944444444444,,H,5 heures 59 minutes,33%,2015-05-12,[{'media': 'TVCI'}],LCI
+all,Homme,10.363055555555556,,H,10 heures 21 minutes,58%,2015-05-12,[{'media': 'TVCI'}],LCI
+all,Bruit,0.17805555555555555,,H,10 minutes,1%,2015-05-13,[{'media': 'TVCI'}],LCI
+all,Silence,0.5113888888888889,,H,30 minutes,3%,2015-05-13,[{'media': 'TVCI'}],LCI
+all,Musique,1.0177777777777777,,H,1 heure 1 minute,6%,2015-05-13,[{'media': 'TVCI'}],LCI
+all,Femme,6.191666666666666,,H,6 heures 11 minutes,34%,2015-05-13,[{'media': 'TVCI'}],LCI
+all,Homme,10.100277777777778,,H,10 heures 6 minutes,56%,2015-05-13,[{'media': 'TVCI'}],LCI
+all,Bruit,0.23527777777777778,,H,14 minutes,1%,2015-05-14,[{'media': 'TVCI'}],LCI
+all,Silence,0.44333333333333336,,H,26 minutes,2%,2015-05-14,[{'media': 'TVCI'}],LCI
+all,Musique,1.3647222222222222,,H,1 heure 21 minutes,8%,2015-05-14,[{'media': 'TVCI'}],LCI
+all,Homme,7.950833333333334,,H,7 heures 57 minutes,44%,2015-05-14,[{'media': 'TVCI'}],LCI
+all,Femme,8.005277777777778,,H,8 heures 0 minute,44%,2015-05-14,[{'media': 'TVCI'}],LCI
+all,Bruit,0.235,,H,14 minutes,1%,2015-05-15,[{'media': 'TVCI'}],LCI
+all,Silence,0.48138888888888887,,H,28 minutes,3%,2015-05-15,[{'media': 'TVCI'}],LCI
+all,Musique,1.3891666666666667,,H,1 heure 23 minutes,8%,2015-05-15,[{'media': 'TVCI'}],LCI
+all,Femme,6.411111111111111,,H,6 heures 24 minutes,36%,2015-05-15,[{'media': 'TVCI'}],LCI
+all,Homme,9.482777777777779,,H,9 heures 28 minutes,53%,2015-05-15,[{'media': 'TVCI'}],LCI
+all,Bruit,0.18805555555555556,,H,11 minutes,1%,2015-05-16,[{'media': 'TVCI'}],LCI
+all,Silence,0.49833333333333335,,H,29 minutes,3%,2015-05-16,[{'media': 'TVCI'}],LCI
+all,Musique,1.2083333333333333,,H,1 heure 12 minutes,7%,2015-05-16,[{'media': 'TVCI'}],LCI
+all,Femme,5.0072222222222225,,H,5 heures 0 minute,28%,2015-05-16,[{'media': 'TVCI'}],LCI
+all,Homme,11.097222222222221,,H,11 heures 5 minutes,62%,2015-05-16,[{'media': 'TVCI'}],LCI
+all,Bruit,0.2061111111111111,,H,12 minutes,1%,2015-05-17,[{'media': 'TVCI'}],LCI
+all,Silence,0.5594444444444444,,H,33 minutes,3%,2015-05-17,[{'media': 'TVCI'}],LCI
+all,Musique,1.038888888888889,,H,1 heure 2 minutes,6%,2015-05-17,[{'media': 'TVCI'}],LCI
+all,Femme,5.098333333333334,,H,5 heures 5 minutes,28%,2015-05-17,[{'media': 'TVCI'}],LCI
+all,Homme,11.096666666666666,,H,11 heures 5 minutes,62%,2015-05-17,[{'media': 'TVCI'}],LCI
+all,Bruit,0.17222222222222222,,H,10 minutes,1%,2015-05-18,[{'media': 'TVCI'}],LCI
+all,Silence,0.4305555555555556,,H,25 minutes,2%,2015-05-18,[{'media': 'TVCI'}],LCI
+all,Musique,0.9930555555555556,,H,59 minutes,6%,2015-05-18,[{'media': 'TVCI'}],LCI
+all,Femme,6.340833333333333,,H,6 heures 20 minutes,35%,2015-05-18,[{'media': 'TVCI'}],LCI
+all,Homme,10.0625,,H,10 heures 3 minutes,56%,2015-05-18,[{'media': 'TVCI'}],LCI
+all,Bruit,0.19111111111111112,,H,11 minutes,1%,2015-05-19,[{'media': 'TVCI'}],LCI
+all,Silence,0.5747222222222222,,H,34 minutes,3%,2015-05-19,[{'media': 'TVCI'}],LCI
+all,Musique,1.103888888888889,,H,1 heure 6 minutes,6%,2015-05-19,[{'media': 'TVCI'}],LCI
+all,Femme,5.7775,,H,5 heures 46 minutes,32%,2015-05-19,[{'media': 'TVCI'}],LCI
+all,Homme,10.3525,,H,10 heures 21 minutes,58%,2015-05-19,[{'media': 'TVCI'}],LCI
+all,Bruit,0.17888888888888888,,H,10 minutes,1%,2015-05-20,[{'media': 'TVCI'}],LCI
+all,Silence,0.5047222222222222,,H,30 minutes,3%,2015-05-20,[{'media': 'TVCI'}],LCI
+all,Musique,1.0502777777777779,,H,1 heure 3 minutes,6%,2015-05-20,[{'media': 'TVCI'}],LCI
+all,Femme,5.894444444444445,,H,5 heures 53 minutes,33%,2015-05-20,[{'media': 'TVCI'}],LCI
+all,Homme,10.37111111111111,,H,10 heures 22 minutes,58%,2015-05-20,[{'media': 'TVCI'}],LCI
+all,Bruit,0.24083333333333334,,H,14 minutes,1%,2015-05-21,[{'media': 'TVCI'}],LCI
+all,Silence,0.4527777777777778,,H,27 minutes,3%,2015-05-21,[{'media': 'TVCI'}],LCI
+all,Musique,1.1208333333333333,,H,1 heure 7 minutes,6%,2015-05-21,[{'media': 'TVCI'}],LCI
+all,Femme,7.518888888888889,,H,7 heures 31 minutes,42%,2015-05-21,[{'media': 'TVCI'}],LCI
+all,Homme,8.66611111111111,,H,8 heures 39 minutes,48%,2015-05-21,[{'media': 'TVCI'}],LCI
+all,Bruit,0.2386111111111111,,H,14 minutes,1%,2015-05-22,[{'media': 'TVCI'}],LCI
+all,Silence,0.4305555555555556,,H,25 minutes,2%,2015-05-22,[{'media': 'TVCI'}],LCI
+all,Musique,1.2241666666666666,,H,1 heure 13 minutes,7%,2015-05-22,[{'media': 'TVCI'}],LCI
+all,Femme,6.020555555555555,,H,6 heures 1 minute,33%,2015-05-22,[{'media': 'TVCI'}],LCI
+all,Homme,10.085833333333333,,H,10 heures 5 minutes,56%,2015-05-22,[{'media': 'TVCI'}],LCI
+all,Bruit,0.21861111111111112,,H,13 minutes,1%,2015-05-23,[{'media': 'TVCI'}],LCI
+all,Silence,0.45055555555555554,,H,27 minutes,3%,2015-05-23,[{'media': 'TVCI'}],LCI
+all,Musique,1.4308333333333334,,H,1 heure 25 minutes,8%,2015-05-23,[{'media': 'TVCI'}],LCI
+all,Femme,6.5125,,H,6 heures 30 minutes,36%,2015-05-23,[{'media': 'TVCI'}],LCI
+all,Homme,9.386666666666667,,H,9 heures 23 minutes,52%,2015-05-23,[{'media': 'TVCI'}],LCI
+all,Bruit,0.16472222222222221,,H,9 minutes,1%,2015-05-24,[{'media': 'TVCI'}],LCI
+all,Silence,0.4494444444444444,,H,26 minutes,2%,2015-05-24,[{'media': 'TVCI'}],LCI
+all,Musique,1.488888888888889,,H,1 heure 29 minutes,8%,2015-05-24,[{'media': 'TVCI'}],LCI
+all,Femme,6.15,,H,6 heures 9 minutes,34%,2015-05-24,[{'media': 'TVCI'}],LCI
+all,Homme,9.74638888888889,,H,9 heures 44 minutes,54%,2015-05-24,[{'media': 'TVCI'}],LCI
+all,Bruit,0.2075,,H,12 minutes,1%,2015-05-25,[{'media': 'TVCI'}],LCI
+all,Silence,0.5527777777777778,,H,33 minutes,3%,2015-05-25,[{'media': 'TVCI'}],LCI
+all,Musique,1.4130555555555555,,H,1 heure 24 minutes,8%,2015-05-25,[{'media': 'TVCI'}],LCI
+all,Homme,7.047777777777778,,H,7 heures 2 minutes,39%,2015-05-25,[{'media': 'TVCI'}],LCI
+all,Femme,8.778333333333334,,H,8 heures 46 minutes,49%,2015-05-25,[{'media': 'TVCI'}],LCI
+all,Bruit,0.21055555555555555,,H,12 minutes,1%,2015-05-26,[{'media': 'TVCI'}],LCI
+all,Silence,0.4002777777777778,,H,24 minutes,2%,2015-05-26,[{'media': 'TVCI'}],LCI
+all,Musique,1.3211111111111111,,H,1 heure 19 minutes,7%,2015-05-26,[{'media': 'TVCI'}],LCI
+all,Femme,6.478888888888889,,H,6 heures 28 minutes,36%,2015-05-26,[{'media': 'TVCI'}],LCI
+all,Homme,9.588611111111112,,H,9 heures 35 minutes,53%,2015-05-26,[{'media': 'TVCI'}],LCI
+all,Bruit,0.2563888888888889,,H,15 minutes,1%,2015-05-27,[{'media': 'TVCI'}],LCI
+all,Silence,0.6530555555555555,,H,39 minutes,4%,2015-05-27,[{'media': 'TVCI'}],LCI
+all,Musique,1.2808333333333333,,H,1 heure 16 minutes,7%,2015-05-27,[{'media': 'TVCI'}],LCI
+all,Femme,5.990555555555556,,H,5 heures 59 minutes,33%,2015-05-27,[{'media': 'TVCI'}],LCI
+all,Homme,9.81861111111111,,H,9 heures 49 minutes,55%,2015-05-27,[{'media': 'TVCI'}],LCI
+all,Bruit,0.21833333333333332,,H,13 minutes,1%,2015-05-28,[{'media': 'TVCI'}],LCI
+all,Silence,0.4305555555555556,,H,25 minutes,2%,2015-05-28,[{'media': 'TVCI'}],LCI
+all,Musique,1.29,,H,1 heure 17 minutes,7%,2015-05-28,[{'media': 'TVCI'}],LCI
+all,Femme,5.691111111111111,,H,5 heures 41 minutes,32%,2015-05-28,[{'media': 'TVCI'}],LCI
+all,Homme,10.369444444444444,,H,10 heures 22 minutes,58%,2015-05-28,[{'media': 'TVCI'}],LCI
+all,Bruit,0.19805555555555557,,H,11 minutes,1%,2015-05-29,[{'media': 'TVCI'}],LCI
+all,Silence,0.5108333333333334,,H,30 minutes,3%,2015-05-29,[{'media': 'TVCI'}],LCI
+all,Musique,1.1291666666666667,,H,1 heure 7 minutes,6%,2015-05-29,[{'media': 'TVCI'}],LCI
+all,Femme,6.286944444444444,,H,6 heures 17 minutes,35%,2015-05-29,[{'media': 'TVCI'}],LCI
+all,Homme,9.874166666666667,,H,9 heures 52 minutes,55%,2015-05-29,[{'media': 'TVCI'}],LCI
+all,Bruit,0.3875,,H,23 minutes,2%,2015-05-30,[{'media': 'TVCI'}],LCI
+all,Silence,0.5063888888888889,,H,30 minutes,3%,2015-05-30,[{'media': 'TVCI'}],LCI
+all,Musique,1.353888888888889,,H,1 heure 21 minutes,8%,2015-05-30,[{'media': 'TVCI'}],LCI
+all,Femme,5.390555555555555,,H,5 heures 23 minutes,30%,2015-05-30,[{'media': 'TVCI'}],LCI
+all,Homme,10.36111111111111,,H,10 heures 21 minutes,58%,2015-05-30,[{'media': 'TVCI'}],LCI
+all,Bruit,0.20166666666666666,,H,12 minutes,1%,2015-05-31,[{'media': 'TVCI'}],LCI
+all,Silence,0.4538888888888889,,H,27 minutes,3%,2015-05-31,[{'media': 'TVCI'}],LCI
+all,Musique,1.5519444444444443,,H,1 heure 33 minutes,9%,2015-05-31,[{'media': 'TVCI'}],LCI
+all,Femme,5.738888888888889,,H,5 heures 44 minutes,32%,2015-05-31,[{'media': 'TVCI'}],LCI
+all,Homme,10.052777777777777,,H,10 heures 3 minutes,56%,2015-05-31,[{'media': 'TVCI'}],LCI
+all,Bruit,0.125,,H,7 minutes,1%,2015-05-01,[{'media': 'TV'}],ITL
+all,Silence,0.5577777777777778,,H,33 minutes,2%,2015-05-01,[{'media': 'TV'}],ITL
+all,Musique,1.6936111111111112,,H,1 heure 41 minutes,7%,2015-05-01,[{'media': 'TV'}],ITL
+all,Femme,9.353333333333333,,H,9 heures 21 minutes,39%,2015-05-01,[{'media': 'TV'}],ITL
+all,Homme,12.269722222222223,,H,12 heures 16 minutes,51%,2015-05-01,[{'media': 'TV'}],ITL
+all,Bruit,0.1461111111111111,,H,8 minutes,1%,2015-05-02,[{'media': 'TV'}],ITL
+all,Silence,0.5219444444444444,,H,31 minutes,2%,2015-05-02,[{'media': 'TV'}],ITL
+all,Musique,1.7483333333333333,,H,1 heure 44 minutes,7%,2015-05-02,[{'media': 'TV'}],ITL
+all,Femme,9.256388888888889,,H,9 heures 15 minutes,39%,2015-05-02,[{'media': 'TV'}],ITL
+all,Homme,12.326666666666666,,H,12 heures 19 minutes,51%,2015-05-02,[{'media': 'TV'}],ITL
+all,Bruit,0.19333333333333333,,H,11 minutes,1%,2015-05-03,[{'media': 'TV'}],ITL
+all,Silence,0.6086111111111111,,H,36 minutes,3%,2015-05-03,[{'media': 'TV'}],ITL
+all,Musique,1.8630555555555555,,H,1 heure 51 minutes,8%,2015-05-03,[{'media': 'TV'}],ITL
+all,Femme,8.941666666666666,,H,8 heures 56 minutes,37%,2015-05-03,[{'media': 'TV'}],ITL
+all,Homme,12.392777777777777,,H,12 heures 23 minutes,52%,2015-05-03,[{'media': 'TV'}],ITL
+all,Bruit,0.23333333333333334,,H,14 minutes,1%,2015-05-04,[{'media': 'TV'}],ITL
+all,Silence,0.5625,,H,33 minutes,2%,2015-05-04,[{'media': 'TV'}],ITL
+all,Musique,1.7355555555555555,,H,1 heure 44 minutes,7%,2015-05-04,[{'media': 'TV'}],ITL
+all,Femme,9.150277777777777,,H,9 heures 9 minutes,38%,2015-05-04,[{'media': 'TV'}],ITL
+all,Homme,12.223055555555556,,H,12 heures 13 minutes,51%,2015-05-04,[{'media': 'TV'}],ITL
+all,Bruit,0.295,,H,17 minutes,1%,2015-05-05,[{'media': 'TV'}],ITL
+all,Silence,0.61,,H,36 minutes,3%,2015-05-05,[{'media': 'TV'}],ITL
+all,Musique,1.82,,H,1 heure 49 minutes,8%,2015-05-05,[{'media': 'TV'}],ITL
+all,Femme,8.592777777777778,,H,8 heures 35 minutes,36%,2015-05-05,[{'media': 'TV'}],ITL
+all,Homme,12.681944444444444,,H,12 heures 40 minutes,53%,2015-05-05,[{'media': 'TV'}],ITL
+all,Bruit,0.2633333333333333,,H,15 minutes,1%,2015-05-06,[{'media': 'TV'}],ITL
+all,Silence,0.5905555555555555,,H,35 minutes,2%,2015-05-06,[{'media': 'TV'}],ITL
+all,Musique,1.9491666666666667,,H,1 heure 56 minutes,8%,2015-05-06,[{'media': 'TV'}],ITL
+all,Femme,9.22,,H,9 heures 13 minutes,38%,2015-05-06,[{'media': 'TV'}],ITL
+all,Homme,11.976111111111111,,H,11 heures 58 minutes,50%,2015-05-06,[{'media': 'TV'}],ITL
+all,Bruit,0.23666666666666666,,H,14 minutes,1%,2015-05-07,[{'media': 'TV'}],ITL
+all,Silence,0.5561111111111111,,H,33 minutes,2%,2015-05-07,[{'media': 'TV'}],ITL
+all,Musique,1.9677777777777778,,H,1 heure 58 minutes,8%,2015-05-07,[{'media': 'TV'}],ITL
+all,Femme,8.633888888888889,,H,8 heures 38 minutes,36%,2015-05-07,[{'media': 'TV'}],ITL
+all,Homme,12.605277777777777,,H,12 heures 36 minutes,53%,2015-05-07,[{'media': 'TV'}],ITL
+all,Bruit,0.30777777777777776,,H,18 minutes,1%,2015-05-08,[{'media': 'TV'}],ITL
+all,Silence,0.6761111111111111,,H,40 minutes,3%,2015-05-08,[{'media': 'TV'}],ITL
+all,Musique,2.0180555555555557,,H,2 heures 1 minute,8%,2015-05-08,[{'media': 'TV'}],ITL
+all,Femme,9.1425,,H,9 heures 8 minutes,38%,2015-05-08,[{'media': 'TV'}],ITL
+all,Homme,11.854722222222222,,H,11 heures 51 minutes,49%,2015-05-08,[{'media': 'TV'}],ITL
+all,Bruit,0.2722222222222222,,H,16 minutes,1%,2015-05-09,[{'media': 'TV'}],ITL
+all,Silence,0.5927777777777777,,H,35 minutes,2%,2015-05-09,[{'media': 'TV'}],ITL
+all,Musique,2.033333333333333,,H,2 heures 2 minutes,8%,2015-05-09,[{'media': 'TV'}],ITL
+all,Femme,8.38888888888889,,H,8 heures 23 minutes,35%,2015-05-09,[{'media': 'TV'}],ITL
+all,Homme,12.712222222222222,,H,12 heures 42 minutes,53%,2015-05-09,[{'media': 'TV'}],ITL
+all,Bruit,0.26611111111111113,,H,15 minutes,1%,2015-05-10,[{'media': 'TV'}],ITL
+all,Silence,0.6083333333333333,,H,36 minutes,3%,2015-05-10,[{'media': 'TV'}],ITL
+all,Musique,2.131111111111111,,H,2 heures 7 minutes,9%,2015-05-10,[{'media': 'TV'}],ITL
+all,Femme,8.213888888888889,,H,8 heures 12 minutes,34%,2015-05-10,[{'media': 'TV'}],ITL
+all,Homme,12.779722222222222,,H,12 heures 46 minutes,53%,2015-05-10,[{'media': 'TV'}],ITL
+all,Bruit,0.23805555555555555,,H,14 minutes,1%,2015-05-11,[{'media': 'TV'}],ITL
+all,Silence,0.6125,,H,36 minutes,3%,2015-05-11,[{'media': 'TV'}],ITL
+all,Musique,1.9180555555555556,,H,1 heure 55 minutes,8%,2015-05-11,[{'media': 'TV'}],ITL
+all,Femme,8.215,,H,8 heures 12 minutes,34%,2015-05-11,[{'media': 'TV'}],ITL
+all,Homme,13.015833333333333,,H,13 heures 0 minute,54%,2015-05-11,[{'media': 'TV'}],ITL
+all,Bruit,0.28583333333333333,,H,17 minutes,1%,2015-05-12,[{'media': 'TV'}],ITL
+all,Silence,0.6788888888888889,,H,40 minutes,3%,2015-05-12,[{'media': 'TV'}],ITL
+all,Musique,2.0744444444444445,,H,2 heures 4 minutes,9%,2015-05-12,[{'media': 'TV'}],ITL
+all,Femme,8.369166666666667,,H,8 heures 22 minutes,35%,2015-05-12,[{'media': 'TV'}],ITL
+all,Homme,12.590833333333334,,H,12 heures 35 minutes,52%,2015-05-12,[{'media': 'TV'}],ITL
+all,Bruit,0.27166666666666667,,H,16 minutes,1%,2015-05-13,[{'media': 'TV'}],ITL
+all,Silence,0.6069444444444444,,H,36 minutes,3%,2015-05-13,[{'media': 'TV'}],ITL
+all,Musique,2.015277777777778,,H,2 heures 0 minute,8%,2015-05-13,[{'media': 'TV'}],ITL
+all,Femme,8.07611111111111,,H,8 heures 4 minutes,34%,2015-05-13,[{'media': 'TV'}],ITL
+all,Homme,13.029722222222222,,H,13 heures 1 minute,54%,2015-05-13,[{'media': 'TV'}],ITL
+all,Bruit,0.38027777777777777,,H,22 minutes,2%,2015-05-14,[{'media': 'TV'}],ITL
+all,Silence,0.6672222222222223,,H,40 minutes,3%,2015-05-14,[{'media': 'TV'}],ITL
+all,Musique,1.9827777777777778,,H,1 heure 58 minutes,8%,2015-05-14,[{'media': 'TV'}],ITL
+all,Femme,8.874722222222223,,H,8 heures 52 minutes,37%,2015-05-14,[{'media': 'TV'}],ITL
+all,Homme,12.094444444444445,,H,12 heures 5 minutes,50%,2015-05-14,[{'media': 'TV'}],ITL
+all,Bruit,0.26166666666666666,,H,15 minutes,1%,2015-05-15,[{'media': 'TV'}],ITL
+all,Silence,0.6638888888888889,,H,39 minutes,3%,2015-05-15,[{'media': 'TV'}],ITL
+all,Musique,1.9769444444444444,,H,1 heure 58 minutes,8%,2015-05-15,[{'media': 'TV'}],ITL
+all,Femme,9.203888888888889,,H,9 heures 12 minutes,38%,2015-05-15,[{'media': 'TV'}],ITL
+all,Homme,11.892777777777777,,H,11 heures 53 minutes,50%,2015-05-15,[{'media': 'TV'}],ITL
+all,Bruit,0.215,,H,12 minutes,1%,2015-05-16,[{'media': 'TV'}],ITL
+all,Silence,0.5891666666666666,,H,35 minutes,2%,2015-05-16,[{'media': 'TV'}],ITL
+all,Musique,2.0652777777777778,,H,2 heures 3 minutes,9%,2015-05-16,[{'media': 'TV'}],ITL
+all,Femme,9.885277777777778,,H,9 heures 53 minutes,41%,2015-05-16,[{'media': 'TV'}],ITL
+all,Homme,11.244722222222222,,H,11 heures 14 minutes,47%,2015-05-16,[{'media': 'TV'}],ITL
+all,Bruit,0.21138888888888888,,H,12 minutes,1%,2015-05-17,[{'media': 'TV'}],ITL
+all,Silence,0.6822222222222222,,H,40 minutes,3%,2015-05-17,[{'media': 'TV'}],ITL
+all,Musique,2.196111111111111,,H,2 heures 11 minutes,9%,2015-05-17,[{'media': 'TV'}],ITL
+all,Femme,7.648888888888889,,H,7 heures 38 minutes,32%,2015-05-17,[{'media': 'TV'}],ITL
+all,Homme,13.260833333333334,,H,13 heures 15 minutes,55%,2015-05-17,[{'media': 'TV'}],ITL
+all,Bruit,0.19972222222222222,,H,11 minutes,1%,2015-05-18,[{'media': 'TV'}],ITL
+all,Silence,0.6366666666666667,,H,38 minutes,3%,2015-05-18,[{'media': 'TV'}],ITL
+all,Musique,2.253888888888889,,H,2 heures 15 minutes,9%,2015-05-18,[{'media': 'TV'}],ITL
+all,Femme,7.976111111111111,,H,7 heures 58 minutes,33%,2015-05-18,[{'media': 'TV'}],ITL
+all,Homme,12.933055555555555,,H,12 heures 55 minutes,54%,2015-05-18,[{'media': 'TV'}],ITL
+all,Bruit,0.2577777777777778,,H,15 minutes,1%,2015-05-19,[{'media': 'TV'}],ITL
+all,Silence,0.6586111111111111,,H,39 minutes,3%,2015-05-19,[{'media': 'TV'}],ITL
+all,Musique,2.1344444444444446,,H,2 heures 8 minutes,9%,2015-05-19,[{'media': 'TV'}],ITL
+all,Femme,7.787222222222222,,H,7 heures 47 minutes,32%,2015-05-19,[{'media': 'TV'}],ITL
+all,Homme,13.161388888888888,,H,13 heures 9 minutes,55%,2015-05-19,[{'media': 'TV'}],ITL
+all,Bruit,0.29555555555555557,,H,17 minutes,1%,2015-05-20,[{'media': 'TV'}],ITL
+all,Silence,0.6175,,H,37 minutes,3%,2015-05-20,[{'media': 'TV'}],ITL
+all,Musique,2.3975,,H,2 heures 23 minutes,10%,2015-05-20,[{'media': 'TV'}],ITL
+all,Femme,7.750555555555556,,H,7 heures 45 minutes,32%,2015-05-20,[{'media': 'TV'}],ITL
+all,Homme,12.938333333333333,,H,12 heures 56 minutes,54%,2015-05-20,[{'media': 'TV'}],ITL
+all,Bruit,0.29833333333333334,,H,17 minutes,1%,2015-05-21,[{'media': 'TV'}],ITL
+all,Silence,0.5388888888888889,,H,32 minutes,2%,2015-05-21,[{'media': 'TV'}],ITL
+all,Musique,2.27,,H,2 heures 16 minutes,9%,2015-05-21,[{'media': 'TV'}],ITL
+all,Femme,8.014722222222222,,H,8 heures 0 minute,33%,2015-05-21,[{'media': 'TV'}],ITL
+all,Homme,12.8775,,H,12 heures 52 minutes,54%,2015-05-21,[{'media': 'TV'}],ITL
+all,Bruit,0.33111111111111113,,H,19 minutes,1%,2015-05-22,[{'media': 'TV'}],ITL
+all,Silence,0.6561111111111111,,H,39 minutes,3%,2015-05-22,[{'media': 'TV'}],ITL
+all,Musique,2.2725,,H,2 heures 16 minutes,9%,2015-05-22,[{'media': 'TV'}],ITL
+all,Femme,7.395555555555555,,H,7 heures 23 minutes,31%,2015-05-22,[{'media': 'TV'}],ITL
+all,Homme,13.344166666666666,,H,13 heures 20 minutes,56%,2015-05-22,[{'media': 'TV'}],ITL
+all,Bruit,0.35138888888888886,,H,21 minutes,1%,2015-05-23,[{'media': 'TV'}],ITL
+all,Silence,0.6347222222222222,,H,38 minutes,3%,2015-05-23,[{'media': 'TV'}],ITL
+all,Musique,2.3536111111111113,,H,2 heures 21 minutes,10%,2015-05-23,[{'media': 'TV'}],ITL
+all,Femme,6.745,,H,6 heures 44 minutes,28%,2015-05-23,[{'media': 'TV'}],ITL
+all,Homme,13.914722222222222,,H,13 heures 54 minutes,58%,2015-05-23,[{'media': 'TV'}],ITL
+all,Bruit,0.34833333333333333,,H,20 minutes,1%,2015-05-24,[{'media': 'TV'}],ITL
+all,Silence,0.6052777777777778,,H,36 minutes,3%,2015-05-24,[{'media': 'TV'}],ITL
+all,Musique,2.1908333333333334,,H,2 heures 11 minutes,9%,2015-05-24,[{'media': 'TV'}],ITL
+all,Femme,5.994166666666667,,H,5 heures 59 minutes,25%,2015-05-24,[{'media': 'TV'}],ITL
+all,Homme,14.860833333333334,,H,14 heures 51 minutes,62%,2015-05-24,[{'media': 'TV'}],ITL
+all,Bruit,0.29638888888888887,,H,17 minutes,1%,2015-05-25,[{'media': 'TV'}],ITL
+all,Silence,0.6683333333333333,,H,40 minutes,3%,2015-05-25,[{'media': 'TV'}],ITL
+all,Musique,2.3069444444444445,,H,2 heures 18 minutes,10%,2015-05-25,[{'media': 'TV'}],ITL
+all,Femme,8.0575,,H,8 heures 3 minutes,34%,2015-05-25,[{'media': 'TV'}],ITL
+all,Homme,12.67,,H,12 heures 40 minutes,53%,2015-05-25,[{'media': 'TV'}],ITL
+all,Bruit,0.25194444444444447,,H,15 minutes,1%,2015-05-26,[{'media': 'TV'}],ITL
+all,Silence,0.6513888888888889,,H,39 minutes,3%,2015-05-26,[{'media': 'TV'}],ITL
+all,Musique,2.441388888888889,,H,2 heures 26 minutes,10%,2015-05-26,[{'media': 'TV'}],ITL
+all,Femme,8.407222222222222,,H,8 heures 24 minutes,35%,2015-05-26,[{'media': 'TV'}],ITL
+all,Homme,12.247222222222222,,H,12 heures 14 minutes,51%,2015-05-26,[{'media': 'TV'}],ITL
+all,Bruit,0.2275,,H,13 minutes,1%,2015-05-27,[{'media': 'TV'}],ITL
+all,Silence,0.8405555555555555,,H,50 minutes,4%,2015-05-27,[{'media': 'TV'}],ITL
+all,Musique,2.3319444444444444,,H,2 heures 19 minutes,10%,2015-05-27,[{'media': 'TV'}],ITL
+all,Femme,7.111111111111111,,H,7 heures 6 minutes,30%,2015-05-27,[{'media': 'TV'}],ITL
+all,Homme,13.488611111111112,,H,13 heures 29 minutes,56%,2015-05-27,[{'media': 'TV'}],ITL
+all,Bruit,0.2338888888888889,,H,14 minutes,1%,2015-05-28,[{'media': 'TV'}],ITL
+all,Silence,0.6763888888888889,,H,40 minutes,3%,2015-05-28,[{'media': 'TV'}],ITL
+all,Musique,2.4366666666666665,,H,2 heures 26 minutes,10%,2015-05-28,[{'media': 'TV'}],ITL
+all,Femme,6.3805555555555555,,H,6 heures 22 minutes,27%,2015-05-28,[{'media': 'TV'}],ITL
+all,Homme,14.271944444444445,,H,14 heures 16 minutes,59%,2015-05-28,[{'media': 'TV'}],ITL
+all,Bruit,0.23277777777777778,,H,13 minutes,1%,2015-05-29,[{'media': 'TV'}],ITL
+all,Silence,0.6616666666666666,,H,39 minutes,3%,2015-05-29,[{'media': 'TV'}],ITL
+all,Musique,2.4405555555555556,,H,2 heures 26 minutes,10%,2015-05-29,[{'media': 'TV'}],ITL
+all,Femme,6.636388888888889,,H,6 heures 38 minutes,28%,2015-05-29,[{'media': 'TV'}],ITL
+all,Homme,14.028055555555556,,H,14 heures 1 minute,58%,2015-05-29,[{'media': 'TV'}],ITL
+all,Bruit,0.4033333333333333,,H,24 minutes,2%,2015-05-30,[{'media': 'TV'}],ITL
+all,Silence,0.6261111111111111,,H,37 minutes,3%,2015-05-30,[{'media': 'TV'}],ITL
+all,Musique,1.9719444444444445,,H,1 heure 58 minutes,8%,2015-05-30,[{'media': 'TV'}],ITL
+all,Femme,5.477777777777778,,H,5 heures 28 minutes,23%,2015-05-30,[{'media': 'TV'}],ITL
+all,Homme,15.520277777777778,,H,15 heures 31 minutes,65%,2015-05-30,[{'media': 'TV'}],ITL
+all,Bruit,0.2311111111111111,,H,13 minutes,1%,2015-05-31,[{'media': 'TV'}],ITL
+all,Silence,0.6305555555555555,,H,37 minutes,3%,2015-05-31,[{'media': 'TV'}],ITL
+all,Musique,2.218611111111111,,H,2 heures 13 minutes,9%,2015-05-31,[{'media': 'TV'}],ITL
+all,Femme,5.5152777777777775,,H,5 heures 30 minutes,23%,2015-05-31,[{'media': 'TV'}],ITL
+all,Homme,15.404166666666667,,H,15 heures 24 minutes,64%,2015-05-31,[{'media': 'TV'}],ITL
+all,Silence,0.4602777777777778,,H,27 minutes,3%,2015-05-01,[{'media': 'TV'}],ART
+all,Musique,2.2055555555555557,,H,2 heures 12 minutes,16%,2015-05-01,[{'media': 'TV'}],ART
+all,Bruit,2.388333333333333,,H,2 heures 23 minutes,17%,2015-05-01,[{'media': 'TV'}],ART
+all,Femme,2.8775,,H,2 heures 52 minutes,21%,2015-05-01,[{'media': 'TV'}],ART
+all,Homme,6.0675,,H,6 heures 4 minutes,43%,2015-05-01,[{'media': 'TV'}],ART
+all,Silence,0.32416666666666666,,H,19 minutes,2%,2015-05-02,[{'media': 'TV'}],ART
+all,Bruit,1.1436111111111111,,H,1 heure 8 minutes,8%,2015-05-02,[{'media': 'TV'}],ART
+all,Femme,2.823611111111111,,H,2 heures 49 minutes,20%,2015-05-02,[{'media': 'TV'}],ART
+all,Musique,2.8766666666666665,,H,2 heures 52 minutes,21%,2015-05-02,[{'media': 'TV'}],ART
+all,Homme,6.831388888888889,,H,6 heures 49 minutes,49%,2015-05-02,[{'media': 'TV'}],ART
+all,Silence,0.4061111111111111,,H,24 minutes,3%,2015-05-03,[{'media': 'TV'}],ART
+all,Bruit,1.751111111111111,,H,1 heure 45 minutes,13%,2015-05-03,[{'media': 'TV'}],ART
+all,Musique,2.3219444444444446,,H,2 heures 19 minutes,17%,2015-05-03,[{'media': 'TV'}],ART
+all,Femme,2.714722222222222,,H,2 heures 42 minutes,19%,2015-05-03,[{'media': 'TV'}],ART
+all,Homme,6.8052777777777775,,H,6 heures 48 minutes,49%,2015-05-03,[{'media': 'TV'}],ART
+all,Silence,0.7188888888888889,,H,43 minutes,5%,2015-05-04,[{'media': 'TV'}],ART
+all,Musique,1.8255555555555556,,H,1 heure 49 minutes,13%,2015-05-04,[{'media': 'TV'}],ART
+all,Bruit,1.9958333333333333,,H,1 heure 59 minutes,14%,2015-05-04,[{'media': 'TV'}],ART
+all,Femme,3.187222222222222,,H,3 heures 11 minutes,23%,2015-05-04,[{'media': 'TV'}],ART
+all,Homme,6.248611111111111,,H,6 heures 14 minutes,45%,2015-05-04,[{'media': 'TV'}],ART
+all,Silence,0.6530555555555555,,H,39 minutes,5%,2015-05-05,[{'media': 'TV'}],ART
+all,Bruit,1.111388888888889,,H,1 heure 6 minutes,8%,2015-05-05,[{'media': 'TV'}],ART
+all,Musique,1.8922222222222222,,H,1 heure 53 minutes,14%,2015-05-05,[{'media': 'TV'}],ART
+all,Femme,3.120277777777778,,H,3 heures 7 minutes,22%,2015-05-05,[{'media': 'TV'}],ART
+all,Homme,7.222222222222222,,H,7 heures 13 minutes,52%,2015-05-05,[{'media': 'TV'}],ART
+all,Silence,0.4272222222222222,,H,25 minutes,3%,2015-05-06,[{'media': 'TV'}],ART
+all,Bruit,2.350277777777778,,H,2 heures 21 minutes,17%,2015-05-06,[{'media': 'TV'}],ART
+all,Femme,2.5302777777777776,,H,2 heures 31 minutes,18%,2015-05-06,[{'media': 'TV'}],ART
+all,Musique,2.6108333333333333,,H,2 heures 36 minutes,19%,2015-05-06,[{'media': 'TV'}],ART
+all,Homme,6.080555555555556,,H,6 heures 4 minutes,43%,2015-05-06,[{'media': 'TV'}],ART
+all,Silence,0.5088888888888888,,H,30 minutes,4%,2015-05-07,[{'media': 'TV'}],ART
+all,Bruit,2.087222222222222,,H,2 heures 5 minutes,15%,2015-05-07,[{'media': 'TV'}],ART
+all,Femme,2.6780555555555554,,H,2 heures 40 minutes,19%,2015-05-07,[{'media': 'TV'}],ART
+all,Musique,2.683611111111111,,H,2 heures 41 minutes,19%,2015-05-07,[{'media': 'TV'}],ART
+all,Homme,6.041666666666667,,H,6 heures 2 minutes,43%,2015-05-07,[{'media': 'TV'}],ART
+all,Silence,0.6533333333333333,,H,39 minutes,5%,2015-05-08,[{'media': 'TV'}],ART
+all,Musique,1.9088888888888889,,H,1 heure 54 minutes,14%,2015-05-08,[{'media': 'TV'}],ART
+all,Femme,2.1616666666666666,,H,2 heures 9 minutes,15%,2015-05-08,[{'media': 'TV'}],ART
+all,Bruit,2.2716666666666665,,H,2 heures 16 minutes,16%,2015-05-08,[{'media': 'TV'}],ART
+all,Homme,7.003888888888889,,H,7 heures 0 minute,50%,2015-05-08,[{'media': 'TV'}],ART
+all,Silence,0.3958333333333333,,H,23 minutes,3%,2015-05-09,[{'media': 'TV'}],ART
+all,Bruit,0.8925,,H,53 minutes,6%,2015-05-09,[{'media': 'TV'}],ART
+all,Musique,2.7202777777777776,,H,2 heures 43 minutes,19%,2015-05-09,[{'media': 'TV'}],ART
+all,Femme,3.631111111111111,,H,3 heures 37 minutes,26%,2015-05-09,[{'media': 'TV'}],ART
+all,Homme,6.3597222222222225,,H,6 heures 21 minutes,45%,2015-05-09,[{'media': 'TV'}],ART
+all,Silence,0.5416666666666666,,H,32 minutes,4%,2015-05-10,[{'media': 'TV'}],ART
+all,Bruit,0.9372222222222222,,H,56 minutes,7%,2015-05-10,[{'media': 'TV'}],ART
+all,Musique,3.1422222222222222,,H,3 heures 8 minutes,22%,2015-05-10,[{'media': 'TV'}],ART
+all,Femme,3.3313888888888887,,H,3 heures 19 minutes,24%,2015-05-10,[{'media': 'TV'}],ART
+all,Homme,6.046666666666667,,H,6 heures 2 minutes,43%,2015-05-10,[{'media': 'TV'}],ART
+all,Silence,0.64,,H,38 minutes,5%,2015-05-11,[{'media': 'TV'}],ART
+all,Bruit,1.7905555555555555,,H,1 heure 47 minutes,13%,2015-05-11,[{'media': 'TV'}],ART
+all,Musique,1.9847222222222223,,H,1 heure 59 minutes,14%,2015-05-11,[{'media': 'TV'}],ART
+all,Femme,3.1133333333333333,,H,3 heures 6 minutes,22%,2015-05-11,[{'media': 'TV'}],ART
+all,Homme,6.470555555555555,,H,6 heures 28 minutes,46%,2015-05-11,[{'media': 'TV'}],ART
+all,Silence,0.43555555555555553,,H,26 minutes,3%,2015-05-12,[{'media': 'TV'}],ART
+all,Bruit,1.4836111111111112,,H,1 heure 29 minutes,11%,2015-05-12,[{'media': 'TV'}],ART
+all,Musique,1.6636111111111112,,H,1 heure 39 minutes,12%,2015-05-12,[{'media': 'TV'}],ART
+all,Femme,3.4138888888888888,,H,3 heures 24 minutes,24%,2015-05-12,[{'media': 'TV'}],ART
+all,Homme,7.002777777777778,,H,7 heures 0 minute,50%,2015-05-12,[{'media': 'TV'}],ART
+all,Silence,0.5844444444444444,,H,35 minutes,4%,2015-05-13,[{'media': 'TV'}],ART
+all,Bruit,1.8041666666666667,,H,1 heure 48 minutes,13%,2015-05-13,[{'media': 'TV'}],ART
+all,Musique,2.4525,,H,2 heures 27 minutes,18%,2015-05-13,[{'media': 'TV'}],ART
+all,Femme,3.888611111111111,,H,3 heures 53 minutes,28%,2015-05-13,[{'media': 'TV'}],ART
+all,Homme,5.269722222222223,,H,5 heures 16 minutes,38%,2015-05-13,[{'media': 'TV'}],ART
+all,Silence,0.4116666666666667,,H,24 minutes,3%,2015-05-14,[{'media': 'TV'}],ART
+all,Bruit,1.9647222222222223,,H,1 heure 57 minutes,14%,2015-05-14,[{'media': 'TV'}],ART
+all,Musique,2.4988888888888887,,H,2 heures 29 minutes,18%,2015-05-14,[{'media': 'TV'}],ART
+all,Femme,3.598888888888889,,H,3 heures 35 minutes,26%,2015-05-14,[{'media': 'TV'}],ART
+all,Homme,5.525277777777778,,H,5 heures 31 minutes,39%,2015-05-14,[{'media': 'TV'}],ART
+all,Silence,0.5213888888888889,,H,31 minutes,4%,2015-05-15,[{'media': 'TV'}],ART
+all,Bruit,1.8722222222222222,,H,1 heure 52 minutes,13%,2015-05-15,[{'media': 'TV'}],ART
+all,Musique,2.1766666666666667,,H,2 heures 10 minutes,16%,2015-05-15,[{'media': 'TV'}],ART
+all,Femme,3.2125,,H,3 heures 12 minutes,23%,2015-05-15,[{'media': 'TV'}],ART
+all,Homme,6.216388888888889,,H,6 heures 12 minutes,44%,2015-05-15,[{'media': 'TV'}],ART
+all,Silence,0.35138888888888886,,H,21 minutes,3%,2015-05-16,[{'media': 'TV'}],ART
+all,Bruit,0.9275,,H,55 minutes,7%,2015-05-16,[{'media': 'TV'}],ART
+all,Musique,2.6822222222222223,,H,2 heures 40 minutes,19%,2015-05-16,[{'media': 'TV'}],ART
+all,Femme,3.562777777777778,,H,3 heures 33 minutes,25%,2015-05-16,[{'media': 'TV'}],ART
+all,Homme,6.4752777777777775,,H,6 heures 28 minutes,46%,2015-05-16,[{'media': 'TV'}],ART
+all,Silence,0.6258333333333334,,H,37 minutes,4%,2015-05-17,[{'media': 'TV'}],ART
+all,Bruit,1.3688888888888888,,H,1 heure 22 minutes,10%,2015-05-17,[{'media': 'TV'}],ART
+all,Femme,2.214722222222222,,H,2 heures 12 minutes,16%,2015-05-17,[{'media': 'TV'}],ART
+all,Musique,2.477222222222222,,H,2 heures 28 minutes,18%,2015-05-17,[{'media': 'TV'}],ART
+all,Homme,7.312777777777778,,H,7 heures 18 minutes,52%,2015-05-17,[{'media': 'TV'}],ART
+all,Silence,0.5563888888888889,,H,33 minutes,4%,2015-05-18,[{'media': 'TV'}],ART
+all,Bruit,1.2872222222222223,,H,1 heure 17 minutes,9%,2015-05-18,[{'media': 'TV'}],ART
+all,Musique,2.3780555555555556,,H,2 heures 22 minutes,17%,2015-05-18,[{'media': 'TV'}],ART
+all,Femme,2.5877777777777777,,H,2 heures 35 minutes,18%,2015-05-18,[{'media': 'TV'}],ART
+all,Homme,7.19,,H,7 heures 11 minutes,51%,2015-05-18,[{'media': 'TV'}],ART
+all,Silence,0.30916666666666665,,H,18 minutes,2%,2015-05-19,[{'media': 'TV'}],ART
+all,Bruit,1.803611111111111,,H,1 heure 48 minutes,13%,2015-05-19,[{'media': 'TV'}],ART
+all,Musique,2.027222222222222,,H,2 heures 1 minute,14%,2015-05-19,[{'media': 'TV'}],ART
+all,Femme,2.544722222222222,,H,2 heures 32 minutes,18%,2015-05-19,[{'media': 'TV'}],ART
+all,Homme,7.314444444444445,,H,7 heures 18 minutes,52%,2015-05-19,[{'media': 'TV'}],ART
+all,Silence,0.4222222222222222,,H,25 minutes,3%,2015-05-20,[{'media': 'TV'}],ART
+all,Musique,1.9722222222222223,,H,1 heure 58 minutes,14%,2015-05-20,[{'media': 'TV'}],ART
+all,Femme,2.2644444444444445,,H,2 heures 15 minutes,16%,2015-05-20,[{'media': 'TV'}],ART
+all,Bruit,2.8430555555555554,,H,2 heures 50 minutes,20%,2015-05-20,[{'media': 'TV'}],ART
+all,Homme,6.4975,,H,6 heures 29 minutes,46%,2015-05-20,[{'media': 'TV'}],ART
+all,Silence,0.45222222222222225,,H,27 minutes,3%,2015-05-21,[{'media': 'TV'}],ART
+all,Bruit,1.916111111111111,,H,1 heure 54 minutes,14%,2015-05-21,[{'media': 'TV'}],ART
+all,Musique,1.9594444444444445,,H,1 heure 57 minutes,14%,2015-05-21,[{'media': 'TV'}],ART
+all,Femme,3.117777777777778,,H,3 heures 7 minutes,22%,2015-05-21,[{'media': 'TV'}],ART
+all,Homme,6.5536111111111115,,H,6 heures 33 minutes,47%,2015-05-21,[{'media': 'TV'}],ART
+all,Silence,0.5191666666666667,,H,31 minutes,4%,2015-05-22,[{'media': 'TV'}],ART
+all,Bruit,2.127222222222222,,H,2 heures 7 minutes,15%,2015-05-22,[{'media': 'TV'}],ART
+all,Musique,2.4497222222222224,,H,2 heures 26 minutes,17%,2015-05-22,[{'media': 'TV'}],ART
+all,Femme,2.5605555555555557,,H,2 heures 33 minutes,18%,2015-05-22,[{'media': 'TV'}],ART
+all,Homme,6.342777777777778,,H,6 heures 20 minutes,45%,2015-05-22,[{'media': 'TV'}],ART
+all,Silence,0.35055555555555556,,H,21 minutes,3%,2015-05-23,[{'media': 'TV'}],ART
+all,Bruit,1.265,,H,1 heure 15 minutes,9%,2015-05-23,[{'media': 'TV'}],ART
+all,Musique,2.412777777777778,,H,2 heures 24 minutes,17%,2015-05-23,[{'media': 'TV'}],ART
+all,Femme,3.498611111111111,,H,3 heures 29 minutes,25%,2015-05-23,[{'media': 'TV'}],ART
+all,Homme,6.472222222222222,,H,6 heures 28 minutes,46%,2015-05-23,[{'media': 'TV'}],ART
+all,Silence,0.7675,,H,46 minutes,5%,2015-05-24,[{'media': 'TV'}],ART
+all,Bruit,1.0611111111111111,,H,1 heure 3 minutes,8%,2015-05-24,[{'media': 'TV'}],ART
+all,Femme,3.277222222222222,,H,3 heures 16 minutes,23%,2015-05-24,[{'media': 'TV'}],ART
+all,Musique,3.338611111111111,,H,3 heures 20 minutes,24%,2015-05-24,[{'media': 'TV'}],ART
+all,Homme,5.555,,H,5 heures 33 minutes,40%,2015-05-24,[{'media': 'TV'}],ART
+all,Silence,0.6655555555555556,,H,39 minutes,5%,2015-05-25,[{'media': 'TV'}],ART
+all,Femme,2.036388888888889,,H,2 heures 2 minutes,15%,2015-05-25,[{'media': 'TV'}],ART
+all,Musique,2.0772222222222223,,H,2 heures 4 minutes,15%,2015-05-25,[{'media': 'TV'}],ART
+all,Bruit,2.600277777777778,,H,2 heures 36 minutes,19%,2015-05-25,[{'media': 'TV'}],ART
+all,Homme,6.62,,H,6 heures 37 minutes,47%,2015-05-25,[{'media': 'TV'}],ART
+all,Silence,0.5594444444444444,,H,33 minutes,4%,2015-05-26,[{'media': 'TV'}],ART
+all,Bruit,0.8905555555555555,,H,53 minutes,6%,2015-05-26,[{'media': 'TV'}],ART
+all,Musique,2.222777777777778,,H,2 heures 13 minutes,16%,2015-05-26,[{'media': 'TV'}],ART
+all,Femme,3.3769444444444443,,H,3 heures 22 minutes,24%,2015-05-26,[{'media': 'TV'}],ART
+all,Homme,6.949722222222222,,H,6 heures 56 minutes,50%,2015-05-26,[{'media': 'TV'}],ART
+all,Silence,0.4722222222222222,,H,28 minutes,3%,2015-05-27,[{'media': 'TV'}],ART
+all,Bruit,1.708611111111111,,H,1 heure 42 minutes,12%,2015-05-27,[{'media': 'TV'}],ART
+all,Musique,2.3116666666666665,,H,2 heures 18 minutes,17%,2015-05-27,[{'media': 'TV'}],ART
+all,Femme,3.4341666666666666,,H,3 heures 26 minutes,25%,2015-05-27,[{'media': 'TV'}],ART
+all,Homme,6.073055555555555,,H,6 heures 4 minutes,43%,2015-05-27,[{'media': 'TV'}],ART
+all,Silence,0.6491666666666667,,H,38 minutes,5%,2015-05-28,[{'media': 'TV'}],ART
+all,Bruit,2.1930555555555555,,H,2 heures 11 minutes,16%,2015-05-28,[{'media': 'TV'}],ART
+all,Femme,2.5725,,H,2 heures 34 minutes,18%,2015-05-28,[{'media': 'TV'}],ART
+all,Musique,2.6902777777777778,,H,2 heures 41 minutes,19%,2015-05-28,[{'media': 'TV'}],ART
+all,Homme,5.894444444444445,,H,5 heures 53 minutes,42%,2015-05-28,[{'media': 'TV'}],ART
+all,Silence,0.6225,,H,37 minutes,4%,2015-05-29,[{'media': 'TV'}],ART
+all,Bruit,1.7880555555555555,,H,1 heure 47 minutes,13%,2015-05-29,[{'media': 'TV'}],ART
+all,Musique,1.9525,,H,1 heure 57 minutes,14%,2015-05-29,[{'media': 'TV'}],ART
+all,Femme,3.973611111111111,,H,3 heures 58 minutes,28%,2015-05-29,[{'media': 'TV'}],ART
+all,Homme,5.6627777777777775,,H,5 heures 39 minutes,40%,2015-05-29,[{'media': 'TV'}],ART
+all,Silence,0.3888888888888889,,H,23 minutes,3%,2015-05-30,[{'media': 'TV'}],ART
+all,Bruit,1.2955555555555556,,H,1 heure 17 minutes,9%,2015-05-30,[{'media': 'TV'}],ART
+all,Femme,1.593611111111111,,H,1 heure 35 minutes,11%,2015-05-30,[{'media': 'TV'}],ART
+all,Musique,2.2883333333333336,,H,2 heures 17 minutes,16%,2015-05-30,[{'media': 'TV'}],ART
+all,Homme,8.432777777777778,,H,8 heures 25 minutes,60%,2015-05-30,[{'media': 'TV'}],ART
+all,Silence,0.6741666666666667,,H,40 minutes,5%,2015-05-31,[{'media': 'TV'}],ART
+all,Bruit,1.5863888888888888,,H,1 heure 35 minutes,11%,2015-05-31,[{'media': 'TV'}],ART
+all,Femme,2.3869444444444445,,H,2 heures 23 minutes,17%,2015-05-31,[{'media': 'TV'}],ART
+all,Musique,3.2683333333333335,,H,3 heures 16 minutes,23%,2015-05-31,[{'media': 'TV'}],ART
+all,Homme,6.083333333333333,,H,6 heures 5 minutes,43%,2015-05-31,[{'media': 'TV'}],ART
+all,Silence,0.7011111111111111,,H,42 minutes,5%,2015-05-01,[{'media': 'TV'}],FR2
+all,Bruit,0.7875,,H,47 minutes,6%,2015-05-01,[{'media': 'TV'}],FR2
+all,Musique,2.173611111111111,,H,2 heures 10 minutes,16%,2015-05-01,[{'media': 'TV'}],FR2
+all,Femme,4.413055555555555,,H,4 heures 24 minutes,32%,2015-05-01,[{'media': 'TV'}],FR2
+all,Homme,5.924166666666666,,H,5 heures 55 minutes,42%,2015-05-01,[{'media': 'TV'}],FR2
+all,Silence,0.35333333333333333,,H,21 minutes,3%,2015-05-02,[{'media': 'TV'}],FR2
+all,Bruit,0.5944444444444444,,H,35 minutes,4%,2015-05-02,[{'media': 'TV'}],FR2
+all,Musique,2.5455555555555556,,H,2 heures 32 minutes,18%,2015-05-02,[{'media': 'TV'}],FR2
+all,Femme,2.593888888888889,,H,2 heures 35 minutes,19%,2015-05-02,[{'media': 'TV'}],FR2
+all,Homme,7.912222222222222,,H,7 heures 54 minutes,57%,2015-05-02,[{'media': 'TV'}],FR2
+all,Silence,0.5658333333333333,,H,33 minutes,4%,2015-05-03,[{'media': 'TV'}],FR2
+all,Bruit,1.093888888888889,,H,1 heure 5 minutes,8%,2015-05-03,[{'media': 'TV'}],FR2
+all,Musique,2.2241666666666666,,H,2 heures 13 minutes,16%,2015-05-03,[{'media': 'TV'}],FR2
+all,Femme,2.404166666666667,,H,2 heures 24 minutes,17%,2015-05-03,[{'media': 'TV'}],FR2
+all,Homme,7.711388888888889,,H,7 heures 42 minutes,55%,2015-05-03,[{'media': 'TV'}],FR2
+all,Bruit,0.3566666666666667,,H,21 minutes,3%,2015-05-04,[{'media': 'TV'}],FR2
+all,Silence,0.5794444444444444,,H,34 minutes,4%,2015-05-04,[{'media': 'TV'}],FR2
+all,Musique,1.8691666666666666,,H,1 heure 52 minutes,13%,2015-05-04,[{'media': 'TV'}],FR2
+all,Femme,4.501388888888889,,H,4 heures 30 minutes,32%,2015-05-04,[{'media': 'TV'}],FR2
+all,Homme,6.692777777777778,,H,6 heures 41 minutes,48%,2015-05-04,[{'media': 'TV'}],FR2
+all,Silence,0.5327777777777778,,H,31 minutes,4%,2015-05-05,[{'media': 'TV'}],FR2
+all,Bruit,0.6416666666666667,,H,38 minutes,5%,2015-05-05,[{'media': 'TV'}],FR2
+all,Musique,2.084722222222222,,H,2 heures 5 minutes,15%,2015-05-05,[{'media': 'TV'}],FR2
+all,Femme,3.7741666666666664,,H,3 heures 46 minutes,27%,2015-05-05,[{'media': 'TV'}],FR2
+all,Homme,6.965833333333333,,H,6 heures 57 minutes,50%,2015-05-05,[{'media': 'TV'}],FR2
+all,Silence,0.6327777777777778,,H,37 minutes,5%,2015-05-06,[{'media': 'TV'}],FR2
+all,Bruit,0.6469444444444444,,H,38 minutes,5%,2015-05-06,[{'media': 'TV'}],FR2
+all,Musique,2.066666666666667,,H,2 heures 4 minutes,15%,2015-05-06,[{'media': 'TV'}],FR2
+all,Femme,4.8805555555555555,,H,4 heures 52 minutes,35%,2015-05-06,[{'media': 'TV'}],FR2
+all,Homme,5.772222222222222,,H,5 heures 46 minutes,41%,2015-05-06,[{'media': 'TV'}],FR2
+all,Bruit,0.31444444444444447,,H,18 minutes,2%,2015-05-07,[{'media': 'TV'}],FR2
+all,Silence,0.4766666666666667,,H,28 minutes,3%,2015-05-07,[{'media': 'TV'}],FR2
+all,Musique,1.9033333333333333,,H,1 heure 54 minutes,14%,2015-05-07,[{'media': 'TV'}],FR2
+all,Femme,4.6325,,H,4 heures 37 minutes,33%,2015-05-07,[{'media': 'TV'}],FR2
+all,Homme,6.671944444444445,,H,6 heures 40 minutes,48%,2015-05-07,[{'media': 'TV'}],FR2
+all,Silence,0.46694444444444444,,H,28 minutes,3%,2015-05-08,[{'media': 'TV'}],FR2
+all,Bruit,0.5602777777777778,,H,33 minutes,4%,2015-05-08,[{'media': 'TV'}],FR2
+all,Musique,1.9930555555555556,,H,1 heure 59 minutes,14%,2015-05-08,[{'media': 'TV'}],FR2
+all,Femme,2.9991666666666665,,H,2 heures 59 minutes,21%,2015-05-08,[{'media': 'TV'}],FR2
+all,Homme,7.979722222222223,,H,7 heures 58 minutes,57%,2015-05-08,[{'media': 'TV'}],FR2
+all,Bruit,0.39166666666666666,,H,23 minutes,3%,2015-05-09,[{'media': 'TV'}],FR2
+all,Silence,0.5258333333333334,,H,31 minutes,4%,2015-05-09,[{'media': 'TV'}],FR2
+all,Musique,2.531388888888889,,H,2 heures 31 minutes,18%,2015-05-09,[{'media': 'TV'}],FR2
+all,Femme,3.1108333333333333,,H,3 heures 6 minutes,22%,2015-05-09,[{'media': 'TV'}],FR2
+all,Homme,7.44,,H,7 heures 26 minutes,53%,2015-05-09,[{'media': 'TV'}],FR2
+all,Silence,0.6058333333333333,,H,36 minutes,4%,2015-05-10,[{'media': 'TV'}],FR2
+all,Bruit,1.2338888888888888,,H,1 heure 14 minutes,9%,2015-05-10,[{'media': 'TV'}],FR2
+all,Femme,2.075277777777778,,H,2 heures 4 minutes,15%,2015-05-10,[{'media': 'TV'}],FR2
+all,Musique,2.308333333333333,,H,2 heures 18 minutes,16%,2015-05-10,[{'media': 'TV'}],FR2
+all,Homme,7.775833333333333,,H,7 heures 46 minutes,56%,2015-05-10,[{'media': 'TV'}],FR2
+all,Bruit,0.4075,,H,24 minutes,3%,2015-05-11,[{'media': 'TV'}],FR2
+all,Silence,0.6013888888888889,,H,36 minutes,4%,2015-05-11,[{'media': 'TV'}],FR2
+all,Musique,1.9408333333333334,,H,1 heure 56 minutes,14%,2015-05-11,[{'media': 'TV'}],FR2
+all,Femme,4.688611111111111,,H,4 heures 41 minutes,33%,2015-05-11,[{'media': 'TV'}],FR2
+all,Homme,6.361111111111111,,H,6 heures 21 minutes,45%,2015-05-11,[{'media': 'TV'}],FR2
+all,Bruit,0.41833333333333333,,H,25 minutes,3%,2015-05-12,[{'media': 'TV'}],FR2
+all,Silence,0.4861111111111111,,H,29 minutes,3%,2015-05-12,[{'media': 'TV'}],FR2
+all,Musique,2.0980555555555553,,H,2 heures 5 minutes,15%,2015-05-12,[{'media': 'TV'}],FR2
+all,Femme,4.779722222222222,,H,4 heures 46 minutes,34%,2015-05-12,[{'media': 'TV'}],FR2
+all,Homme,6.216944444444445,,H,6 heures 13 minutes,44%,2015-05-12,[{'media': 'TV'}],FR2
+all,Bruit,0.5233333333333333,,H,31 minutes,4%,2015-05-13,[{'media': 'TV'}],FR2
+all,Silence,0.6325,,H,37 minutes,5%,2015-05-13,[{'media': 'TV'}],FR2
+all,Musique,2.2725,,H,2 heures 16 minutes,16%,2015-05-13,[{'media': 'TV'}],FR2
+all,Homme,5.002222222222223,,H,5 heures 0 minute,36%,2015-05-13,[{'media': 'TV'}],FR2
+all,Femme,5.569166666666667,,H,5 heures 34 minutes,40%,2015-05-13,[{'media': 'TV'}],FR2
+all,Silence,0.5155555555555555,,H,30 minutes,4%,2015-05-14,[{'media': 'TV'}],FR2
+all,Bruit,0.5838888888888889,,H,35 minutes,4%,2015-05-14,[{'media': 'TV'}],FR2
+all,Musique,1.9502777777777778,,H,1 heure 57 minutes,14%,2015-05-14,[{'media': 'TV'}],FR2
+all,Femme,4.626111111111111,,H,4 heures 37 minutes,33%,2015-05-14,[{'media': 'TV'}],FR2
+all,Homme,6.323611111111111,,H,6 heures 19 minutes,45%,2015-05-14,[{'media': 'TV'}],FR2
+all,Bruit,0.5833333333333334,,H,35 minutes,4%,2015-05-15,[{'media': 'TV'}],FR2
+all,Silence,0.6036111111111111,,H,36 minutes,4%,2015-05-15,[{'media': 'TV'}],FR2
+all,Musique,2.1777777777777776,,H,2 heures 10 minutes,16%,2015-05-15,[{'media': 'TV'}],FR2
+all,Femme,5.189444444444445,,H,5 heures 11 minutes,37%,2015-05-15,[{'media': 'TV'}],FR2
+all,Homme,5.445555555555556,,H,5 heures 26 minutes,39%,2015-05-15,[{'media': 'TV'}],FR2
+all,Silence,0.48388888888888887,,H,29 minutes,3%,2015-05-16,[{'media': 'TV'}],FR2
+all,Bruit,0.6661111111111111,,H,39 minutes,5%,2015-05-16,[{'media': 'TV'}],FR2
+all,Musique,2.5141666666666667,,H,2 heures 30 minutes,18%,2015-05-16,[{'media': 'TV'}],FR2
+all,Femme,3.536388888888889,,H,3 heures 32 minutes,25%,2015-05-16,[{'media': 'TV'}],FR2
+all,Homme,6.798611111111111,,H,6 heures 47 minutes,49%,2015-05-16,[{'media': 'TV'}],FR2
+all,Silence,0.6030555555555556,,H,36 minutes,4%,2015-05-17,[{'media': 'TV'}],FR2
+all,Bruit,1.0175,,H,1 heure 1 minute,7%,2015-05-17,[{'media': 'TV'}],FR2
+all,Musique,2.2691666666666666,,H,2 heures 16 minutes,16%,2015-05-17,[{'media': 'TV'}],FR2
+all,Femme,3.1575,,H,3 heures 9 minutes,23%,2015-05-17,[{'media': 'TV'}],FR2
+all,Homme,6.952222222222222,,H,6 heures 57 minutes,50%,2015-05-17,[{'media': 'TV'}],FR2
+all,Bruit,0.3383333333333333,,H,20 minutes,2%,2015-05-18,[{'media': 'TV'}],FR2
+all,Silence,0.5555555555555556,,H,33 minutes,4%,2015-05-18,[{'media': 'TV'}],FR2
+all,Musique,1.8566666666666667,,H,1 heure 51 minutes,13%,2015-05-18,[{'media': 'TV'}],FR2
+all,Femme,4.92,,H,4 heures 55 minutes,35%,2015-05-18,[{'media': 'TV'}],FR2
+all,Homme,6.328888888888889,,H,6 heures 19 minutes,45%,2015-05-18,[{'media': 'TV'}],FR2
+all,Bruit,0.31972222222222224,,H,19 minutes,2%,2015-05-19,[{'media': 'TV'}],FR2
+all,Silence,0.5969444444444445,,H,35 minutes,4%,2015-05-19,[{'media': 'TV'}],FR2
+all,Musique,1.6922222222222223,,H,1 heure 41 minutes,12%,2015-05-19,[{'media': 'TV'}],FR2
+all,Femme,4.5775,,H,4 heures 34 minutes,33%,2015-05-19,[{'media': 'TV'}],FR2
+all,Homme,6.813055555555556,,H,6 heures 48 minutes,49%,2015-05-19,[{'media': 'TV'}],FR2
+all,Bruit,0.4747222222222222,,H,28 minutes,3%,2015-05-20,[{'media': 'TV'}],FR2
+all,Silence,0.5211111111111111,,H,31 minutes,4%,2015-05-20,[{'media': 'TV'}],FR2
+all,Musique,1.9069444444444446,,H,1 heure 54 minutes,14%,2015-05-20,[{'media': 'TV'}],FR2
+all,Femme,4.900277777777778,,H,4 heures 54 minutes,35%,2015-05-20,[{'media': 'TV'}],FR2
+all,Homme,6.1963888888888885,,H,6 heures 11 minutes,44%,2015-05-20,[{'media': 'TV'}],FR2
+all,Bruit,0.37555555555555553,,H,22 minutes,3%,2015-05-21,[{'media': 'TV'}],FR2
+all,Silence,0.5491666666666667,,H,32 minutes,4%,2015-05-21,[{'media': 'TV'}],FR2
+all,Musique,1.8855555555555557,,H,1 heure 53 minutes,13%,2015-05-21,[{'media': 'TV'}],FR2
+all,Femme,4.6675,,H,4 heures 40 minutes,33%,2015-05-21,[{'media': 'TV'}],FR2
+all,Homme,6.521388888888889,,H,6 heures 31 minutes,47%,2015-05-21,[{'media': 'TV'}],FR2
+all,Silence,0.6025,,H,36 minutes,4%,2015-05-22,[{'media': 'TV'}],FR2
+all,Bruit,0.7394444444444445,,H,44 minutes,5%,2015-05-22,[{'media': 'TV'}],FR2
+all,Musique,1.943888888888889,,H,1 heure 56 minutes,14%,2015-05-22,[{'media': 'TV'}],FR2
+all,Femme,5.268888888888889,,H,5 heures 16 minutes,38%,2015-05-22,[{'media': 'TV'}],FR2
+all,Homme,5.4447222222222225,,H,5 heures 26 minutes,39%,2015-05-22,[{'media': 'TV'}],FR2
+all,Bruit,0.48777777777777775,,H,29 minutes,3%,2015-05-23,[{'media': 'TV'}],FR2
+all,Silence,0.51,,H,30 minutes,4%,2015-05-23,[{'media': 'TV'}],FR2
+all,Musique,2.9477777777777776,,H,2 heures 56 minutes,21%,2015-05-23,[{'media': 'TV'}],FR2
+all,Femme,3.116388888888889,,H,3 heures 6 minutes,22%,2015-05-23,[{'media': 'TV'}],FR2
+all,Homme,6.937222222222222,,H,6 heures 56 minutes,50%,2015-05-23,[{'media': 'TV'}],FR2
+all,Silence,0.8561111111111112,,H,51 minutes,6%,2015-05-24,[{'media': 'TV'}],FR2
+all,Bruit,1.6086111111111112,,H,1 heure 36 minutes,11%,2015-05-24,[{'media': 'TV'}],FR2
+all,Femme,1.9258333333333333,,H,1 heure 55 minutes,14%,2015-05-24,[{'media': 'TV'}],FR2
+all,Musique,2.41,,H,2 heures 24 minutes,17%,2015-05-24,[{'media': 'TV'}],FR2
+all,Homme,7.198888888888889,,H,7 heures 11 minutes,51%,2015-05-24,[{'media': 'TV'}],FR2
+all,Silence,0.8261111111111111,,H,49 minutes,6%,2015-05-25,[{'media': 'TV'}],FR2
+all,Bruit,1.3694444444444445,,H,1 heure 22 minutes,10%,2015-05-25,[{'media': 'TV'}],FR2
+all,Musique,2.0947222222222224,,H,2 heures 5 minutes,15%,2015-05-25,[{'media': 'TV'}],FR2
+all,Femme,3.4483333333333333,,H,3 heures 26 minutes,25%,2015-05-25,[{'media': 'TV'}],FR2
+all,Homme,6.260833333333333,,H,6 heures 15 minutes,45%,2015-05-25,[{'media': 'TV'}],FR2
+all,Silence,0.7452777777777778,,H,44 minutes,5%,2015-05-26,[{'media': 'TV'}],FR2
+all,Bruit,1.063611111111111,,H,1 heure 3 minutes,8%,2015-05-26,[{'media': 'TV'}],FR2
+all,Musique,1.7694444444444444,,H,1 heure 46 minutes,13%,2015-05-26,[{'media': 'TV'}],FR2
+all,Femme,4.756666666666667,,H,4 heures 45 minutes,34%,2015-05-26,[{'media': 'TV'}],FR2
+all,Homme,5.664722222222222,,H,5 heures 39 minutes,40%,2015-05-26,[{'media': 'TV'}],FR2
+all,Silence,0.7947222222222222,,H,47 minutes,6%,2015-05-27,[{'media': 'TV'}],FR2
+all,Bruit,0.8225,,H,49 minutes,6%,2015-05-27,[{'media': 'TV'}],FR2
+all,Musique,1.6263888888888889,,H,1 heure 37 minutes,12%,2015-05-27,[{'media': 'TV'}],FR2
+all,Femme,4.176111111111111,,H,4 heures 10 minutes,30%,2015-05-27,[{'media': 'TV'}],FR2
+all,Homme,6.579444444444444,,H,6 heures 34 minutes,47%,2015-05-27,[{'media': 'TV'}],FR2
+all,Silence,0.9163888888888889,,H,54 minutes,7%,2015-05-28,[{'media': 'TV'}],FR2
+all,Bruit,0.9955555555555555,,H,59 minutes,7%,2015-05-28,[{'media': 'TV'}],FR2
+all,Musique,1.5161111111111112,,H,1 heure 30 minutes,11%,2015-05-28,[{'media': 'TV'}],FR2
+all,Femme,2.658888888888889,,H,2 heures 39 minutes,19%,2015-05-28,[{'media': 'TV'}],FR2
+all,Homme,7.9125,,H,7 heures 54 minutes,57%,2015-05-28,[{'media': 'TV'}],FR2
+all,Silence,0.8497222222222223,,H,50 minutes,6%,2015-05-29,[{'media': 'TV'}],FR2
+all,Musique,1.3836111111111111,,H,1 heure 23 minutes,10%,2015-05-29,[{'media': 'TV'}],FR2
+all,Bruit,2.0477777777777777,,H,2 heures 2 minutes,15%,2015-05-29,[{'media': 'TV'}],FR2
+all,Femme,3.651666666666667,,H,3 heures 39 minutes,26%,2015-05-29,[{'media': 'TV'}],FR2
+all,Homme,6.066388888888889,,H,6 heures 3 minutes,43%,2015-05-29,[{'media': 'TV'}],FR2
+all,Silence,0.5119444444444444,,H,30 minutes,4%,2015-05-30,[{'media': 'TV'}],FR2
+all,Musique,1.398611111111111,,H,1 heure 23 minutes,10%,2015-05-30,[{'media': 'TV'}],FR2
+all,Femme,2.0797222222222222,,H,2 heures 4 minutes,15%,2015-05-30,[{'media': 'TV'}],FR2
+all,Bruit,2.15,,H,2 heures 9 minutes,15%,2015-05-30,[{'media': 'TV'}],FR2
+all,Homme,7.858888888888889,,H,7 heures 51 minutes,56%,2015-05-30,[{'media': 'TV'}],FR2
+all,Silence,0.8325,,H,49 minutes,6%,2015-05-31,[{'media': 'TV'}],FR2
+all,Musique,1.8966666666666667,,H,1 heure 53 minutes,14%,2015-05-31,[{'media': 'TV'}],FR2
+all,Femme,1.9430555555555555,,H,1 heure 56 minutes,14%,2015-05-31,[{'media': 'TV'}],FR2
+all,Bruit,2.1725,,H,2 heures 10 minutes,16%,2015-05-31,[{'media': 'TV'}],FR2
+all,Homme,7.154722222222222,,H,7 heures 9 minutes,51%,2015-05-31,[{'media': 'TV'}],FR2
+all,Silence,0.5336111111111111,,H,32 minutes,4%,2015-05-01,[{'media': 'TV'}],FR3
+all,Bruit,0.9802777777777778,,H,58 minutes,7%,2015-05-01,[{'media': 'TV'}],FR3
+all,Musique,2.0930555555555554,,H,2 heures 5 minutes,15%,2015-05-01,[{'media': 'TV'}],FR3
+all,Femme,3.8525,,H,3 heures 51 minutes,28%,2015-05-01,[{'media': 'TV'}],FR3
+all,Homme,6.540277777777778,,H,6 heures 32 minutes,47%,2015-05-01,[{'media': 'TV'}],FR3
+all,Silence,0.6147222222222222,,H,36 minutes,4%,2015-05-02,[{'media': 'TV'}],FR3
+all,Bruit,0.7788888888888889,,H,46 minutes,6%,2015-05-02,[{'media': 'TV'}],FR3
+all,Musique,2.516388888888889,,H,2 heures 30 minutes,18%,2015-05-02,[{'media': 'TV'}],FR3
+all,Femme,3.6280555555555556,,H,3 heures 37 minutes,26%,2015-05-02,[{'media': 'TV'}],FR3
+all,Homme,6.461388888888889,,H,6 heures 27 minutes,46%,2015-05-02,[{'media': 'TV'}],FR3
+all,Silence,0.84,,H,50 minutes,6%,2015-05-03,[{'media': 'TV'}],FR3
+all,Bruit,1.298888888888889,,H,1 heure 17 minutes,9%,2015-05-03,[{'media': 'TV'}],FR3
+all,Musique,2.8225,,H,2 heures 49 minutes,20%,2015-05-03,[{'media': 'TV'}],FR3
+all,Femme,3.203333333333333,,H,3 heures 12 minutes,23%,2015-05-03,[{'media': 'TV'}],FR3
+all,Homme,5.834722222222222,,H,5 heures 50 minutes,42%,2015-05-03,[{'media': 'TV'}],FR3
+all,Bruit,0.6266666666666667,,H,37 minutes,4%,2015-05-04,[{'media': 'TV'}],FR3
+all,Silence,0.6802777777777778,,H,40 minutes,5%,2015-05-04,[{'media': 'TV'}],FR3
+all,Musique,1.9033333333333333,,H,1 heure 54 minutes,14%,2015-05-04,[{'media': 'TV'}],FR3
+all,Femme,3.705,,H,3 heures 42 minutes,26%,2015-05-04,[{'media': 'TV'}],FR3
+all,Homme,7.0841666666666665,,H,7 heures 5 minutes,51%,2015-05-04,[{'media': 'TV'}],FR3
+all,Silence,0.6827777777777778,,H,40 minutes,5%,2015-05-05,[{'media': 'TV'}],FR3
+all,Bruit,0.7372222222222222,,H,44 minutes,5%,2015-05-05,[{'media': 'TV'}],FR3
+all,Musique,1.7575,,H,1 heure 45 minutes,13%,2015-05-05,[{'media': 'TV'}],FR3
+all,Femme,3.5372222222222223,,H,3 heures 32 minutes,25%,2015-05-05,[{'media': 'TV'}],FR3
+all,Homme,7.2844444444444445,,H,7 heures 17 minutes,52%,2015-05-05,[{'media': 'TV'}],FR3
+all,Bruit,0.49805555555555553,,H,29 minutes,4%,2015-05-06,[{'media': 'TV'}],FR3
+all,Silence,0.5038888888888889,,H,30 minutes,4%,2015-05-06,[{'media': 'TV'}],FR3
+all,Musique,1.6125,,H,1 heure 36 minutes,12%,2015-05-06,[{'media': 'TV'}],FR3
+all,Femme,3.5880555555555556,,H,3 heures 35 minutes,26%,2015-05-06,[{'media': 'TV'}],FR3
+all,Homme,7.796944444444445,,H,7 heures 47 minutes,56%,2015-05-06,[{'media': 'TV'}],FR3
+all,Bruit,0.67,,H,40 minutes,5%,2015-05-07,[{'media': 'TV'}],FR3
+all,Silence,0.7905555555555556,,H,47 minutes,6%,2015-05-07,[{'media': 'TV'}],FR3
+all,Musique,2.3133333333333335,,H,2 heures 18 minutes,17%,2015-05-07,[{'media': 'TV'}],FR3
+all,Femme,3.1119444444444446,,H,3 heures 6 minutes,22%,2015-05-07,[{'media': 'TV'}],FR3
+all,Homme,7.113333333333333,,H,7 heures 6 minutes,51%,2015-05-07,[{'media': 'TV'}],FR3
+all,Silence,0.5333333333333333,,H,32 minutes,4%,2015-05-08,[{'media': 'TV'}],FR3
+all,Bruit,0.8683333333333333,,H,52 minutes,6%,2015-05-08,[{'media': 'TV'}],FR3
+all,Musique,2.2555555555555555,,H,2 heures 15 minutes,16%,2015-05-08,[{'media': 'TV'}],FR3
+all,Femme,3.0941666666666667,,H,3 heures 5 minutes,22%,2015-05-08,[{'media': 'TV'}],FR3
+all,Homme,7.248055555555555,,H,7 heures 14 minutes,52%,2015-05-08,[{'media': 'TV'}],FR3
+all,Silence,0.6111111111111112,,H,36 minutes,4%,2015-05-09,[{'media': 'TV'}],FR3
+all,Bruit,0.9788888888888889,,H,58 minutes,7%,2015-05-09,[{'media': 'TV'}],FR3
+all,Musique,2.6080555555555556,,H,2 heures 36 minutes,19%,2015-05-09,[{'media': 'TV'}],FR3
+all,Femme,3.484722222222222,,H,3 heures 29 minutes,25%,2015-05-09,[{'media': 'TV'}],FR3
+all,Homme,6.316666666666666,,H,6 heures 19 minutes,45%,2015-05-09,[{'media': 'TV'}],FR3
+all,Silence,0.7627777777777778,,H,45 minutes,5%,2015-05-10,[{'media': 'TV'}],FR3
+all,Bruit,1.3080555555555555,,H,1 heure 18 minutes,9%,2015-05-10,[{'media': 'TV'}],FR3
+all,Femme,2.6133333333333333,,H,2 heures 36 minutes,19%,2015-05-10,[{'media': 'TV'}],FR3
+all,Musique,2.6966666666666668,,H,2 heures 41 minutes,19%,2015-05-10,[{'media': 'TV'}],FR3
+all,Homme,6.618611111111111,,H,6 heures 37 minutes,47%,2015-05-10,[{'media': 'TV'}],FR3
+all,Bruit,0.54,,H,32 minutes,4%,2015-05-11,[{'media': 'TV'}],FR3
+all,Silence,0.5861111111111111,,H,35 minutes,4%,2015-05-11,[{'media': 'TV'}],FR3
+all,Musique,2.0991666666666666,,H,2 heures 5 minutes,15%,2015-05-11,[{'media': 'TV'}],FR3
+all,Femme,3.21,,H,3 heures 12 minutes,23%,2015-05-11,[{'media': 'TV'}],FR3
+all,Homme,7.564166666666667,,H,7 heures 33 minutes,54%,2015-05-11,[{'media': 'TV'}],FR3
+all,Bruit,0.5983333333333334,,H,35 minutes,4%,2015-05-12,[{'media': 'TV'}],FR3
+all,Silence,0.6536111111111111,,H,39 minutes,5%,2015-05-12,[{'media': 'TV'}],FR3
+all,Musique,1.566111111111111,,H,1 heure 33 minutes,11%,2015-05-12,[{'media': 'TV'}],FR3
+all,Femme,3.2644444444444445,,H,3 heures 15 minutes,23%,2015-05-12,[{'media': 'TV'}],FR3
+all,Homme,7.916388888888889,,H,7 heures 54 minutes,57%,2015-05-12,[{'media': 'TV'}],FR3
+all,Bruit,0.49027777777777776,,H,29 minutes,4%,2015-05-13,[{'media': 'TV'}],FR3
+all,Silence,0.5269444444444444,,H,31 minutes,4%,2015-05-13,[{'media': 'TV'}],FR3
+all,Musique,1.7269444444444444,,H,1 heure 43 minutes,12%,2015-05-13,[{'media': 'TV'}],FR3
+all,Femme,4.329166666666667,,H,4 heures 19 minutes,31%,2015-05-13,[{'media': 'TV'}],FR3
+all,Homme,6.926111111111111,,H,6 heures 55 minutes,49%,2015-05-13,[{'media': 'TV'}],FR3
+all,Silence,0.7086111111111111,,H,42 minutes,5%,2015-05-14,[{'media': 'TV'}],FR3
+all,Bruit,1.11,,H,1 heure 6 minutes,8%,2015-05-14,[{'media': 'TV'}],FR3
+all,Musique,2.1286111111111112,,H,2 heures 7 minutes,15%,2015-05-14,[{'media': 'TV'}],FR3
+all,Femme,2.921666666666667,,H,2 heures 55 minutes,21%,2015-05-14,[{'media': 'TV'}],FR3
+all,Homme,7.130277777777778,,H,7 heures 7 minutes,51%,2015-05-14,[{'media': 'TV'}],FR3
+all,Silence,0.6286111111111111,,H,37 minutes,4%,2015-05-15,[{'media': 'TV'}],FR3
+all,Bruit,0.7161111111111111,,H,42 minutes,5%,2015-05-15,[{'media': 'TV'}],FR3
+all,Musique,2.0480555555555555,,H,2 heures 2 minutes,15%,2015-05-15,[{'media': 'TV'}],FR3
+all,Femme,3.7725,,H,3 heures 46 minutes,27%,2015-05-15,[{'media': 'TV'}],FR3
+all,Homme,6.833888888888889,,H,6 heures 50 minutes,49%,2015-05-15,[{'media': 'TV'}],FR3
+all,Silence,0.5766666666666667,,H,34 minutes,4%,2015-05-16,[{'media': 'TV'}],FR3
+all,Bruit,1.0780555555555555,,H,1 heure 4 minutes,8%,2015-05-16,[{'media': 'TV'}],FR3
+all,Musique,2.6038888888888887,,H,2 heures 36 minutes,19%,2015-05-16,[{'media': 'TV'}],FR3
+all,Femme,3.651111111111111,,H,3 heures 39 minutes,26%,2015-05-16,[{'media': 'TV'}],FR3
+all,Homme,6.089722222222222,,H,6 heures 5 minutes,43%,2015-05-16,[{'media': 'TV'}],FR3
+all,Silence,0.8125,,H,48 minutes,6%,2015-05-17,[{'media': 'TV'}],FR3
+all,Bruit,1.2158333333333333,,H,1 heure 12 minutes,9%,2015-05-17,[{'media': 'TV'}],FR3
+all,Musique,2.7422222222222223,,H,2 heures 44 minutes,20%,2015-05-17,[{'media': 'TV'}],FR3
+all,Femme,3.2444444444444445,,H,3 heures 14 minutes,23%,2015-05-17,[{'media': 'TV'}],FR3
+all,Homme,5.984166666666667,,H,5 heures 59 minutes,43%,2015-05-17,[{'media': 'TV'}],FR3
+all,Silence,0.53,,H,31 minutes,4%,2015-05-18,[{'media': 'TV'}],FR3
+all,Bruit,0.5386111111111112,,H,32 minutes,4%,2015-05-18,[{'media': 'TV'}],FR3
+all,Musique,2.006666666666667,,H,2 heures 0 minute,14%,2015-05-18,[{'media': 'TV'}],FR3
+all,Femme,3.1708333333333334,,H,3 heures 10 minutes,23%,2015-05-18,[{'media': 'TV'}],FR3
+all,Homme,7.753333333333333,,H,7 heures 45 minutes,55%,2015-05-18,[{'media': 'TV'}],FR3
+all,Silence,0.6008333333333333,,H,36 minutes,4%,2015-05-19,[{'media': 'TV'}],FR3
+all,Bruit,0.6761111111111111,,H,40 minutes,5%,2015-05-19,[{'media': 'TV'}],FR3
+all,Musique,1.5425,,H,1 heure 32 minutes,11%,2015-05-19,[{'media': 'TV'}],FR3
+all,Femme,3.0433333333333334,,H,3 heures 2 minutes,22%,2015-05-19,[{'media': 'TV'}],FR3
+all,Homme,8.136666666666667,,H,8 heures 8 minutes,58%,2015-05-19,[{'media': 'TV'}],FR3
+all,Silence,0.5111111111111111,,H,30 minutes,4%,2015-05-20,[{'media': 'TV'}],FR3
+all,Bruit,0.5227777777777778,,H,31 minutes,4%,2015-05-20,[{'media': 'TV'}],FR3
+all,Musique,1.625,,H,1 heure 37 minutes,12%,2015-05-20,[{'media': 'TV'}],FR3
+all,Femme,3.9133333333333336,,H,3 heures 54 minutes,28%,2015-05-20,[{'media': 'TV'}],FR3
+all,Homme,7.427222222222222,,H,7 heures 25 minutes,53%,2015-05-20,[{'media': 'TV'}],FR3
+all,Silence,0.6947222222222222,,H,41 minutes,5%,2015-05-21,[{'media': 'TV'}],FR3
+all,Bruit,0.8463888888888889,,H,50 minutes,6%,2015-05-21,[{'media': 'TV'}],FR3
+all,Musique,1.4283333333333332,,H,1 heure 25 minutes,10%,2015-05-21,[{'media': 'TV'}],FR3
+all,Femme,3.5269444444444447,,H,3 heures 31 minutes,25%,2015-05-21,[{'media': 'TV'}],FR3
+all,Homme,7.503055555555555,,H,7 heures 30 minutes,54%,2015-05-21,[{'media': 'TV'}],FR3
+all,Silence,0.5536111111111112,,H,33 minutes,4%,2015-05-22,[{'media': 'TV'}],FR3
+all,Bruit,0.59,,H,35 minutes,4%,2015-05-22,[{'media': 'TV'}],FR3
+all,Musique,1.5425,,H,1 heure 32 minutes,11%,2015-05-22,[{'media': 'TV'}],FR3
+all,Femme,3.311111111111111,,H,3 heures 18 minutes,24%,2015-05-22,[{'media': 'TV'}],FR3
+all,Homme,8.0025,,H,8 heures 0 minute,57%,2015-05-22,[{'media': 'TV'}],FR3
+all,Silence,0.5283333333333333,,H,31 minutes,4%,2015-05-23,[{'media': 'TV'}],FR3
+all,Bruit,0.9775,,H,58 minutes,7%,2015-05-23,[{'media': 'TV'}],FR3
+all,Musique,2.4972222222222222,,H,2 heures 29 minutes,18%,2015-05-23,[{'media': 'TV'}],FR3
+all,Femme,3.3325,,H,3 heures 19 minutes,24%,2015-05-23,[{'media': 'TV'}],FR3
+all,Homme,6.663611111111111,,H,6 heures 39 minutes,48%,2015-05-23,[{'media': 'TV'}],FR3
+all,Silence,0.7477777777777778,,H,44 minutes,5%,2015-05-24,[{'media': 'TV'}],FR3
+all,Bruit,1.2333333333333334,,H,1 heure 14 minutes,9%,2015-05-24,[{'media': 'TV'}],FR3
+all,Musique,2.795,,H,2 heures 47 minutes,20%,2015-05-24,[{'media': 'TV'}],FR3
+all,Femme,3.0547222222222223,,H,3 heures 3 minutes,22%,2015-05-24,[{'media': 'TV'}],FR3
+all,Homme,6.168611111111111,,H,6 heures 10 minutes,44%,2015-05-24,[{'media': 'TV'}],FR3
+all,Bruit,0.5483333333333333,,H,32 minutes,4%,2015-05-25,[{'media': 'TV'}],FR3
+all,Silence,0.6647222222222222,,H,39 minutes,5%,2015-05-25,[{'media': 'TV'}],FR3
+all,Musique,1.7336111111111112,,H,1 heure 44 minutes,12%,2015-05-25,[{'media': 'TV'}],FR3
+all,Femme,4.285,,H,4 heures 17 minutes,31%,2015-05-25,[{'media': 'TV'}],FR3
+all,Homme,6.7675,,H,6 heures 46 minutes,48%,2015-05-25,[{'media': 'TV'}],FR3
+all,Bruit,0.5516666666666666,,H,33 minutes,4%,2015-05-26,[{'media': 'TV'}],FR3
+all,Silence,0.7033333333333334,,H,42 minutes,5%,2015-05-26,[{'media': 'TV'}],FR3
+all,Musique,1.3769444444444445,,H,1 heure 22 minutes,10%,2015-05-26,[{'media': 'TV'}],FR3
+all,Femme,3.915,,H,3 heures 54 minutes,28%,2015-05-26,[{'media': 'TV'}],FR3
+all,Homme,7.452222222222222,,H,7 heures 27 minutes,53%,2015-05-26,[{'media': 'TV'}],FR3
+all,Silence,0.6661111111111111,,H,39 minutes,5%,2015-05-27,[{'media': 'TV'}],FR3
+all,Bruit,0.7813888888888889,,H,46 minutes,6%,2015-05-27,[{'media': 'TV'}],FR3
+all,Musique,1.7972222222222223,,H,1 heure 47 minutes,13%,2015-05-27,[{'media': 'TV'}],FR3
+all,Femme,3.2441666666666666,,H,3 heures 14 minutes,23%,2015-05-27,[{'media': 'TV'}],FR3
+all,Homme,7.510277777777778,,H,7 heures 30 minutes,54%,2015-05-27,[{'media': 'TV'}],FR3
+all,Silence,0.7588888888888888,,H,45 minutes,5%,2015-05-28,[{'media': 'TV'}],FR3
+all,Bruit,1.138611111111111,,H,1 heure 8 minutes,8%,2015-05-28,[{'media': 'TV'}],FR3
+all,Musique,1.498888888888889,,H,1 heure 29 minutes,11%,2015-05-28,[{'media': 'TV'}],FR3
+all,Femme,3.5375,,H,3 heures 32 minutes,25%,2015-05-28,[{'media': 'TV'}],FR3
+all,Homme,7.065555555555555,,H,7 heures 3 minutes,50%,2015-05-28,[{'media': 'TV'}],FR3
+all,Silence,0.6069444444444444,,H,36 minutes,4%,2015-05-29,[{'media': 'TV'}],FR3
+all,Bruit,1.143888888888889,,H,1 heure 8 minutes,8%,2015-05-29,[{'media': 'TV'}],FR3
+all,Musique,1.7702777777777778,,H,1 heure 46 minutes,13%,2015-05-29,[{'media': 'TV'}],FR3
+all,Femme,3.0411111111111113,,H,3 heures 2 minutes,22%,2015-05-29,[{'media': 'TV'}],FR3
+all,Homme,7.4375,,H,7 heures 26 minutes,53%,2015-05-29,[{'media': 'TV'}],FR3
+all,Silence,0.5605555555555556,,H,33 minutes,4%,2015-05-30,[{'media': 'TV'}],FR3
+all,Bruit,0.8813888888888889,,H,52 minutes,6%,2015-05-30,[{'media': 'TV'}],FR3
+all,Musique,2.7327777777777778,,H,2 heures 43 minutes,20%,2015-05-30,[{'media': 'TV'}],FR3
+all,Femme,3.5108333333333333,,H,3 heures 30 minutes,25%,2015-05-30,[{'media': 'TV'}],FR3
+all,Homme,6.313888888888889,,H,6 heures 18 minutes,45%,2015-05-30,[{'media': 'TV'}],FR3
+all,Silence,0.8472222222222222,,H,50 minutes,6%,2015-05-31,[{'media': 'TV'}],FR3
+all,Bruit,1.1925,,H,1 heure 11 minutes,9%,2015-05-31,[{'media': 'TV'}],FR3
+all,Musique,2.713611111111111,,H,2 heures 42 minutes,19%,2015-05-31,[{'media': 'TV'}],FR3
+all,Femme,3.143611111111111,,H,3 heures 8 minutes,22%,2015-05-31,[{'media': 'TV'}],FR3
+all,Homme,6.102777777777778,,H,6 heures 6 minutes,44%,2015-05-31,[{'media': 'TV'}],FR3
+all,Silence,0.8019444444444445,,H,48 minutes,6%,2015-05-01,[{'media': 'TV'}],M6_
+all,Bruit,0.86,,H,51 minutes,6%,2015-05-01,[{'media': 'TV'}],M6_
+all,Musique,3.156388888888889,,H,3 heures 9 minutes,23%,2015-05-01,[{'media': 'TV'}],M6_
+all,Femme,3.6405555555555558,,H,3 heures 38 minutes,26%,2015-05-01,[{'media': 'TV'}],M6_
+all,Homme,5.540277777777778,,H,5 heures 32 minutes,40%,2015-05-01,[{'media': 'TV'}],M6_
+all,Silence,0.29527777777777775,,H,17 minutes,2%,2015-05-02,[{'media': 'TV'}],M6_
+all,Bruit,0.42583333333333334,,H,25 minutes,3%,2015-05-02,[{'media': 'TV'}],M6_
+all,Musique,2.9544444444444444,,H,2 heures 57 minutes,21%,2015-05-02,[{'media': 'TV'}],M6_
+all,Femme,3.979722222222222,,H,3 heures 58 minutes,28%,2015-05-02,[{'media': 'TV'}],M6_
+all,Homme,6.344166666666666,,H,6 heures 20 minutes,45%,2015-05-02,[{'media': 'TV'}],M6_
+all,Silence,0.26805555555555555,,H,16 minutes,2%,2015-05-03,[{'media': 'TV'}],M6_
+all,Bruit,0.2763888888888889,,H,16 minutes,2%,2015-05-03,[{'media': 'TV'}],M6_
+all,Musique,2.194722222222222,,H,2 heures 11 minutes,16%,2015-05-03,[{'media': 'TV'}],M6_
+all,Femme,3.5480555555555555,,H,3 heures 32 minutes,25%,2015-05-03,[{'media': 'TV'}],M6_
+all,Homme,7.7122222222222225,,H,7 heures 42 minutes,55%,2015-05-03,[{'media': 'TV'}],M6_
+all,Bruit,0.5488888888888889,,H,32 minutes,4%,2015-05-04,[{'media': 'TV'}],M6_
+all,Silence,0.5783333333333334,,H,34 minutes,4%,2015-05-04,[{'media': 'TV'}],M6_
+all,Musique,3.6919444444444443,,H,3 heures 41 minutes,26%,2015-05-04,[{'media': 'TV'}],M6_
+all,Femme,3.839166666666667,,H,3 heures 50 minutes,27%,2015-05-04,[{'media': 'TV'}],M6_
+all,Homme,5.340833333333333,,H,5 heures 20 minutes,38%,2015-05-04,[{'media': 'TV'}],M6_
+all,Bruit,0.5586111111111111,,H,33 minutes,4%,2015-05-05,[{'media': 'TV'}],M6_
+all,Silence,0.5961111111111111,,H,35 minutes,4%,2015-05-05,[{'media': 'TV'}],M6_
+all,Musique,3.306388888888889,,H,3 heures 18 minutes,24%,2015-05-05,[{'media': 'TV'}],M6_
+all,Homme,4.4575,,H,4 heures 27 minutes,32%,2015-05-05,[{'media': 'TV'}],M6_
+all,Femme,5.081111111111111,,H,5 heures 4 minutes,36%,2015-05-05,[{'media': 'TV'}],M6_
+all,Bruit,0.42,,H,25 minutes,3%,2015-05-06,[{'media': 'TV'}],M6_
+all,Silence,0.5958333333333333,,H,35 minutes,4%,2015-05-06,[{'media': 'TV'}],M6_
+all,Musique,3.1444444444444444,,H,3 heures 8 minutes,22%,2015-05-06,[{'media': 'TV'}],M6_
+all,Femme,4.440833333333333,,H,4 heures 26 minutes,32%,2015-05-06,[{'media': 'TV'}],M6_
+all,Homme,5.398055555555556,,H,5 heures 23 minutes,39%,2015-05-06,[{'media': 'TV'}],M6_
+all,Bruit,0.5158333333333334,,H,30 minutes,4%,2015-05-07,[{'media': 'TV'}],M6_
+all,Silence,0.8341666666666666,,H,50 minutes,6%,2015-05-07,[{'media': 'TV'}],M6_
+all,Musique,3.9125,,H,3 heures 54 minutes,28%,2015-05-07,[{'media': 'TV'}],M6_
+all,Femme,4.282777777777778,,H,4 heures 16 minutes,31%,2015-05-07,[{'media': 'TV'}],M6_
+all,Homme,4.454166666666667,,H,4 heures 27 minutes,32%,2015-05-07,[{'media': 'TV'}],M6_
+all,Silence,0.6575,,H,39 minutes,5%,2015-05-08,[{'media': 'TV'}],M6_
+all,Bruit,1.073888888888889,,H,1 heure 4 minutes,8%,2015-05-08,[{'media': 'TV'}],M6_
+all,Musique,3.4186111111111113,,H,3 heures 25 minutes,24%,2015-05-08,[{'media': 'TV'}],M6_
+all,Femme,4.078888888888889,,H,4 heures 4 minutes,29%,2015-05-08,[{'media': 'TV'}],M6_
+all,Homme,4.770277777777777,,H,4 heures 46 minutes,34%,2015-05-08,[{'media': 'TV'}],M6_
+all,Silence,0.3527777777777778,,H,21 minutes,3%,2015-05-09,[{'media': 'TV'}],M6_
+all,Bruit,0.4175,,H,25 minutes,3%,2015-05-09,[{'media': 'TV'}],M6_
+all,Musique,2.721111111111111,,H,2 heures 43 minutes,19%,2015-05-09,[{'media': 'TV'}],M6_
+all,Femme,3.778888888888889,,H,3 heures 46 minutes,27%,2015-05-09,[{'media': 'TV'}],M6_
+all,Homme,6.728888888888889,,H,6 heures 43 minutes,48%,2015-05-09,[{'media': 'TV'}],M6_
+all,Bruit,0.2427777777777778,,H,14 minutes,2%,2015-05-10,[{'media': 'TV'}],M6_
+all,Silence,0.30666666666666664,,H,18 minutes,2%,2015-05-10,[{'media': 'TV'}],M6_
+all,Musique,1.9702777777777778,,H,1 heure 58 minutes,14%,2015-05-10,[{'media': 'TV'}],M6_
+all,Femme,3.1727777777777777,,H,3 heures 10 minutes,23%,2015-05-10,[{'media': 'TV'}],M6_
+all,Homme,8.306944444444444,,H,8 heures 18 minutes,59%,2015-05-10,[{'media': 'TV'}],M6_
+all,Bruit,0.9283333333333333,,H,55 minutes,7%,2015-05-11,[{'media': 'TV'}],M6_
+all,Silence,0.9611111111111111,,H,57 minutes,7%,2015-05-11,[{'media': 'TV'}],M6_
+all,Femme,3.292777777777778,,H,3 heures 17 minutes,24%,2015-05-11,[{'media': 'TV'}],M6_
+all,Musique,3.3625,,H,3 heures 21 minutes,24%,2015-05-11,[{'media': 'TV'}],M6_
+all,Homme,5.454722222222222,,H,5 heures 27 minutes,39%,2015-05-11,[{'media': 'TV'}],M6_
+all,Bruit,0.45,,H,27 minutes,3%,2015-05-12,[{'media': 'TV'}],M6_
+all,Silence,0.6522222222222223,,H,39 minutes,5%,2015-05-12,[{'media': 'TV'}],M6_
+all,Musique,2.973888888888889,,H,2 heures 58 minutes,21%,2015-05-12,[{'media': 'TV'}],M6_
+all,Femme,4.354444444444445,,H,4 heures 21 minutes,31%,2015-05-12,[{'media': 'TV'}],M6_
+all,Homme,5.568611111111111,,H,5 heures 34 minutes,40%,2015-05-12,[{'media': 'TV'}],M6_
+all,Bruit,0.4,,H,24 minutes,3%,2015-05-13,[{'media': 'TV'}],M6_
+all,Silence,0.5988888888888889,,H,35 minutes,4%,2015-05-13,[{'media': 'TV'}],M6_
+all,Musique,3.0391666666666666,,H,3 heures 2 minutes,22%,2015-05-13,[{'media': 'TV'}],M6_
+all,Femme,4.4325,,H,4 heures 25 minutes,32%,2015-05-13,[{'media': 'TV'}],M6_
+all,Homme,5.528611111111111,,H,5 heures 31 minutes,39%,2015-05-13,[{'media': 'TV'}],M6_
+all,Silence,0.7272222222222222,,H,43 minutes,5%,2015-05-14,[{'media': 'TV'}],M6_
+all,Bruit,1.0719444444444444,,H,1 heure 4 minutes,8%,2015-05-14,[{'media': 'TV'}],M6_
+all,Femme,3.5058333333333334,,H,3 heures 30 minutes,25%,2015-05-14,[{'media': 'TV'}],M6_
+all,Homme,4.305555555555555,,H,4 heures 18 minutes,31%,2015-05-14,[{'media': 'TV'}],M6_
+all,Musique,4.388888888888889,,H,4 heures 23 minutes,31%,2015-05-14,[{'media': 'TV'}],M6_
+all,Silence,0.71,,H,42 minutes,5%,2015-05-15,[{'media': 'TV'}],M6_
+all,Bruit,0.945,,H,56 minutes,7%,2015-05-15,[{'media': 'TV'}],M6_
+all,Musique,3.145277777777778,,H,3 heures 8 minutes,22%,2015-05-15,[{'media': 'TV'}],M6_
+all,Femme,3.8980555555555556,,H,3 heures 53 minutes,28%,2015-05-15,[{'media': 'TV'}],M6_
+all,Homme,5.301111111111111,,H,5 heures 18 minutes,38%,2015-05-15,[{'media': 'TV'}],M6_
+all,Silence,0.37,,H,22 minutes,3%,2015-05-16,[{'media': 'TV'}],M6_
+all,Bruit,0.45305555555555554,,H,27 minutes,3%,2015-05-16,[{'media': 'TV'}],M6_
+all,Musique,2.701111111111111,,H,2 heures 42 minutes,19%,2015-05-16,[{'media': 'TV'}],M6_
+all,Femme,3.618333333333333,,H,3 heures 37 minutes,26%,2015-05-16,[{'media': 'TV'}],M6_
+all,Homme,6.856944444444444,,H,6 heures 51 minutes,49%,2015-05-16,[{'media': 'TV'}],M6_
+all,Bruit,0.24916666666666668,,H,14 minutes,2%,2015-05-17,[{'media': 'TV'}],M6_
+all,Silence,0.2625,,H,15 minutes,2%,2015-05-17,[{'media': 'TV'}],M6_
+all,Musique,2.005,,H,2 heures 0 minute,14%,2015-05-17,[{'media': 'TV'}],M6_
+all,Femme,4.219722222222222,,H,4 heures 13 minutes,30%,2015-05-17,[{'media': 'TV'}],M6_
+all,Homme,7.262777777777778,,H,7 heures 15 minutes,52%,2015-05-17,[{'media': 'TV'}],M6_
+all,Bruit,0.7811111111111111,,H,46 minutes,6%,2015-05-18,[{'media': 'TV'}],M6_
+all,Silence,0.8541666666666666,,H,51 minutes,6%,2015-05-18,[{'media': 'TV'}],M6_
+all,Musique,3.464166666666667,,H,3 heures 27 minutes,25%,2015-05-18,[{'media': 'TV'}],M6_
+all,Femme,3.753888888888889,,H,3 heures 45 minutes,27%,2015-05-18,[{'media': 'TV'}],M6_
+all,Homme,5.145833333333333,,H,5 heures 8 minutes,37%,2015-05-18,[{'media': 'TV'}],M6_
+all,Bruit,0.49694444444444447,,H,29 minutes,4%,2015-05-19,[{'media': 'TV'}],M6_
+all,Silence,0.5833333333333334,,H,35 minutes,4%,2015-05-19,[{'media': 'TV'}],M6_
+all,Musique,3.3472222222222223,,H,3 heures 20 minutes,24%,2015-05-19,[{'media': 'TV'}],M6_
+all,Femme,4.101666666666667,,H,4 heures 6 minutes,29%,2015-05-19,[{'media': 'TV'}],M6_
+all,Homme,5.470555555555555,,H,5 heures 28 minutes,39%,2015-05-19,[{'media': 'TV'}],M6_
+all,Silence,0.5455555555555556,,H,32 minutes,4%,2015-05-20,[{'media': 'TV'}],M6_
+all,Bruit,0.7394444444444445,,H,44 minutes,5%,2015-05-20,[{'media': 'TV'}],M6_
+all,Musique,3.1844444444444444,,H,3 heures 11 minutes,23%,2015-05-20,[{'media': 'TV'}],M6_
+all,Femme,4.299444444444444,,H,4 heures 17 minutes,31%,2015-05-20,[{'media': 'TV'}],M6_
+all,Homme,5.230555555555555,,H,5 heures 13 minutes,37%,2015-05-20,[{'media': 'TV'}],M6_
+all,Bruit,0.49694444444444447,,H,29 minutes,4%,2015-05-21,[{'media': 'TV'}],M6_
+all,Silence,0.69,,H,41 minutes,5%,2015-05-21,[{'media': 'TV'}],M6_
+all,Musique,3.3247222222222224,,H,3 heures 19 minutes,24%,2015-05-21,[{'media': 'TV'}],M6_
+all,Femme,4.441388888888889,,H,4 heures 26 minutes,32%,2015-05-21,[{'media': 'TV'}],M6_
+all,Homme,5.046388888888889,,H,5 heures 2 minutes,36%,2015-05-21,[{'media': 'TV'}],M6_
+all,Bruit,0.5352777777777777,,H,32 minutes,4%,2015-05-22,[{'media': 'TV'}],M6_
+all,Silence,0.7711111111111111,,H,46 minutes,6%,2015-05-22,[{'media': 'TV'}],M6_
+all,Musique,3.1794444444444445,,H,3 heures 10 minutes,23%,2015-05-22,[{'media': 'TV'}],M6_
+all,Femme,4.687222222222222,,H,4 heures 41 minutes,33%,2015-05-22,[{'media': 'TV'}],M6_
+all,Homme,4.8261111111111115,,H,4 heures 49 minutes,34%,2015-05-22,[{'media': 'TV'}],M6_
+all,Silence,0.4280555555555556,,H,25 minutes,3%,2015-05-23,[{'media': 'TV'}],M6_
+all,Bruit,0.4525,,H,27 minutes,3%,2015-05-23,[{'media': 'TV'}],M6_
+all,Musique,2.9166666666666665,,H,2 heures 55 minutes,21%,2015-05-23,[{'media': 'TV'}],M6_
+all,Femme,3.4994444444444444,,H,3 heures 29 minutes,25%,2015-05-23,[{'media': 'TV'}],M6_
+all,Homme,6.7025,,H,6 heures 42 minutes,48%,2015-05-23,[{'media': 'TV'}],M6_
+all,Silence,0.295,,H,17 minutes,2%,2015-05-24,[{'media': 'TV'}],M6_
+all,Bruit,0.3113888888888889,,H,18 minutes,2%,2015-05-24,[{'media': 'TV'}],M6_
+all,Musique,2.5147222222222223,,H,2 heures 30 minutes,18%,2015-05-24,[{'media': 'TV'}],M6_
+all,Femme,4.496666666666667,,H,4 heures 29 minutes,32%,2015-05-24,[{'media': 'TV'}],M6_
+all,Homme,6.381666666666667,,H,6 heures 22 minutes,46%,2015-05-24,[{'media': 'TV'}],M6_
+all,Bruit,0.37333333333333335,,H,22 minutes,3%,2015-05-25,[{'media': 'TV'}],M6_
+all,Silence,0.6244444444444445,,H,37 minutes,4%,2015-05-25,[{'media': 'TV'}],M6_
+all,Musique,4.035833333333334,,H,4 heures 2 minutes,29%,2015-05-25,[{'media': 'TV'}],M6_
+all,Femme,4.365833333333334,,H,4 heures 21 minutes,31%,2015-05-25,[{'media': 'TV'}],M6_
+all,Homme,4.6,,H,4 heures 36 minutes,33%,2015-05-25,[{'media': 'TV'}],M6_
+all,Silence,0.5275,,H,31 minutes,4%,2015-05-26,[{'media': 'TV'}],M6_
+all,Bruit,0.6713888888888889,,H,40 minutes,5%,2015-05-26,[{'media': 'TV'}],M6_
+all,Musique,3.2191666666666667,,H,3 heures 13 minutes,23%,2015-05-26,[{'media': 'TV'}],M6_
+all,Femme,4.184722222222222,,H,4 heures 11 minutes,30%,2015-05-26,[{'media': 'TV'}],M6_
+all,Homme,5.396388888888889,,H,5 heures 23 minutes,39%,2015-05-26,[{'media': 'TV'}],M6_
+all,Silence,0.5836111111111111,,H,35 minutes,4%,2015-05-27,[{'media': 'TV'}],M6_
+all,Bruit,0.6025,,H,36 minutes,4%,2015-05-27,[{'media': 'TV'}],M6_
+all,Musique,3.174722222222222,,H,3 heures 10 minutes,23%,2015-05-27,[{'media': 'TV'}],M6_
+all,Femme,4.28,,H,4 heures 16 minutes,31%,2015-05-27,[{'media': 'TV'}],M6_
+all,Homme,5.358888888888889,,H,5 heures 21 minutes,38%,2015-05-27,[{'media': 'TV'}],M6_
+all,Bruit,0.5261111111111111,,H,31 minutes,4%,2015-05-28,[{'media': 'TV'}],M6_
+all,Silence,0.5658333333333333,,H,33 minutes,4%,2015-05-28,[{'media': 'TV'}],M6_
+all,Musique,3.1380555555555554,,H,3 heures 8 minutes,22%,2015-05-28,[{'media': 'TV'}],M6_
+all,Femme,4.373888888888889,,H,4 heures 22 minutes,31%,2015-05-28,[{'media': 'TV'}],M6_
+all,Homme,5.395277777777777,,H,5 heures 23 minutes,39%,2015-05-28,[{'media': 'TV'}],M6_
+all,Silence,0.6338888888888888,,H,38 minutes,5%,2015-05-29,[{'media': 'TV'}],M6_
+all,Bruit,0.6755555555555556,,H,40 minutes,5%,2015-05-29,[{'media': 'TV'}],M6_
+all,Musique,3.564722222222222,,H,3 heures 33 minutes,25%,2015-05-29,[{'media': 'TV'}],M6_
+all,Femme,4.259166666666666,,H,4 heures 15 minutes,30%,2015-05-29,[{'media': 'TV'}],M6_
+all,Homme,4.8661111111111115,,H,4 heures 51 minutes,35%,2015-05-29,[{'media': 'TV'}],M6_
+all,Silence,0.34805555555555556,,H,20 minutes,2%,2015-05-30,[{'media': 'TV'}],M6_
+all,Bruit,0.4775,,H,28 minutes,3%,2015-05-30,[{'media': 'TV'}],M6_
+all,Musique,2.9741666666666666,,H,2 heures 58 minutes,21%,2015-05-30,[{'media': 'TV'}],M6_
+all,Femme,3.629722222222222,,H,3 heures 37 minutes,26%,2015-05-30,[{'media': 'TV'}],M6_
+all,Homme,6.5697222222222225,,H,6 heures 34 minutes,47%,2015-05-30,[{'media': 'TV'}],M6_
+all,Silence,0.31083333333333335,,H,18 minutes,2%,2015-05-31,[{'media': 'TV'}],M6_
+all,Bruit,0.35583333333333333,,H,21 minutes,3%,2015-05-31,[{'media': 'TV'}],M6_
+all,Musique,1.7513888888888889,,H,1 heure 45 minutes,13%,2015-05-31,[{'media': 'TV'}],M6_
+all,Femme,3.5436111111111113,,H,3 heures 32 minutes,25%,2015-05-31,[{'media': 'TV'}],M6_
+all,Homme,8.037222222222223,,H,8 heures 2 minutes,57%,2015-05-31,[{'media': 'TV'}],M6_
+all,Silence,0.26,,H,15 minutes,2%,2015-05-01,[{'media': 'TV'}],TF1
+all,Bruit,1.2944444444444445,,H,1 heure 17 minutes,9%,2015-05-01,[{'media': 'TV'}],TF1
+all,Musique,2.479722222222222,,H,2 heures 28 minutes,18%,2015-05-01,[{'media': 'TV'}],TF1
+all,Femme,3.2172222222222224,,H,3 heures 13 minutes,23%,2015-05-01,[{'media': 'TV'}],TF1
+all,Homme,6.748055555555555,,H,6 heures 44 minutes,48%,2015-05-01,[{'media': 'TV'}],TF1
+all,Silence,0.3047222222222222,,H,18 minutes,2%,2015-05-02,[{'media': 'TV'}],TF1
+all,Bruit,0.7886111111111112,,H,47 minutes,6%,2015-05-02,[{'media': 'TV'}],TF1
+all,Musique,2.3986111111111112,,H,2 heures 23 minutes,17%,2015-05-02,[{'media': 'TV'}],TF1
+all,Femme,3.627222222222222,,H,3 heures 37 minutes,26%,2015-05-02,[{'media': 'TV'}],TF1
+all,Homme,6.880277777777778,,H,6 heures 52 minutes,49%,2015-05-02,[{'media': 'TV'}],TF1
+all,Silence,0.3005555555555556,,H,18 minutes,2%,2015-05-03,[{'media': 'TV'}],TF1
+all,Bruit,1.5141666666666667,,H,1 heure 30 minutes,11%,2015-05-03,[{'media': 'TV'}],TF1
+all,Musique,2.2416666666666667,,H,2 heures 14 minutes,16%,2015-05-03,[{'media': 'TV'}],TF1
+all,Femme,2.8155555555555556,,H,2 heures 48 minutes,20%,2015-05-03,[{'media': 'TV'}],TF1
+all,Homme,7.1275,,H,7 heures 7 minutes,51%,2015-05-03,[{'media': 'TV'}],TF1
+all,Silence,0.37166666666666665,,H,22 minutes,3%,2015-05-04,[{'media': 'TV'}],TF1
+all,Bruit,0.7438888888888889,,H,44 minutes,5%,2015-05-04,[{'media': 'TV'}],TF1
+all,Musique,2.289722222222222,,H,2 heures 17 minutes,16%,2015-05-04,[{'media': 'TV'}],TF1
+all,Femme,4.252222222222223,,H,4 heures 15 minutes,30%,2015-05-04,[{'media': 'TV'}],TF1
+all,Homme,6.341666666666667,,H,6 heures 20 minutes,45%,2015-05-04,[{'media': 'TV'}],TF1
+all,Silence,0.40194444444444444,,H,24 minutes,3%,2015-05-05,[{'media': 'TV'}],TF1
+all,Bruit,0.4411111111111111,,H,26 minutes,3%,2015-05-05,[{'media': 'TV'}],TF1
+all,Musique,2.0744444444444445,,H,2 heures 4 minutes,15%,2015-05-05,[{'media': 'TV'}],TF1
+all,Femme,4.445,,H,4 heures 26 minutes,32%,2015-05-05,[{'media': 'TV'}],TF1
+all,Homme,6.636666666666667,,H,6 heures 38 minutes,47%,2015-05-05,[{'media': 'TV'}],TF1
+all,Silence,0.30916666666666665,,H,18 minutes,2%,2015-05-06,[{'media': 'TV'}],TF1
+all,Bruit,0.7583333333333333,,H,45 minutes,5%,2015-05-06,[{'media': 'TV'}],TF1
+all,Musique,2.2377777777777776,,H,2 heures 14 minutes,16%,2015-05-06,[{'media': 'TV'}],TF1
+all,Femme,4.354166666666667,,H,4 heures 21 minutes,31%,2015-05-06,[{'media': 'TV'}],TF1
+all,Homme,6.34,,H,6 heures 20 minutes,45%,2015-05-06,[{'media': 'TV'}],TF1
+all,Silence,0.34805555555555556,,H,20 minutes,2%,2015-05-07,[{'media': 'TV'}],TF1
+all,Bruit,0.6794444444444444,,H,40 minutes,5%,2015-05-07,[{'media': 'TV'}],TF1
+all,Musique,2.4569444444444444,,H,2 heures 27 minutes,18%,2015-05-07,[{'media': 'TV'}],TF1
+all,Femme,4.083611111111111,,H,4 heures 5 minutes,29%,2015-05-07,[{'media': 'TV'}],TF1
+all,Homme,6.431111111111111,,H,6 heures 25 minutes,46%,2015-05-07,[{'media': 'TV'}],TF1
+all,Silence,0.4061111111111111,,H,24 minutes,3%,2015-05-08,[{'media': 'TV'}],TF1
+all,Bruit,0.8888888888888888,,H,53 minutes,6%,2015-05-08,[{'media': 'TV'}],TF1
+all,Musique,2.3872222222222224,,H,2 heures 23 minutes,17%,2015-05-08,[{'media': 'TV'}],TF1
+all,Femme,3.238611111111111,,H,3 heures 14 minutes,23%,2015-05-08,[{'media': 'TV'}],TF1
+all,Homme,7.078611111111111,,H,7 heures 4 minutes,51%,2015-05-08,[{'media': 'TV'}],TF1
+all,Silence,0.27666666666666667,,H,16 minutes,2%,2015-05-09,[{'media': 'TV'}],TF1
+all,Bruit,1.19,,H,1 heure 11 minutes,9%,2015-05-09,[{'media': 'TV'}],TF1
+all,Musique,3.4694444444444446,,H,3 heures 28 minutes,25%,2015-05-09,[{'media': 'TV'}],TF1
+all,Femme,3.5605555555555557,,H,3 heures 33 minutes,25%,2015-05-09,[{'media': 'TV'}],TF1
+all,Homme,5.502777777777778,,H,5 heures 30 minutes,39%,2015-05-09,[{'media': 'TV'}],TF1
+all,Silence,0.37194444444444447,,H,22 minutes,3%,2015-05-10,[{'media': 'TV'}],TF1
+all,Bruit,1.1216666666666666,,H,1 heure 7 minutes,8%,2015-05-10,[{'media': 'TV'}],TF1
+all,Musique,2.1416666666666666,,H,2 heures 8 minutes,15%,2015-05-10,[{'media': 'TV'}],TF1
+all,Femme,2.7625,,H,2 heures 45 minutes,20%,2015-05-10,[{'media': 'TV'}],TF1
+all,Homme,7.601666666666667,,H,7 heures 36 minutes,54%,2015-05-10,[{'media': 'TV'}],TF1
+all,Silence,0.47805555555555557,,H,28 minutes,3%,2015-05-11,[{'media': 'TV'}],TF1
+all,Bruit,0.6725,,H,40 minutes,5%,2015-05-11,[{'media': 'TV'}],TF1
+all,Musique,2.7622222222222224,,H,2 heures 45 minutes,20%,2015-05-11,[{'media': 'TV'}],TF1
+all,Femme,3.7466666666666666,,H,3 heures 44 minutes,27%,2015-05-11,[{'media': 'TV'}],TF1
+all,Homme,6.339722222222222,,H,6 heures 20 minutes,45%,2015-05-11,[{'media': 'TV'}],TF1
+all,Silence,0.35777777777777775,,H,21 minutes,3%,2015-05-12,[{'media': 'TV'}],TF1
+all,Bruit,0.5447222222222222,,H,32 minutes,4%,2015-05-12,[{'media': 'TV'}],TF1
+all,Musique,2.5169444444444444,,H,2 heures 31 minutes,18%,2015-05-12,[{'media': 'TV'}],TF1
+all,Femme,3.9,,H,3 heures 54 minutes,28%,2015-05-12,[{'media': 'TV'}],TF1
+all,Homme,6.68,,H,6 heures 40 minutes,48%,2015-05-12,[{'media': 'TV'}],TF1
+all,Silence,0.3591666666666667,,H,21 minutes,3%,2015-05-13,[{'media': 'TV'}],TF1
+all,Bruit,0.8102777777777778,,H,48 minutes,6%,2015-05-13,[{'media': 'TV'}],TF1
+all,Musique,2.205277777777778,,H,2 heures 12 minutes,16%,2015-05-13,[{'media': 'TV'}],TF1
+all,Femme,4.527222222222222,,H,4 heures 31 minutes,32%,2015-05-13,[{'media': 'TV'}],TF1
+all,Homme,6.0975,,H,6 heures 5 minutes,44%,2015-05-13,[{'media': 'TV'}],TF1
+all,Silence,0.265,,H,15 minutes,2%,2015-05-14,[{'media': 'TV'}],TF1
+all,Bruit,0.9955555555555555,,H,59 minutes,7%,2015-05-14,[{'media': 'TV'}],TF1
+all,Musique,2.5816666666666666,,H,2 heures 34 minutes,18%,2015-05-14,[{'media': 'TV'}],TF1
+all,Femme,3.295,,H,3 heures 17 minutes,24%,2015-05-14,[{'media': 'TV'}],TF1
+all,Homme,6.861944444444444,,H,6 heures 51 minutes,49%,2015-05-14,[{'media': 'TV'}],TF1
+all,Silence,0.33611111111111114,,H,20 minutes,2%,2015-05-15,[{'media': 'TV'}],TF1
+all,Bruit,0.5386111111111112,,H,32 minutes,4%,2015-05-15,[{'media': 'TV'}],TF1
+all,Musique,2.5172222222222222,,H,2 heures 31 minutes,18%,2015-05-15,[{'media': 'TV'}],TF1
+all,Femme,4.331944444444445,,H,4 heures 19 minutes,31%,2015-05-15,[{'media': 'TV'}],TF1
+all,Homme,6.275277777777778,,H,6 heures 16 minutes,45%,2015-05-15,[{'media': 'TV'}],TF1
+all,Silence,0.26805555555555555,,H,16 minutes,2%,2015-05-16,[{'media': 'TV'}],TF1
+all,Bruit,0.8886111111111111,,H,53 minutes,6%,2015-05-16,[{'media': 'TV'}],TF1
+all,Musique,2.3963888888888887,,H,2 heures 23 minutes,17%,2015-05-16,[{'media': 'TV'}],TF1
+all,Femme,3.1102777777777777,,H,3 heures 6 minutes,22%,2015-05-16,[{'media': 'TV'}],TF1
+all,Homme,7.335833333333333,,H,7 heures 20 minutes,52%,2015-05-16,[{'media': 'TV'}],TF1
+all,Silence,0.4008333333333333,,H,24 minutes,3%,2015-05-17,[{'media': 'TV'}],TF1
+all,Bruit,1.3041666666666667,,H,1 heure 18 minutes,9%,2015-05-17,[{'media': 'TV'}],TF1
+all,Musique,2.1261111111111113,,H,2 heures 7 minutes,15%,2015-05-17,[{'media': 'TV'}],TF1
+all,Femme,3.1880555555555556,,H,3 heures 11 minutes,23%,2015-05-17,[{'media': 'TV'}],TF1
+all,Homme,6.980277777777777,,H,6 heures 58 minutes,50%,2015-05-17,[{'media': 'TV'}],TF1
+all,Silence,0.4025,,H,24 minutes,3%,2015-05-18,[{'media': 'TV'}],TF1
+all,Bruit,0.6375,,H,38 minutes,5%,2015-05-18,[{'media': 'TV'}],TF1
+all,Musique,2.7494444444444444,,H,2 heures 44 minutes,20%,2015-05-18,[{'media': 'TV'}],TF1
+all,Femme,4.0625,,H,4 heures 3 minutes,29%,2015-05-18,[{'media': 'TV'}],TF1
+all,Homme,6.1475,,H,6 heures 8 minutes,44%,2015-05-18,[{'media': 'TV'}],TF1
+all,Silence,0.5069444444444444,,H,30 minutes,4%,2015-05-19,[{'media': 'TV'}],TF1
+all,Bruit,0.5825,,H,34 minutes,4%,2015-05-19,[{'media': 'TV'}],TF1
+all,Musique,2.493888888888889,,H,2 heures 29 minutes,18%,2015-05-19,[{'media': 'TV'}],TF1
+all,Femme,3.8619444444444446,,H,3 heures 51 minutes,28%,2015-05-19,[{'media': 'TV'}],TF1
+all,Homme,6.553888888888889,,H,6 heures 33 minutes,47%,2015-05-19,[{'media': 'TV'}],TF1
+all,Silence,0.35333333333333333,,H,21 minutes,3%,2015-05-20,[{'media': 'TV'}],TF1
+all,Bruit,0.7719444444444444,,H,46 minutes,6%,2015-05-20,[{'media': 'TV'}],TF1
+all,Musique,2.203888888888889,,H,2 heures 12 minutes,16%,2015-05-20,[{'media': 'TV'}],TF1
+all,Femme,4.580277777777778,,H,4 heures 34 minutes,33%,2015-05-20,[{'media': 'TV'}],TF1
+all,Homme,6.090277777777778,,H,6 heures 5 minutes,44%,2015-05-20,[{'media': 'TV'}],TF1
+all,Silence,0.3819444444444444,,H,22 minutes,3%,2015-05-21,[{'media': 'TV'}],TF1
+all,Bruit,0.5580555555555555,,H,33 minutes,4%,2015-05-21,[{'media': 'TV'}],TF1
+all,Musique,2.5747222222222224,,H,2 heures 34 minutes,18%,2015-05-21,[{'media': 'TV'}],TF1
+all,Femme,4.51,,H,4 heures 30 minutes,32%,2015-05-21,[{'media': 'TV'}],TF1
+all,Homme,5.974722222222222,,H,5 heures 58 minutes,43%,2015-05-21,[{'media': 'TV'}],TF1
+all,Silence,0.33361111111111114,,H,20 minutes,2%,2015-05-22,[{'media': 'TV'}],TF1
+all,Bruit,0.595,,H,35 minutes,4%,2015-05-22,[{'media': 'TV'}],TF1
+all,Musique,2.5794444444444444,,H,2 heures 34 minutes,18%,2015-05-22,[{'media': 'TV'}],TF1
+all,Femme,4.025277777777778,,H,4 heures 1 minute,29%,2015-05-22,[{'media': 'TV'}],TF1
+all,Homme,6.466111111111111,,H,6 heures 27 minutes,46%,2015-05-22,[{'media': 'TV'}],TF1
+all,Silence,0.23333333333333334,,H,14 minutes,2%,2015-05-23,[{'media': 'TV'}],TF1
+all,Bruit,0.6366666666666667,,H,38 minutes,5%,2015-05-23,[{'media': 'TV'}],TF1
+all,Musique,2.1663888888888887,,H,2 heures 9 minutes,15%,2015-05-23,[{'media': 'TV'}],TF1
+all,Femme,4.391111111111111,,H,4 heures 23 minutes,31%,2015-05-23,[{'media': 'TV'}],TF1
+all,Homme,6.571666666666666,,H,6 heures 34 minutes,47%,2015-05-23,[{'media': 'TV'}],TF1
+all,Silence,0.33611111111111114,,H,20 minutes,2%,2015-05-24,[{'media': 'TV'}],TF1
+all,Bruit,0.9363888888888889,,H,56 minutes,7%,2015-05-24,[{'media': 'TV'}],TF1
+all,Musique,2.1380555555555554,,H,2 heures 8 minutes,15%,2015-05-24,[{'media': 'TV'}],TF1
+all,Femme,3.3177777777777777,,H,3 heures 19 minutes,24%,2015-05-24,[{'media': 'TV'}],TF1
+all,Homme,7.271111111111111,,H,7 heures 16 minutes,52%,2015-05-24,[{'media': 'TV'}],TF1
+all,Silence,0.31666666666666665,,H,19 minutes,2%,2015-05-25,[{'media': 'TV'}],TF1
+all,Bruit,0.8252777777777778,,H,49 minutes,6%,2015-05-25,[{'media': 'TV'}],TF1
+all,Musique,2.902222222222222,,H,2 heures 54 minutes,21%,2015-05-25,[{'media': 'TV'}],TF1
+all,Femme,3.7416666666666667,,H,3 heures 44 minutes,27%,2015-05-25,[{'media': 'TV'}],TF1
+all,Homme,6.213611111111111,,H,6 heures 12 minutes,44%,2015-05-25,[{'media': 'TV'}],TF1
+all,Silence,0.39694444444444443,,H,23 minutes,3%,2015-05-26,[{'media': 'TV'}],TF1
+all,Bruit,0.4747222222222222,,H,28 minutes,3%,2015-05-26,[{'media': 'TV'}],TF1
+all,Musique,2.486666666666667,,H,2 heures 29 minutes,18%,2015-05-26,[{'media': 'TV'}],TF1
+all,Femme,4.225,,H,4 heures 13 minutes,30%,2015-05-26,[{'media': 'TV'}],TF1
+all,Homme,6.416111111111111,,H,6 heures 24 minutes,46%,2015-05-26,[{'media': 'TV'}],TF1
+all,Silence,0.39194444444444443,,H,23 minutes,3%,2015-05-27,[{'media': 'TV'}],TF1
+all,Bruit,0.9519444444444445,,H,57 minutes,7%,2015-05-27,[{'media': 'TV'}],TF1
+all,Musique,2.174722222222222,,H,2 heures 10 minutes,16%,2015-05-27,[{'media': 'TV'}],TF1
+all,Femme,4.3261111111111115,,H,4 heures 19 minutes,31%,2015-05-27,[{'media': 'TV'}],TF1
+all,Homme,6.155,,H,6 heures 9 minutes,44%,2015-05-27,[{'media': 'TV'}],TF1
+all,Silence,0.4147222222222222,,H,24 minutes,3%,2015-05-28,[{'media': 'TV'}],TF1
+all,Bruit,0.6397222222222222,,H,38 minutes,5%,2015-05-28,[{'media': 'TV'}],TF1
+all,Musique,2.4605555555555556,,H,2 heures 27 minutes,18%,2015-05-28,[{'media': 'TV'}],TF1
+all,Femme,3.7177777777777776,,H,3 heures 43 minutes,27%,2015-05-28,[{'media': 'TV'}],TF1
+all,Homme,6.766666666666667,,H,6 heures 46 minutes,48%,2015-05-28,[{'media': 'TV'}],TF1
+all,Silence,0.3408333333333333,,H,20 minutes,2%,2015-05-29,[{'media': 'TV'}],TF1
+all,Bruit,0.5663888888888889,,H,33 minutes,4%,2015-05-29,[{'media': 'TV'}],TF1
+all,Musique,2.76,,H,2 heures 45 minutes,20%,2015-05-29,[{'media': 'TV'}],TF1
+all,Femme,4.155277777777778,,H,4 heures 9 minutes,30%,2015-05-29,[{'media': 'TV'}],TF1
+all,Homme,6.176944444444445,,H,6 heures 10 minutes,44%,2015-05-29,[{'media': 'TV'}],TF1
+all,Silence,0.2325,,H,13 minutes,2%,2015-05-30,[{'media': 'TV'}],TF1
+all,Bruit,0.9230555555555555,,H,55 minutes,7%,2015-05-30,[{'media': 'TV'}],TF1
+all,Musique,1.988611111111111,,H,1 heure 59 minutes,14%,2015-05-30,[{'media': 'TV'}],TF1
+all,Femme,4.666666666666667,,H,4 heures 40 minutes,33%,2015-05-30,[{'media': 'TV'}],TF1
+all,Homme,6.1883333333333335,,H,6 heures 11 minutes,44%,2015-05-30,[{'media': 'TV'}],TF1
+all,Silence,0.3875,,H,23 minutes,3%,2015-05-31,[{'media': 'TV'}],TF1
+all,Bruit,1.0180555555555555,,H,1 heure 1 minute,7%,2015-05-31,[{'media': 'TV'}],TF1
+all,Musique,2.0644444444444443,,H,2 heures 3 minutes,15%,2015-05-31,[{'media': 'TV'}],TF1
+all,Femme,3.535277777777778,,H,3 heures 32 minutes,25%,2015-05-31,[{'media': 'TV'}],TF1
+all,Homme,6.994166666666667,,H,6 heures 59 minutes,50%,2015-05-31,[{'media': 'TV'}],TF1
