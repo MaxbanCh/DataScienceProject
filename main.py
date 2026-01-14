@@ -9,14 +9,14 @@ def main():
     Uniquement ces data a changé pour chaque tableau
     """
 
-    input_file = 'data/raw/Télévision de rattrapage.xlsx'
-    output_file = 'Consommation_de_télévision_de_rattrapage.csv'
-    sheet_name = 'Consommation'
-    first_row = 5
-    last_row = 150
+    input_file = 'data/raw/Consommation VàD - données statistiques.xlsx'
+    sheet_name = 'CA 100% Support'
+    first_row = 6
+    last_row = 11
+    table_name = "Estimation 100% du chiffre d'affaires de la VàD payante selon le support d'achat"
+    output_dir = 'data/processed/Consommation_VaD'
 
 
-    output_dir = 'data/processed'
     # On s'assure que le dossier existe
     os.makedirs(output_dir, exist_ok=True)
 
@@ -31,8 +31,18 @@ def main():
     df_file = df_file.dropna(axis=0, how='all')
     df_file = df_file.dropna(axis=1, how='all')
 
-    # On sauvegarde le fichier
-    save_path = os.path.join(output_dir, output_file)
+    # On sauvegarde le fichier avec un nom normalisé
+    output_file = (
+        str(table_name).strip()
+        .replace(' ', '_')
+        .replace("'", '')
+        .replace('é', 'e')
+        .replace('è', 'e')
+        .replace('à', 'a')
+        .replace('(', '_')
+        .replace(')', '_')
+    )
+    save_path = os.path.join(output_dir, f"{output_file}.csv")
     df_file.to_csv(save_path, index=False)
 
 if __name__ == '__main__':
