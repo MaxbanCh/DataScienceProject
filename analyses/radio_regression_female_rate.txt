@@ -1,0 +1,48 @@
+=== OLS COMPLET -> female_rate ~ year + channel ===
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            female_rate   R-squared:                       0.830
+Model:                            OLS   Adj. R-squared:                  0.820
+Method:                 Least Squares   F-statistic:                     81.71
+Date:                Wed, 14 Jan 2026   Prob (F-statistic):          1.95e-121
+Time:                        12:36:36   Log-Likelihood:                -976.21
+No. Observations:                 374   AIC:                             1996.
+Df Residuals:                     352   BIC:                             2083.
+Df Model:                          21                                         
+Covariance Type:            nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+Intercept                       -605.7452     61.756     -9.809      0.000    -727.203    -484.287
+C(channel)[T.Europe 1]           -20.0614      1.116    -17.977      0.000     -22.256     -17.867
+C(channel)[T.France Bleu]        -11.5630      1.103    -10.487      0.000     -13.732      -9.394
+C(channel)[T.France Culture]     -20.0585      1.054    -19.027      0.000     -22.132     -17.985
+C(channel)[T.France Info]        -21.2301      1.054    -20.139      0.000     -23.303     -19.157
+C(channel)[T.France Inter]       -19.3571      1.054    -18.362      0.000     -21.430     -17.284
+C(channel)[T.France Musique]     -22.8488      1.054    -21.674      0.000     -24.922     -20.775
+C(channel)[T.Fun Radio]          -20.9486      1.131    -18.525      0.000     -23.173     -18.725
+C(channel)[T.MOUV]               -22.4582      1.450    -15.492      0.000     -25.309     -19.607
+C(channel)[T.NRJ]                -25.0695      1.131    -22.169      0.000     -27.294     -22.845
+C(channel)[T.Nostalgie]          -15.9649      1.131    -14.118      0.000     -18.189     -13.741
+C(channel)[T.RFI]                -17.3033      1.103    -15.693      0.000     -19.472     -15.135
+C(channel)[T.RFM]                -16.7566      1.131    -14.818      0.000     -18.981     -14.533
+C(channel)[T.RMC]                -30.1844      1.116    -27.048      0.000     -32.379     -27.990
+C(channel)[T.RTL]                -21.9117      1.116    -19.635      0.000     -24.107     -19.717
+C(channel)[T.RTL 2]               -8.5610      1.131     -7.570      0.000     -10.785      -6.337
+C(channel)[T.Radio Classique]    -11.8751      1.303     -9.115      0.000     -14.437      -9.313
+C(channel)[T.Rire et Chansons]   -24.4392      1.303    -18.759      0.000     -27.001     -21.877
+C(channel)[T.Skyrock]            -31.8485      1.116    -28.539      0.000     -34.043     -29.654
+C(channel)[T.Sud Radio]          -21.7958      1.450    -15.035      0.000     -24.647     -18.945
+C(channel)[T.Virgin Radio]       -23.3647      1.268    -18.431      0.000     -25.858     -20.872
+year                               0.3258      0.031     10.609      0.000       0.265       0.386
+==============================================================================
+Omnibus:                       15.610   Durbin-Watson:                   0.621
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               19.866
+Skew:                           0.373   Prob(JB):                     4.85e-05
+Kurtosis:                       3.848   Cond. No.                     7.08e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.08e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.

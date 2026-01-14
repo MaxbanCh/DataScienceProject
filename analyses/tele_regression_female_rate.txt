@@ -1,0 +1,61 @@
+=== OLS COMPLET -> female_rate ~ year + channel ===
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            female_rate   R-squared:                       0.942
+Model:                            OLS   Adj. R-squared:                  0.935
+Method:                 Least Squares   F-statistic:                     139.0
+Date:                Wed, 14 Jan 2026   Prob (F-statistic):          8.71e-160
+Time:                        12:40:44   Log-Likelihood:                -761.59
+No. Observations:                 327   AIC:                             1593.
+Df Residuals:                     292   BIC:                             1726.
+Df Model:                          34                                         
+Covariance Type:            nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+Intercept                       -436.5302    104.858     -4.163      0.000    -642.904    -230.156
+C(channel)[T.Animaux]              5.7395      1.176      4.881      0.000       3.425       8.054
+C(channel)[T.BFM TV]               6.3472      1.176      5.398      0.000       4.033       8.661
+C(channel)[T.Canal+]              -7.0800      1.176     -6.021      0.000      -9.394      -4.766
+C(channel)[T.Canal+ Sport]       -24.1602      1.176    -20.548      0.000     -26.474     -21.846
+C(channel)[T.Chasse et pêche]    -20.1097      1.176    -17.103      0.000     -22.424     -17.796
+C(channel)[T.Chérie 25]           12.8897      1.298      9.930      0.000      10.335      15.444
+C(channel)[T.Comédie+]             0.3753      1.176      0.319      0.750      -1.939       2.689
+C(channel)[T.D8/C8]               -1.3624      1.298     -1.050      0.295      -3.917       1.192
+C(channel)[T.Euronews]             4.5184      1.176      3.843      0.000       2.204       6.833
+C(channel)[T.Eurosport France]   -21.7131      1.176    -18.467      0.000     -24.027     -19.399
+C(channel)[T.France 2]             5.1984      1.176      4.421      0.000       2.884       7.513
+C(channel)[T.France 24]           15.7383      1.208     13.025      0.000      13.360      18.116
+C(channel)[T.France 3]             2.6774      1.176      2.277      0.024       0.363       4.992
+C(channel)[T.France 5]             2.3749      1.176      2.020      0.044       0.061       4.689
+C(channel)[T.France O]             4.8664      1.176      4.139      0.000       2.552       7.180
+C(channel)[T.Histoire]           -10.2255      1.208     -8.463      0.000     -12.604      -7.847
+C(channel)[T.I-Télé/CNews]         5.0777      1.176      4.318      0.000       2.764       7.392
+C(channel)[T.L'Equipe 21]        -13.9280      1.298    -10.730      0.000     -16.483     -11.373
+C(channel)[T.LCI]                  3.9193      1.176      3.333      0.001       1.605       6.233
+C(channel)[T.LCP/Public Sénat]     0.6450      1.176      0.549      0.584      -1.669       2.959
+C(channel)[T.La chaîne Météo]    -10.2478      1.176     -8.716      0.000     -12.562      -7.934
+C(channel)[T.M6]                  11.9106      1.176     10.130      0.000       9.596      14.225
+C(channel)[T.Monte Carlo TMC]      0.9123      1.176      0.776      0.438      -1.402       3.226
+C(channel)[T.NRJ 12]               3.2690      1.176      2.780      0.006       0.955       5.583
+C(channel)[T.Paris Première]      -6.2138      1.176     -5.285      0.000      -8.528      -3.900
+C(channel)[T.Planète+]           -12.2048      1.176    -10.380      0.000     -14.519      -9.891
+C(channel)[T.TF1]                  7.4029      1.176      6.296      0.000       5.089       9.717
+C(channel)[T.TV Breizh]            1.5246      1.208      1.262      0.208      -0.853       3.903
+C(channel)[T.TV5 Monde]            1.4071      1.176      1.197      0.232      -0.907       3.721
+C(channel)[T.Toute l'Histoire]   -10.5666      1.176     -8.987      0.000     -12.881      -8.252
+C(channel)[T.Téva]                18.7241      1.208     15.496      0.000      16.346      21.102
+C(channel)[T.Voyage]              -4.8488      1.176     -4.124      0.000      -7.163      -2.535
+C(channel)[T.W9]                   5.5028      1.176      4.680      0.000       3.189       7.817
+year                               0.2312      0.052      4.443      0.000       0.129       0.334
+==============================================================================
+Omnibus:                       57.169   Durbin-Watson:                   1.049
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              188.300
+Skew:                           0.741   Prob(JB):                     1.29e-41
+Kurtosis:                       6.410   Cond. No.                     1.45e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.45e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.
