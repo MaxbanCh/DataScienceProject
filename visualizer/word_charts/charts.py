@@ -68,6 +68,10 @@ def show_word_charts():
     # Filtrage des données
     filtered_data = data.copy()
 
+    if not selected_words:
+        st.warning("Aucune donnée pour ces critères")
+        return
+
     if selected_words:
         filtered_data = filtered_data[filtered_data['word'].isin(selected_words)]
 

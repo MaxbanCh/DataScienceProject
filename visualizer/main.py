@@ -17,7 +17,7 @@ st.markdown(
 )
 
 # Navigation principale
-main_tab1, main_tab2, main_tab3, main_tab4 = st.tabs(["Mots", "Thématiques", "Personnalités", "Proportion Femmes/Hommes"])
+main_tab1, main_tab2, main_tab3, main_tab4, main_tab5 = st.tabs(["Mots", "Thématiques", "Personnalités", "Proportion Femmes/Hommes", "Audiences"])
 
 with main_tab1:
     word_charts.show_word_charts()
@@ -30,3 +30,6 @@ with main_tab3:
 
 with main_tab4:
     st.header("Proportion Femmes/Hommes dans les données INA")
+
+with main_tab5:
+    st.header("Audiences des chaînes")
