@@ -25,7 +25,7 @@ def show_word_charts():
         selected_words = st.multiselect(
             "Mots:",
             options=available_words,
-            default=available_words[:3] if len(available_words) >= 3 else available_words,
+            default=available_words[:1] if len(available_words) >= 1 else available_words,
             key="words_select"
         )
 
@@ -35,7 +35,7 @@ def show_word_charts():
         selected_channels = st.multiselect(
             "Chaînes:",
             options=available_channels,
-            default=available_channels,
+            default=available_channels[:1] if len(available_channels) >= 1 else available_channels,
             key="channels_select"
         )
 
