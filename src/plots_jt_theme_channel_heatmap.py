@@ -13,9 +13,10 @@ IN_FILE = DATA_PROCESSED / "jt_themes_clean.parquet"
 def main():
     df = pd.read_parquet(IN_FILE)
 
+    # On élimine les lignes inexploitables : si thème, chaîne ou durée manquent
     df = df.dropna(subset=["theme", "chaine", "duree_sec"])
 
-
+    # Sélection des thèmes les plus représentés (Top 8)
     top_themes = (
         df.groupby("theme")["duree_sec"]
           .sum()
@@ -26,7 +27,7 @@ def main():
 
     df_ht = df[df["theme"].isin(top_themes)].copy()
 
-
+    # Construction du tableau chaîne × thème
     pivot = df_ht.pivot_table(
         index="chaine",
         columns="theme",
@@ -34,16 +35,19 @@ def main():
         aggfunc="mean"
     )
 
-
+    # Heatmap
     plt.figure(figsize=(10, 6))
     im = plt.imshow(pivot.values, aspect="auto")
 
+    # Axe X: thèmes
     plt.xticks(
         ticks=range(len(pivot.columns)),
         labels=pivot.columns.astype(str),
         rotation=45,
         ha="right"
     )
+
+    # Axe Y: chaines 
     plt.yticks(
         ticks=range(len(pivot.index)),
         labels=pivot.index.astype(str)

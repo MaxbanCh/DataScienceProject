@@ -18,11 +18,10 @@ OUT_DIR = RESULTS / "jt_channel_proximity_rf"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
+# contruction de la matrice chaîne x thème
 def build_chain_theme_matrix(df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Construit une matrice (chaine x theme) avec comme valeurs
-    la part de durée (duree_sec) du thème dans la chaîne.
-    """
+
+    # Durée totale par couple (chaine, theme)
     agg = (
         df.groupby(["chaine", "theme"], as_index=False)["duree_sec"]
           .sum()
@@ -40,6 +39,7 @@ def build_chain_theme_matrix(df: pd.DataFrame) -> pd.DataFrame:
     return mat_prop
 
 
+# heatmap de la similarité cosinus entre chaînes
 def plot_heatmap_similarity(sim: pd.DataFrame, out_png: Path):
     plt.figure(figsize=(10, 8))
     plt.imshow(sim.values, aspect="auto")
@@ -52,6 +52,7 @@ def plot_heatmap_similarity(sim: pd.DataFrame, out_png: Path):
     plt.close()
 
 
+# plot de la matrice de similarité ordonnée par clustering hiérarchique
 def plot_cluster_order(sim: pd.DataFrame, labels_ordered, out_png: Path):
     sim2 = sim.loc[labels_ordered, labels_ordered]
     plt.figure(figsize=(10, 8))
@@ -73,20 +74,17 @@ def main():
     if missing:
         raise ValueError(f"Colonnes manquantes: {missing} (reçu: {df.columns.tolist()})")
 
+    # Nettoyage : on enlève les lignes incomplètes et les durées non positives
     df = df.dropna(subset=["chaine", "theme", "duree_sec"]).copy()
     df = df[df["duree_sec"] > 0].copy()
 
-    # -----------------------------
-    # Matrice chaine x theme (proportions)
-    # -----------------------------
+    # Matrice chaîne x thème 
     mat_prop = build_chain_theme_matrix(df)
 
     mat_prop.to_csv(OUT_DIR / "chain_theme_profile_proportions.csv")
     print("[OK] wrote:", OUT_DIR / "chain_theme_profile_proportions.csv")
 
-    # -----------------------------
     # Similarité cosinus entre chaînes
-    # -----------------------------
     sim = cosine_similarity(mat_prop.values)
     sim_df = pd.DataFrame(sim, index=mat_prop.index, columns=mat_prop.index)
     sim_df.to_csv(OUT_DIR / "chain_similarity_cosine.csv")
@@ -95,6 +93,7 @@ def main():
     plot_heatmap_similarity(sim_df, OUT_DIR / "fig_chain_similarity_heatmap.png")
     print("[OK] wrote:", OUT_DIR / "fig_chain_similarity_heatmap.png")
 
+    # Top 20 paires les plus similaires
     pairs = []
     labels = sim_df.index.tolist()
     for i in range(len(labels)):
@@ -106,9 +105,7 @@ def main():
     top_pairs.to_csv(OUT_DIR / "top20_most_similar_pairs.csv", index=False)
     print("[OK] wrote:", OUT_DIR / "top20_most_similar_pairs.csv")
 
-    # -----------------------------
     # Clustering (regroupement de chaînes)
-    # -----------------------------
     dist = 1 - sim_df.values
     n_clusters = min(5, len(labels))  
     cluster = AgglomerativeClustering(
@@ -129,9 +126,7 @@ def main():
     plot_cluster_order(sim_df, ordered, OUT_DIR / "fig_chain_similarity_clustered.png")
     print("[OK] wrote:", OUT_DIR / "fig_chain_similarity_clustered.png")
 
-    # -----------------------------
-    # 4) Random Forest : prédire la chaîne à partir du profil de thèmes
-    # -----------------------------
+    # Random Forest : prédire la chaîne à partir du profil de thèmes
     if "year" in df.columns:
         df_year = df.dropna(subset=["year"]).copy()
         # profil par chaîne et année
@@ -171,7 +166,7 @@ def main():
     pred = rf.predict(X_test)
     acc = accuracy_score(y_test, pred)
 
-    # rapports
+    # rapports et matrice de confusion
     rep = classification_report(y_test, pred, zero_division=0)
     cm = confusion_matrix(y_test, pred, labels=sorted(pd.unique(y)))
 
@@ -187,9 +182,7 @@ def main():
     print("[OK] wrote:", OUT_DIR / "rf_classification_report.txt")
     print("[OK] wrote:", OUT_DIR / "rf_confusion_matrix.csv")
 
-    # -----------------------------
     # Importance des thèmes 
-    # -----------------------------
     importances = pd.Series(rf.feature_importances_, index=feature_names).sort_values(ascending=False)
     importances.head(50).to_csv(OUT_DIR / "rf_feature_importances_top50.csv", header=["importance"])
 

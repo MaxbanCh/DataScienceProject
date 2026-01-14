@@ -12,19 +12,23 @@ def savefig(name: str):
     print("[OK] Saved", out)
 
 def main():
+    # On conserve uniquement les lignes avec les variables nécessaires à l'analyse
     df = pd.read_parquet(IN_FILE).dropna(subset=["theme", "chaine", "year", "duree_sec", "nb_sujets"])
 
-    # ---------- 1) Top 10 thèmes (durée totale) ----------
+    # FIGURE 1 — Top 10 thèmes (durée totale cumulée)
     top = (df.groupby("theme")["duree_sec"].sum()
              .sort_values(ascending=False)
              .head(10))
+    
+    # barplot horizontal
     plt.figure()
     plt.barh(top.index.astype(str)[::-1], top.values[::-1])
     plt.xlabel("Durée totale (secondes)")
     plt.title("Top 10 thèmes des JT (durée cumulée, 2000–2020)")
     savefig("fig_jt_top10_themes_total_duration.png")
 
-    # ---------- 2) Évolution annuelle des 5 thèmes principaux ----------
+    # FIGURE 2 — Évolution annuelle des 5 thèmes les plus importants
+    # Choix : on prend les 5 thèmes les plus lourds au global
     top5 = top.index[:5]
     d5 = df[df["theme"].isin(top5)].copy()
     gy = (d5.groupby(["year", "theme"])["duree_sec"].sum().reset_index())
@@ -39,8 +43,8 @@ def main():
     plt.legend()
     savefig("fig_jt_top5_themes_over_time.png")
 
-    # ---------- 3) Comparaison chaînes sur un thème (si trouvé) ----------
-    # On essaie "Faits divers" sinon on prend le thème #1
+    # FIGURE 3 — Comparaison entre chaînes sur un thème "sentinelle"
+    # On essaie "Faits divers" 
     theme_candidates = ["Faits divers", "FAITS DIVERS", "faits divers"]
     chosen = None
     for t in theme_candidates:

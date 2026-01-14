@@ -15,21 +15,25 @@ def savefig(name: str):
 def main():
     df = pd.read_parquet(IN_FILE)
 
-    # On garde les lignes où la part est définie et où il y a un minimum de parole
+    # On élimine les lignes inexploitables : si female_share ou des variables de contexte manquent,
     df = df.dropna(subset=["female_share", "total_speech", "channel_name", "hour", "year"]).copy()
+
+    # On impose un minimum de volume de parole (>= 60s) :
+    # - Objectif : éviter que quelques secondes de parole donnent des ratios female_share très instables
+    #   (ex : 1 phrase prononcée par une femme => female_share = 100% artificiellement).
     df = df[df["total_speech"] >= 60].copy()
 
-    # ---------- 1) Barplot: moyenne female_share par chaîne ----------
+    # FIGURE 1 — Moyenne de la part de parole des femmes par chaîne
     g = (df.groupby("channel_name")["female_share"].mean()
            .sort_values(ascending=True))
-    plt.figure(figsize=(8, 12))  # figure plus haute
+    plt.figure(figsize=(8, 12))  
     plt.barh(g.index.astype(str), g.values)
     plt.xlabel("Moyenne de female_share (part de parole femmes)")
     plt.title("Part de parole des femmes par chaîne (moyenne)")
-    plt.yticks(fontsize=8)  # police plus petite
+    plt.yticks(fontsize=8)  
     savefig("fig_ina_female_share_by_channel.png")
 
-    # ---------- 2) Courbe: évolution annuelle female_share ----------
+    # FIGURE 2 — Évolution annuelle de la part de parole des femmes
     gy = df.groupby("year")["female_share"].mean().sort_index()
     plt.figure()
     plt.plot(gy.index, gy.values, marker="o")
@@ -38,8 +42,8 @@ def main():
     plt.title("Évolution annuelle de la part de parole des femmes (tous médias)")
     savefig("fig_ina_female_share_over_time.png")
 
-    # ---------- 3) Heatmap: chaîne x heure ----------
-    # on prend un top de chaînes pour que ce soit lisible
+    # FIGURE 3 — Heatmap chaîne × heure 
+    # on limite a les 15 chaînes les plus fréquentes pour lisibilité
     top_channels = df["channel_name"].value_counts().head(15).index
     df_h = df[df["channel_name"].isin(top_channels)].copy()
 
@@ -57,7 +61,7 @@ def main():
     plt.title("Heatmap – part de parole des femmes (chaîne × heure)\n(top 15 chaînes, total_speech≥60s)")
     savefig("fig_ina_heatmap_channel_hour_female_share.png")
 
-    # ---------- 4) Courbe: TV vs Radio ----------
+    # FIGURE 4 — TV vs Radio (si l'information est disponible)
     if "media_type" in df.columns:
         gmr = (df.groupby(["year", "media_type"])["female_share"]
                  .mean()
