@@ -1,0 +1,27 @@
+=== OLS COMPLET -> women_expression_rate ~ media_type + is_public_channel ===
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.015
+Model:                            OLS   Adj. R-squared:                  0.012
+Method:                 Least Squares   F-statistic:                     5.221
+Date:                Wed, 14 Jan 2026   Prob (F-statistic):            0.00561
+Time:                        11:50:51   Log-Likelihood:                -2541.5
+No. Observations:                 701   AIC:                             5089.
+Df Residuals:                     698   BIC:                             5103.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         28.9700      0.555     52.153      0.000      27.879      30.061
+x1             2.0621      0.745      2.768      0.006       0.599       3.525
+x2            -0.8318      0.699     -1.190      0.234      -2.204       0.540
+==============================================================================
+Omnibus:                        2.590   Durbin-Watson:                   0.222
+Prob(Omnibus):                  0.274   Jarque-Bera (JB):                2.772
+Skew:                          -0.003   Prob(JB):                        0.250
+Kurtosis:                       3.308   Cond. No.                         3.10
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

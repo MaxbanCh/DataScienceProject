@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from matplotlib.colors import TwoSlopeNorm
+import numpy as np
 from pathlib import Path
 
 
@@ -9,8 +10,10 @@ from pathlib import Path
 
 current_dir = Path(__file__).resolve().parent
 data_dir = current_dir / "ressources" / "WomenMenProportion"
-output_dir = current_dir / "graphes"
+output_dir = current_dir / "graphes" / "women_men_proportion"
 output_dir.mkdir(exist_ok=True)
+analysis_dir = current_dir / "analyses"
+analysis_dir.mkdir(exist_ok=True)
 
 files = sorted(data_dir.glob("women_men_proportion_*.csv"))
 if not files:
@@ -176,3 +179,97 @@ print("RESUME GLOBAL (tous canaux)")
 print(f"Dernier mois : {last_month['month'].date()} | Femme: {last_month['Femme']:.2%}")
 print(f"Min Femme    : {min_f['month'].date()} | {min_f['Femme']:.2%}")
 print(f"Max Femme    : {max_f['month'].date()} | {max_f['Femme']:.2%}")
+
+# ==========================================
+# 7. CORRELATIONS ET REGRESSION
+# ==========================================
+print("\n" + "=" * 65)
+print("CORRELATIONS (tous canaux, mensuel)")
+df_corr = df_month.copy()
+df_corr["year"] = df_corr["month"].dt.year
+df_corr["month_num"] = df_corr["month"].dt.month
+
+corr_year = df_corr["Femme"].corr(df_corr["year"])
+corr_month = df_corr["Femme"].corr(df_corr["month_num"])
+print(f"Corr(Femme, annee) : {corr_year:.3f}")
+print(f"Corr(Femme, mois)  : {corr_month:.3f}")
+
+report_path = analysis_dir / "women_men_correlations.txt"
+report_lines = [
+    "CORRELATIONS (tous canaux, mensuel)",
+    f"Corr(Femme, annee) : {corr_year:.3f}",
+    f"Corr(Femme, mois)  : {corr_month:.3f}",
+    "",
+]
+
+print("\nREGRESSION LINEAIRE (Femme ~ annee + mois + chaines)")
+df_reg = df_pivot.copy()
+df_reg = df_reg.dropna(subset=["Femme", "year", "month_num", "channel"])
+
+try:
+    import statsmodels.formula.api as smf
+    import statsmodels.api as sm
+
+    model = smf.ols("Femme ~ year + C(month_num) + C(channel)", data=df_reg).fit()
+    print(model.summary().tables[1])
+    print(f"R2 ajusté : {model.rsquared_adj:.3f}")
+    report_lines.append("REGRESSION LINEAIRE (statsmodels)")
+    report_lines.append(model.summary().as_text())
+    report_lines.append(f"R2 ajuste : {model.rsquared_adj:.3f}")
+except Exception as exc:
+    try:
+        from sklearn.linear_model import LinearRegression
+
+        X = pd.get_dummies(df_reg[["year", "month_num", "channel"]], drop_first=True)
+        y = df_reg["Femme"].values
+        reg = LinearRegression().fit(X, y)
+        r2 = reg.score(X, y)
+        print("statsmodels non disponible, fallback sklearn")
+        print(f"R2 : {r2:.3f}")
+        report_lines.append("REGRESSION LINEAIRE (sklearn)")
+        report_lines.append(f"R2 : {r2:.3f}")
+    except Exception as exc2:
+        print("statsmodels et sklearn non disponibles")
+        print(f"Erreur : {exc}")
+        print(f"Erreur sklearn : {exc2}")
+        report_lines.append("REGRESSION LINEAIRE")
+        report_lines.append(f"Erreur : {exc}")
+        report_lines.append(f"Erreur sklearn : {exc2}")
+
+with open(report_path, "w", encoding="utf-8") as f:
+    f.write("\n".join(report_lines))
+print(f"✅ Rapport correlations/regression enregistre : {report_path.name}")
+
+# ==========================================
+# 8. REGRESSION LOGISTIQUE (GLM BINOMIAL)
+# ==========================================
+logit_report = analysis_dir / "women_men_logistic_regression.txt"
+logit_lines = [
+    "REGRESSION LOGISTIQUE (GLM binomial sur proportion Femme)",
+    "Note: la cible est une proportion (0-1), pas un binaire.",
+    "Le modele est une approximation logit sur proportion.",
+    "",
+]
+
+try:
+    import statsmodels.formula.api as smf
+
+    df_log = df_reg.copy()
+    df_log["Femme_clip"] = df_log["Femme"].clip(1e-6, 1 - 1e-6)
+    model_log = smf.glm(
+        "Femme_clip ~ year + C(month_num) + C(channel)",
+        data=df_log,
+        family=sm.families.Binomial(),
+    ).fit()
+    logit_lines.append(model_log.summary().as_text())
+    logit_lines.append(f"AIC : {model_log.aic:.3f}")
+    logit_lines.append(f"BIC : {model_log.bic:.3f}")
+    print("✅ Regression logistique calculee (statsmodels)")
+except Exception as exc:
+    logit_lines.append("statsmodels non disponible, regression logistique non calculee.")
+    logit_lines.append(f"Erreur : {exc}")
+    print("statsmodels non disponible, regression logistique non calculee.")
+
+with open(logit_report, "w", encoding="utf-8") as f:
+    f.write("\n".join(logit_lines))
+print(f"✅ Rapport regression logistique enregistre : {logit_report.name}")

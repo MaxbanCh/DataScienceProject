@@ -1,0 +1,13 @@
+=== CLASSIFICATION -> is_public_channel ===
+              precision    recall  f1-score   support
+
+           0     0.7699    0.9158    0.8365        95
+           1     0.7143    0.4348    0.5405        46
+
+    accuracy                         0.7589       141
+   macro avg     0.7421    0.6753    0.6885       141
+weighted avg     0.7518    0.7589    0.7400       141
+
+Confusion matrix:
+[[87  8]
+ [26 20]]

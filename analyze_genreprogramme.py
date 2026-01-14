@@ -2,6 +2,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from pathlib import Path
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import silhouette_score
+from sklearn.cluster import KMeans
+import statsmodels.api as sm
 
 # ==========================================
 # 1. GESTION DES CHEMINS ET DOSSIERS
@@ -16,8 +20,10 @@ if not file_path.exists():
     print(f"ERREUR : Fichier CSV introuvable dans {current_dir}/ressources/")
     exit()
 
-output_dir = current_dir / "graphes"
+output_dir = current_dir / "graphes" / "genreprogramme"
 output_dir.mkdir(exist_ok=True)
+analysis_dir = current_dir / "analyses"
+analysis_dir.mkdir(exist_ok=True)
 
 # ==========================================
 # 2. CHARGEMENT ET PRÉPARATION
@@ -117,3 +123,78 @@ print(f"{'THÉMATIQUE':<20} | {'TAUX 2020':<10} | {'EVOL (pts)':<10} | {'VOLUME 
 print("-" * 65)
 for _, row in df_stats.sort_values('women_expression_rate_2020', ascending=False).iterrows():
     print(f"{row['cat']:<20} | {row['women_expression_rate_2020']:.3f}     | {row['Evolution_Points']:+6.2f}    | {row['duree_h_2020']:.1f} h")
+
+# ==========================================
+# 7. RÉGRESSION LINÉAIRE : women_speech_duration_2020 ~ genre
+# ==========================================
+target = "women_speech_duration_2020"
+df_reg = df[["genre", target]].dropna()
+
+X_reg = pd.get_dummies(df_reg[["genre"]], columns=["genre"], drop_first=True)
+X_reg = sm.add_constant(X_reg).apply(pd.to_numeric, errors="coerce")
+y_reg = pd.to_numeric(df_reg[target], errors="coerce")
+
+mask = X_reg.notnull().all(axis=1) & y_reg.notnull()
+X_reg = X_reg.loc[mask].astype(float)
+y_reg = y_reg.loc[mask].astype(float)
+
+model = sm.OLS(y_reg.values, X_reg.values).fit()
+print("\n" + "=" * 65)
+print("Régression linéaire -> women_speech_duration_2020 ~ genre")
+print(f"R2: {model.rsquared:.4f}")
+
+with open(analysis_dir / "linear_regression_women_speech_duration.txt", "w", encoding="utf-8") as f:
+    f.write("=== OLS COMPLET -> women_speech_duration_2020 ~ genre ===\n")
+    f.write(model.summary().as_text())
+    f.write("\n")
+
+
+# ==========================================
+# 8. CLUSTERING (KMeans)
+# ==========================================
+cluster_cols = [
+    "nb_declarations_2020",
+    "total_declarations_duration_2020",
+    "women_speech_duration_2020",
+    "men_speech_duration_2020",
+    "other_duration_2020",
+    "women_expression_rate_2020",
+    "speech_rate_2020",
+]
+
+df_cluster = df[cluster_cols].dropna()
+X_cluster = StandardScaler().fit_transform(df_cluster)
+
+best_k = None
+best_score = -1.0
+for k in range(2, 7):
+    labels = KMeans(n_clusters=k, random_state=42, n_init=10).fit_predict(X_cluster)
+    score = silhouette_score(X_cluster, labels)
+    if score > best_score:
+        best_score = score
+        best_k = k
+
+kmeans = KMeans(n_clusters=best_k, random_state=42, n_init=10)
+df_cluster["cluster"] = kmeans.fit_predict(X_cluster)
+
+print("\n" + "=" * 65)
+print(f"Clustering KMeans -> k={best_k}, silhouette={best_score:.4f}")
+print(df_cluster["cluster"].value_counts().sort_index())
+
+# Visualisation simple des clusters
+plt.figure(figsize=(9, 6))
+sns.scatterplot(
+    data=df_cluster,
+    x="women_expression_rate_2020",
+    y="speech_rate_2020",
+    hue="cluster",
+    palette="tab10",
+    s=80,
+)
+plt.title("Clusters sur women_expression_rate_2020 vs speech_rate_2020")
+plt.xlabel("women_expression_rate_2020")
+plt.ylabel("speech_rate_2020")
+plt.legend(title="Cluster")
+plt.savefig(output_dir / "clusters_women_speech_rate.png", dpi=300, bbox_inches="tight")
+print("✅ Graphe clusters enregistré : clusters_women_speech_rate.png")
+plt.show()
