@@ -17,9 +17,11 @@ def analyze_channel_theme_relationship(matrix):
     pca_result = pca.fit_transform(matrix_scaled)
     
     # Clustering
-    n_clusters = min(4, len(matrix))
+    n_clusters = min(3, len(matrix))
     kmeans = KMeans(n_clusters=n_clusters, random_state=42, n_init=10)
     clusters = kmeans.fit_predict(matrix_scaled)
+
+    print(len(set(clusters)), "clusters found.")
     
     # Feature importance
     feature_importance = None
