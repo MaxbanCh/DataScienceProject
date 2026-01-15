@@ -348,6 +348,9 @@ def show_thematic_analysis():
                         line=dict(dash="dash"),
                         hovertemplate="%{y:.0f}<extra></extra>"
                     ))
+            
+            st.subheader("Statistiques de régression par thème")
+            show_regression_by_theme(theme_evolution)
 
         fig.update_layout(height=500)
         st.plotly_chart(fig, use_container_width=True)
@@ -394,6 +397,9 @@ def show_thematic_analysis():
                         line=dict(dash="dash"),
                         hovertemplate="%{y:.0f}<extra></extra>"
                     ))
+            
+            st.subheader("Statistiques de régression par chaîne")
+            show_regression_by_channel(channel_theme_evolution)
 
         fig.update_layout(height=500)
         st.plotly_chart(fig, use_container_width=True)
@@ -466,3 +472,101 @@ def show_thematic_analysis():
             - La corrélation entre chaînes basée sur les thèmes
             - Une analyse temporelle de l'évolution des thèmes
         """)
+
+def show_regression_by_theme(data):
+    """Affiche les résultats de régression par theme"""
+    results = {}
+    
+    for theme_val in data['theme'].unique():
+        theme_data = data[data['theme'] == theme_val].copy().sort_values('date')
+        
+        if len(theme_data) < 2:
+            continue
+        
+        # Convertir les dates en nombres
+        X = np.arange(len(theme_data)).reshape(-1, 1)
+        y = theme_data['value'].values
+        
+        # Fit du modèle
+        model = LinearRegression()
+        model.fit(X, y)
+        
+        # Calculs statistiques
+        y_pred = model.predict(X)
+        residuals = y - y_pred
+        mse = np.mean(residuals ** 2)
+        r_squared = model.score(X, y)
+        slope = model.coef_[0]
+        intercept = model.intercept_
+        
+        results[theme_val] = {
+            'slope': slope,
+            'intercept': intercept,
+            'r_squared': r_squared,
+            'mse': mse,
+            'trend': "Hausse" if slope > 0 else "Baisse"
+        }
+        
+        # Afficher les résultats
+        with st.expander(f"{theme_val}"):
+            col1, col2, col3 = st.columns(3)
+            with col1:
+                st.metric("Pente (variation/période)", f"{slope:.4f}%")
+            with col2:
+                st.metric("R² (qualité d'ajustement)", f"{r_squared:.4f}")
+            with col3:
+                st.metric("Tendance", results[theme_val]['trend'])
+            
+            st.write(f"**Équation:** y = {slope:.4f}x + {intercept:.2f}")
+            st.write(f"**Erreur quadratique moyenne:** {mse:.4f}")
+    
+    return results
+
+def show_regression_by_channel(data):
+    """Affiche les résultats de régression par chaîne"""
+    results = {}
+    
+    for channel_val in data['type'].unique():
+        channel_data = data[data['type'] == channel_val].copy().sort_values('date')
+        
+        if len(channel_data) < 2:
+            continue
+        
+        # Convertir les dates en nombres
+        X = np.arange(len(channel_data)).reshape(-1, 1)
+        y = channel_data['value'].values
+        
+        # Fit du modèle
+        model = LinearRegression()
+        model.fit(X, y)
+        
+        # Calculs statistiques
+        y_pred = model.predict(X)
+        residuals = y - y_pred
+        mse = np.mean(residuals ** 2)
+        r_squared = model.score(X, y)
+        slope = model.coef_[0]
+        intercept = model.intercept_
+        
+        results[channel_val] = {
+            'slope': slope,
+            'intercept': intercept,
+            'r_squared': r_squared,
+            'mse': mse,
+            'trend': "Hausse" if slope > 0 else "Baisse"
+        }
+        
+        # Afficher les résultats
+        with st.expander(f"{channel_val}"):
+            col1, col2, col3 = st.columns(3)
+            with col1:
+                st.metric("Pente (variation/période)", f"{slope:.4f}%")
+            with col2:
+                st.metric("R² (qualité d'ajustement)", f"{r_squared:.4f}")
+            with col3:
+                st.metric("Tendance", results[channel_val]['trend'])
+            
+            st.write(f"**Équation:** y = {slope:.4f}x + {intercept:.2f}")
+            st.write(f"**Erreur quadratique moyenne:** {mse:.4f}")
+    
+    return results
