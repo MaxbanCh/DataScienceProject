@@ -1,16 +1,21 @@
-# app/Dockerfile
-
-FROM python:3.14-slim
+FROM python:3.11-slim
 
 WORKDIR /app
-COPY . /app
 
-RUN cd visualizer
+# Copier les requirements
+COPY visualizer/requirements.txt .
 
-RUN pip3 install -r requirements.txt
+# Installer les dépendances
+RUN pip install --no-cache-dir -r requirements.txt
 
+# Copier le code du visualiseur et les données
+COPY visualizer /app/visualizer
+COPY ina-api/data /app/data
+
+WORKDIR /app/visualizer
+
+# Exposer le port Streamlit
 EXPOSE 8501
 
-HEALTHCHECK CMD curl --fail http://localhost:8501/_stcore/health
-
-ENTRYPOINT ["streamlit", "run", "main.py", "--server.port=8501", "--server.address=0.0.0.0"]
+# Lancer Streamlit
+CMD ["streamlit", "run", "main.py", "--server.port=8501", "--server.address=0.0.0.0"]
