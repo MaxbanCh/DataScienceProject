@@ -63,6 +63,18 @@ On a contacté Médiamétrie afin d'essayer d'obtenir des données sur les audie
 
 On s'est également basé sur l'actualité afin de pouvoir expliquer certaines données obtenues. On a également utilisé certains sondages lorsque cela nous semblait pertinent pour appuyer notre argumentaire.
 
+\subsection{Répartition du travail}
+Les différentes parties du rapport ont été rédigées par :
+\begin{itemize}
+    \item Analyse du rapport des français aux médias : Quentin Jacquot
+    \item Analyse thématique des chaines d'info en continue : Max Chateau
+    \item Analyse thématique des chaines généralistes : Myndie Férrandez
+    \item Présence des femmes dans les médias : Rasim Erben
+\end{itemize}
+La mise en forme globale du rapport a été réalisé par Max Chateau
+
+Le site https://datascience.axithem.fr permettant d'observer les données traitées a été réalisé et déployé  par Max Chateau. Quentin Jacquot a rajouté ses graphiques dans la partie audience.
+
 \section{Analyse thématique -}
 \subsection{Chaines d'information en continue}
 \textbf{Dataset utilisé : data.ina.fr} \\
@@ -103,6 +115,7 @@ On constate en regardant la période entière disponible, que LCI a une surrepr�
 
 En se concentrant sur certains thèmes on constate une surreprésentation de la thématique de l'identité sur CNews par rapport aux autres chaines.
 Cette tendance commence apparaitre en 2018 (date où Vincent Bolloré reprend en main la chaine), se calme en 2020 avec le COVID, puis repart en 2021. Tandis que dans le même temps les thèmes liés à l'environnement et aux droits/société sont moins représentés sur la chaine.
+En appliquant une régression linéaire temporelle sur les thèmes de l'identité/immigration et de l'extrème droite, on obtient respectivement un $R^2_{id} = 0.48$ et $R^2_{ed} = 0.29$ avec une pente en hausse : $\beta_{1, id} = 24$ et  $\beta_{1, ed} = 42$ tandis que sur les autres chaines on constate également 
 
 On constate également que la Droite et l'extrême droite sont plus représentés que la Gauche sur l'ensemble des chaines.
 \begin{wrapfigure}{l}{0.5\textwidth}
@@ -112,12 +125,15 @@ On constate également que la Droite et l'extrême droite sont plus représenté
 \end{wrapfigure}
 
 On constate lors des échéances électorales que les thèmes politiques prennent une place plus importante sur les chaines d'infos. 
-Avec une très forte hausse lors des législatives de 2024, notamment au niveau de l'extrême droite notamment.
+Avec une très forte hausse lors des législatives de 2024, notamment au niveau de l'extrême droite notamment, suivi par la gauche et la droite dans une moindre mesure.
+En appliquant une régression sur le nombre d'évocation des partis de gauche et d'extrême droite, on constate, un forte corrélation entre celle-ci avec $R^2 = $ et un coefficient $\beta_1 = $
 
 On ainsi peut re évoquer l'article cité en introduction, qui montrait la progression des idées du Rassemblement National dans l'opinion publique. On peut légitimement se demander si cette progression n'est pas en partie due à la surreprésentation de ces thèmes dans les médias audiovisuels, et notamment sur CNews.
 
-\subsection{Les JT des chaines généralistes}
+\subsubsection{L'influence des chaines entre elles}
+On constate que les thèmes de Police/Justice ont considérablement augmenté sur la plupart des chaines, mise à part BFM TV qui était déjà au dessus des autres (régression sur chacune des chaine). Ces sujets étant en général associés aux faits divers, on peut 
 
+\subsection{Les JT des chaines généralistes}
 
 \section{Evolution du rapport des français à l'information -}
 \subsection{Le constat du délaissement de la télévision}
