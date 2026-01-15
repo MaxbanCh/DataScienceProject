@@ -30,7 +30,7 @@ def show_thematic_analysis():
         channels = st.multiselect(
             "Chaînes:",
             sorted(data["type"].unique()),
-            default=sorted(data["type"].unique())[:5],
+            default=["BFM TV", "CNews", "LCI", "franceinfo:"],
         )
 
     with col2:
@@ -49,7 +49,7 @@ def show_thematic_analysis():
         selected_themes = st.multiselect(
             "Thèmes:",
             sorted(set().union(list(THEMES.keys()))),
-            default=[theme for theme in sorted(set().union(list(THEMES.keys()))) if theme != "Politique"],
+            default=[theme for theme in sorted(set().union(list(THEMES.keys()))) if theme != "Vie Institutionnelle"],
         )
 
     if not selected_themes:
@@ -124,7 +124,7 @@ def show_thematic_analysis():
 
     # TAB 2: PCA
     with tab2:
-        st.subheader("Analyse PCA - Projection des chaînes")
+        st.subheader("Analyse ACP - Projection des chaînes")
 
         pca_result = results["pca_result"]
         pca = results["pca"]
@@ -133,8 +133,8 @@ def show_thematic_analysis():
         if pca_result.shape[1] >= 2:
             df_pca = pd.DataFrame(
                 {
-                    "PC1": pca_result[:, 0],
-                    "PC2": pca_result[:, 1],
+                    "CP1": pca_result[:, 0],
+                    "CP2": pca_result[:, 1],
                     "Chaîne": matrix.index,
                     "Cluster": clusters.astype(str),
                 }
@@ -142,14 +142,14 @@ def show_thematic_analysis():
 
             fig = px.scatter(
                 df_pca,
-                x="PC1",
-                y="PC2",
+                x="CP1",
+                y="CP2",
                 color="Cluster",
                 text="Chaîne",
-                title="Positions des chaînes en espace PCA",
+                title="Positions des chaînes en espace ACP",
                 labels={
-                    "PC1": f"PC1 ({pca.explained_variance_ratio_[0]:.1%})",
-                    "PC2": f"PC2 ({pca.explained_variance_ratio_[1]:.1%})",
+                    "CP1": f"CP1 ({pca.explained_variance_ratio_[0]:.1%})",
+                    "CP2": f"CP2 ({pca.explained_variance_ratio_[1]:.1%})",
                 },
             )
             fig.update_traces(textposition="top center")

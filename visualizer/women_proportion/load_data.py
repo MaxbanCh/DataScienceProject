@@ -5,8 +5,17 @@ import streamlit as st
 
 
 @st.cache_data
-def load_proportion_data(data_path="../ina-api/data/INA/WomenMenProportion"):
+def load_proportion_data(data_path=None):
     """Charge et combine tous les fichiers CSV des proportions de temps de parole femmes/hommes."""
+    
+    # Si aucun chemin fourni, construire le chemin absolu
+    if data_path is None:
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        data_path = os.path.join(current_dir, "../../ina-api/data/INA/WomenMenProportion")
+    
+    # Normaliser le chemin
+    data_path = os.path.abspath(data_path)
+    
     all_data = []
     errors = []
     empty_files = []
@@ -47,6 +56,10 @@ def load_proportion_data(data_path="../ina-api/data/INA/WomenMenProportion"):
             # Ne garder que les colonnes nécessaires
             df = df[columns_to_keep]
 
+            # Nettoyer la colonne percent : enlever le '%' et convertir en float
+            df['percent'] = df['percent'].astype(str).str.rstrip('%').str.strip()
+            df['percent'] = pd.to_numeric(df['percent'], errors='coerce')
+
             # Supprimer les lignes avec des valeurs manquantes
             df = df.dropna()
 
@@ -62,7 +75,7 @@ def load_proportion_data(data_path="../ina-api/data/INA/WomenMenProportion"):
 
     if errors:
         with st.expander(f"{len(errors)} erreur(s) de chargement"):
-            for error in errors[:10]:  # Limiter l'affichage
+            for error in errors[:10]:
                 st.warning(error)
             if len(errors) > 10:
                 st.info(f"... et {len(errors) - 10} autres erreurs")
@@ -77,9 +90,7 @@ def load_proportion_data(data_path="../ina-api/data/INA/WomenMenProportion"):
             st.error(f"Erreur lors de la conversion des dates: {e}")
             return pd.DataFrame()
 
-        # Vérifier que les valeurs sont numériques
-        combined_df["percent"] = pd.to_numeric(combined_df["percent"], errors="coerce")
-        combined_df = combined_df.dropna(subset=["percent"])
+        print(combined_df.head())
 
         return combined_df
     else:
@@ -91,6 +102,9 @@ def aggregate_data(df, period='daily'):
     """Agrège les données par période"""
     if df.empty:
         return df
+    
+    # Créer une copie pour éviter les avertissements
+    df = df.copy()
     
     if period == 'daily':
         df['date'] = df['date'].dt.date
