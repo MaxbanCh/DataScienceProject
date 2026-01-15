@@ -10,7 +10,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copier le code du visualiseur et les données
 COPY visualizer /app/visualizer
-COPY ina-api/data /app/data
+COPY ina-api /app/ina-api
 
 WORKDIR /app/visualizer
 

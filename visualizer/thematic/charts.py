@@ -1,6 +1,9 @@
+import numpy as np
+from sklearn.linear_model import LinearRegression
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import plotly.graph_objects as go
 from thematic.load_data import THEMES, assign_theme
 from thematic.load_data import load_all_word_data, create_theme_channel_matrix
 from thematic.analysis import analyze_channel_theme_relationship
@@ -298,6 +301,9 @@ def show_thematic_analysis():
             index=2,
         )
 
+        # Option pour afficher la régression
+        show_regression = st.checkbox("Afficher les lignes de régression", value=False)
+
         # Filtrer par thèmes sélectionnés
         temporal_filtered = temporal_data[temporal_data["theme"].isin(selected_themes)]
 
@@ -319,6 +325,30 @@ def show_thematic_analysis():
             labels={"date": "Date", "value": "Occurrences", "theme": "Thème"},
             title="Évolution temporelle des thèmes",
         )
+
+        # Ajouter les régressions si activé
+        if show_regression:
+            for theme in selected_themes:
+                theme_data = theme_evolution[theme_evolution["theme"] == theme].copy()
+                if len(theme_data) > 1:
+                    # Convertir les dates en nombres pour la régression
+                    X = np.arange(len(theme_data)).reshape(-1, 1)
+                    y = theme_data["value"].values
+                    
+                    # Calculer la régression
+                    reg = LinearRegression().fit(X, y)
+                    y_pred = reg.predict(X)
+                    
+                    # Ajouter la ligne de régression
+                    fig.add_trace(go.Scatter(
+                        x=theme_data["date"],
+                        y=y_pred,
+                        mode="lines",
+                        name=f"{theme} (régression)",
+                        line=dict(dash="dash"),
+                        hovertemplate="%{y:.0f}<extra></extra>"
+                    ))
+
         fig.update_layout(height=500)
         st.plotly_chart(fig, use_container_width=True)
 
@@ -344,6 +374,27 @@ def show_thematic_analysis():
             labels={"date": "Date", "value": "Occurrences", "type": "Chaîne"},
             title=f'Évolution du thème "{selected_theme_for_channel}" par chaîne',
         )
+
+        # Ajouter les régressions par chaîne si activé
+        if show_regression:
+            for channel in channel_theme_evolution["type"].unique():
+                channel_data = channel_theme_evolution[channel_theme_evolution["type"] == channel].copy()
+                if len(channel_data) > 1:
+                    X = np.arange(len(channel_data)).reshape(-1, 1)
+                    y = channel_data["value"].values
+                    
+                    reg = LinearRegression().fit(X, y)
+                    y_pred = reg.predict(X)
+                    
+                    fig.add_trace(go.Scatter(
+                        x=channel_data["date"],
+                        y=y_pred,
+                        mode="lines",
+                        name=f"{channel} (régression)",
+                        line=dict(dash="dash"),
+                        hovertemplate="%{y:.0f}<extra></extra>"
+                    ))
+
         fig.update_layout(height=500)
         st.plotly_chart(fig, use_container_width=True)
 
