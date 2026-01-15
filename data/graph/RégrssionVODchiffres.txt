@@ -1,0 +1,29 @@
+--- RÉSULTATS DE LA RÉGRESSION (TV LINÉAIRE CORRIGÉE) ---
+                              OLS Regression Results                              
+==================================================================================
+Dep. Variable:     duree_tv_lineaire_pure   R-squared:                       0.532
+Model:                                OLS   Adj. R-squared:                  0.439
+Method:                     Least Squares   F-statistic:                     5.690
+Date:                    Wed, 14 Jan 2026   Prob (F-statistic):             0.0224
+Time:                            10:03:20   Log-Likelihood:                -48.428
+No. Observations:                      13   AIC:                             102.9
+Df Residuals:                          10   BIC:                             104.6
+Df Model:                               2                                         
+Covariance Type:                nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+const                  266.3168     32.273      8.252      0.000     194.408     338.226
+ca_vad_millions         -0.0063      0.002     -2.610      0.026      -0.012      -0.001
+taux_replay_pourcent    -0.6529      0.463     -1.409      0.189      -1.685       0.380
+==============================================================================
+Omnibus:                        2.660   Durbin-Watson:                   1.371
+Prob(Omnibus):                  0.265   Jarque-Bera (JB):                1.034
+Skew:                          -0.110   Prob(JB):                        0.596
+Kurtosis:                       1.636   Cond. No.                     2.21e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.21e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
