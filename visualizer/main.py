@@ -1,6 +1,7 @@
 import streamlit as st
 import word_charts.charts as word_charts
 import thematic.charts as thematic_analysis
+import Rapport_francais_audiovisuel.rapport_fr_tv as rapport_fr_tv
 # import people_charts.charts as people_charts
 
 st.set_page_config(layout="wide")
@@ -32,4 +33,4 @@ with main_tab4:
     st.header("Proportion Femmes/Hommes dans les données INA")
 
 with main_tab5:
-    st.header("Audiences des chaînes")
+    rapport_fr_tv.show_audience_analysis()
