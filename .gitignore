@@ -1,3 +1,33 @@
 *.pyc
 *.csv
 ina-api/data
+# --- IDE / Editor Files ---
+.idea/
+.vscode/
+*.swp
+*.bak
+
+# --- Python / Environment ---
+.venv/
+env/
+venv/
+ENV/
+build/
+dist/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# --- Data Science Specific ---
+data/raw/*
+data/processed/*
+results/*
+
+# Exceptions: Keep the folders even if empty (optional)
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!results/.gitkeep
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
